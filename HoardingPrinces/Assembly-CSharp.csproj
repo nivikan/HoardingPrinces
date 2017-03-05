@@ -49,6 +49,7 @@
      <Compile Include="Assets\SCRIPT\Click_Drag.cs" />
      <Compile Include="Assets\SCRIPT\Keeping_Time.cs" />
      <Compile Include="Assets\SCRIPT\PrinceManager.cs" />
+     <Compile Include="Assets\SCRIPT\PrincessScrpt.cs" />
      <Compile Include="Assets\SCRIPT\TriggerTest.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

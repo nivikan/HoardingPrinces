@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class PrinceManager : MonoBehaviour {
 
+
 	public GameObject Prince1;
 	//public GameObject Prince2;
 	//public GameObject Prince3;
@@ -15,10 +16,16 @@ public class PrinceManager : MonoBehaviour {
 	//public GameObject Prince2_Location;
 
 	public float Prince1_Happiness = 0.0f; 
+	//public float Prince2_Happiness = 0.0f; 
+	//public float Prince3_Happiness = 0.0f; 
 
 	private Image Prince1_HappyBar;
+	//private Image Prince2_HappyBar;
+	//private Image Prince3_HappyBar;
 
-	public int seconds = GameObject.Find ("GameManager").GetComponent<Keeping_Time>().seconds;
+
+	//Keep track of time
+	public int seconds = 0;
 
 
 	// Use this for initialization
@@ -39,8 +46,7 @@ public class PrinceManager : MonoBehaviour {
 		//Prince2_Location = Prince2.GetComponent<Click_Drag>().currentCastle;
 		//Prince3_Location = Prince3.GetComponent<Click_Drag>().currentCastle;
 
-		Prince1_Happiness = (seconds*1.0f / 100)/5;
-		Debug.Log (seconds*1.0 / 100);
+		Prince1_Happiness = (seconds*1.0f / 100)/10;
 
 		Prince1_HappyBar.fillAmount = Prince1_Happiness;
 	}
