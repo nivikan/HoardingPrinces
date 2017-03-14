@@ -1,3 +1,28 @@
+/Users/NivethaKannan/Documents/HoardingPrinces/Temp/bin/Debug/UnityEngine.dll
+/Users/NivethaKannan/Documents/HoardingPrinces/Temp/bin/Debug/UnityEditor.dll
+/Users/NivethaKannan/Documents/HoardingPrinces/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/NivethaKannan/Documents/HoardingPrinces/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/NivethaKannan/Documents/HoardingPrinces/Temp/bin/Debug/UnityEngine.PlaymodeTestsRunner.dll
+/Users/NivethaKannan/Documents/HoardingPrinces/Temp/bin/Debug/UnityEngine.Analytics.dll
+/Users/NivethaKannan/Documents/HoardingPrinces/Temp/bin/Debug/UnityEngine.HoloLens.dll
+/Users/NivethaKannan/Documents/HoardingPrinces/Temp/bin/Debug/UnityEngine.VR.dll
+/Users/NivethaKannan/Documents/HoardingPrinces/Temp/bin/Debug/Mono.Cecil.dll
+/Users/NivethaKannan/Documents/HoardingPrinces/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/NivethaKannan/Documents/HoardingPrinces/Temp/bin/Debug/Unity.DataContract.dll
+/Users/NivethaKannan/Documents/HoardingPrinces/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/NivethaKannan/Documents/HoardingPrinces/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/NivethaKannan/Documents/HoardingPrinces/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/NivethaKannan/Documents/HoardingPrinces/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/NivethaKannan/Documents/HoardingPrinces/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/NivethaKannan/Documents/HoardingPrinces/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/NivethaKannan/Documents/HoardingPrinces/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/NivethaKannan/Documents/HoardingPrinces/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/NivethaKannan/Documents/HoardingPrinces/obj/Debug/Assembly-CSharp.dll
+/Users/NivethaKannan/Documents/HoardingPrinces/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/NivethaKannan/Documents/Unity Games/HoardingPrinces/HoardingPrinces/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/NivethaKannan/Documents/Unity Games/HoardingPrinces/HoardingPrinces/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/NivethaKannan/Documents/Unity Games/HoardingPrinces/HoardingPrinces/obj/Debug/Assembly-CSharp.dll
+/Users/NivethaKannan/Documents/Unity Games/HoardingPrinces/HoardingPrinces/obj/Debug/Assembly-CSharp.dll.mdb
 /Users/NivethaKannan/Documents/Unity Games/HoardingPrinces/HoardingPrinces/Temp/bin/Debug/UnityEngine.dll
 /Users/NivethaKannan/Documents/Unity Games/HoardingPrinces/HoardingPrinces/Temp/bin/Debug/UnityEditor.dll
 /Users/NivethaKannan/Documents/Unity Games/HoardingPrinces/HoardingPrinces/Temp/bin/Debug/UnityEngine.UI.dll
@@ -15,7 +40,3 @@
 /Users/NivethaKannan/Documents/Unity Games/HoardingPrinces/HoardingPrinces/Temp/bin/Debug/Unity.CecilTools.dll
 /Users/NivethaKannan/Documents/Unity Games/HoardingPrinces/HoardingPrinces/Temp/bin/Debug/Mono.Cecil.Pdb.dll
 /Users/NivethaKannan/Documents/Unity Games/HoardingPrinces/HoardingPrinces/Temp/bin/Debug/Mono.Cecil.Mdb.dll
-/Users/NivethaKannan/Documents/Unity Games/HoardingPrinces/HoardingPrinces/Temp/bin/Debug/Assembly-CSharp.dll.mdb
-/Users/NivethaKannan/Documents/Unity Games/HoardingPrinces/HoardingPrinces/Temp/bin/Debug/Assembly-CSharp.dll
-/Users/NivethaKannan/Documents/Unity Games/HoardingPrinces/HoardingPrinces/obj/Debug/Assembly-CSharp.dll
-/Users/NivethaKannan/Documents/Unity Games/HoardingPrinces/HoardingPrinces/obj/Debug/Assembly-CSharp.dll.mdb
