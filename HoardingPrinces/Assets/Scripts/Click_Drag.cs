@@ -8,7 +8,7 @@ public class Click_Drag : MonoBehaviour {
 	private Vector3 offset;
 
 
-	public bool isPlayerTurn= true;
+	public int isPlayerTurn= 0;
 
 	public GameObject currentCastle;
 	public GameObject GameManager;
@@ -35,7 +35,7 @@ public class Click_Drag : MonoBehaviour {
 	void OnMouseDown()
 	{
 		//Debug.Log ("Clicked!");
-		if (isPlayerTurn) {
+		if (isPlayerTurn==0) {
 			screenPoint = Camera.main.WorldToScreenPoint (transform.position);
 			offset = transform.position - Camera.main.ScreenToWorldPoint (new Vector3 (Input.mousePosition.x, Input.mousePosition.y, screenPoint.z));
 		}
@@ -47,7 +47,7 @@ public class Click_Drag : MonoBehaviour {
 
 	void OnMouseDrag()
 	{
-		if (isPlayerTurn) {
+		if (isPlayerTurn==0) {
 			Vector3 curScreenPoint = new Vector3 (Input.mousePosition.x, Input.mousePosition.y, screenPoint.z);
 			Vector3 curPosition = Camera.main.ScreenToWorldPoint (curScreenPoint) + offset;
 			transform.position = curPosition;
@@ -56,7 +56,7 @@ public class Click_Drag : MonoBehaviour {
 
 	void OnMouseUp()
 	{
-		if (isPlayerTurn) {
+		if (isPlayerTurn==0) {
 
 			if (doesPrinceExistInCastle ()) {
 				transform.position = new Vector3(prince1StartCastle.transform.position.x,2.5f, 0);

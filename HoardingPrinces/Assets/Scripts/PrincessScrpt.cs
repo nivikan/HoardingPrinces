@@ -96,6 +96,7 @@ public class PrincessScrpt : MonoBehaviour {
 		}
 
 
+
 		}
 
 	public bool isPrincess1OnMap(){
