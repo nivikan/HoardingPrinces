@@ -1,0 +1,19 @@
+﻿ D:angry:Get the hell out of my castle!
+ Tm:normal:Who are you? Are you stuck here?
+ D:normal:Maybe.
+ /
+ Tm:sigh:To bad.
+ D:confused:What do you mean?
+ Tm:normal:The cute ones always get taken.
+ /
+ D:angry:Why are you here again?
+ Tm:normal:I'm testing the code
+ D:normal:dun dun
+ /
+ D:angry:aaaaaa!
+ Tm:normal:What is it?
+ D:normal:TOO MUCH TEXT!
+ <
+
+
+

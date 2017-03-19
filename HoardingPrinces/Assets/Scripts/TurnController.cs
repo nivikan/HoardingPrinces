@@ -262,7 +262,7 @@ public class TurnController : MonoBehaviour {
 
 				// IMPLEMENT A RANDO PRINCESS WARNING IN A RANDOM CASTLE AS LONG AS THERE IS NOT PRINCESS THERE ALREADY
 
-				randPrincess = Random.Range (1, 8);
+				randPrincess = Random.Range (1, 5);
 				//Debug.Log (randPrincess);
 
 				Sprite princessSprite = null;
@@ -367,11 +367,10 @@ public class TurnController : MonoBehaviour {
 
 
 		if (isPlayerTurn == 3) {
-
-
-			isPlayerTurn = 0;
+			
 			endTurnQuestionText.text = "";
 			endTurnQuestion.SetActive (false);
+			isPlayerTurn = 0;
 		}
 		
 	}
@@ -635,7 +634,7 @@ public class TurnController : MonoBehaviour {
 		}
 		if (isPlayerTurn == 0) {
 			endTurnButton.SetActive (true);
-			Debug.Log("test");
+			//Debug.Log("test");
 		}
 	}
 
