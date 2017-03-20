@@ -1,0 +1,19 @@
+﻿ C:angry:Get the hell out of my castle!
+ TM:normal:Who are you? Are you stuck here?
+ C:normal:Maybe.
+ /
+ TM:sigh:To baC.
+ C:confused:What do you mean?
+ TM:normal:The cute ones always get taken.
+ /
+ C:angry:Why are you here again?
+ TM:normal:I'm testing the coCe
+ C:normal:Cun Cun
+ /
+ C:angry:aaaaaa!
+ TM:normal:What is it?
+ C:normal:TOO MUCH TEXT!
+ <
+
+
+

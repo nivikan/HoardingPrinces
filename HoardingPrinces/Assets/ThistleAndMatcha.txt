@@ -1,0 +1,19 @@
+﻿ TL:angry:Get the hell out of my castle!
+ M:normal:Who are you? Are you stuck here?
+ TL:normal:Maybe.
+ /
+ M:sigh:To baTL.
+ TL:confuseTL:What TLo you mean?
+ M:normal:The cute ones always get taken.
+ /
+ TL:angry:Why are you here again?
+ M:normal:I'm testing the coTLe
+ TL:normal:TLun TLun
+ /
+ TL:angry:aaaaaa!
+ M:normal:What is it?
+ TL:normal:TOO MUCH TEXT!
+ <
+
+
+

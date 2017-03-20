@@ -6,6 +6,10 @@ using UnityEngine.UI;
 public class TurnController : MonoBehaviour {
 
 	public int isPlayerTurn = 0;
+	// 0 = when players are allowed to move princes
+	//1 = when the princesses are put on screen 
+	//2 = when game displays text about what has happenened
+	//3 = when character convos happen if they need to 
 	public GameObject endTurnButton; 
 
 	public bool isCutsceneGoingToPlay = false;
@@ -210,15 +214,15 @@ public class TurnController : MonoBehaviour {
 					castle2PrincessWarning.SetActive (false);
 					Castle2princess.SetActive(true);
 					if (castlePrincessWarning == princess1WarningSprite) {
-						Debug.Log ("Princess 1");
+						//Debug.Log ("Princess 1");
 						Castle2princess.GetComponent<SpriteRenderer> ().sprite = princess1Sprite;
 						princess1InCastle = true;
 					} else if (castlePrincessWarning == princess2WarningSprite) {
-						Debug.Log ("Princess 2");
+						//Debug.Log ("Princess 2");
 						Castle2princess.GetComponent<SpriteRenderer> ().sprite = princess2Sprite;
 						princess2InCastle = true;
 					} else if (castlePrincessWarning == princess3WarningSprite) {
-						Debug.Log ("Princess 3");
+						//Debug.Log ("Princess 3");
 						Castle2princess.GetComponent<SpriteRenderer> ().sprite = princess3Sprite;
 						princess3InCastle = true;
 					}
@@ -262,7 +266,7 @@ public class TurnController : MonoBehaviour {
 
 				// IMPLEMENT A RANDO PRINCESS WARNING IN A RANDOM CASTLE AS LONG AS THERE IS NOT PRINCESS THERE ALREADY
 
-				randPrincess = Random.Range (1, 5);
+				randPrincess = Random.Range (1,2);
 				//Debug.Log (randPrincess);
 
 				Sprite princessSprite = null;
@@ -370,7 +374,7 @@ public class TurnController : MonoBehaviour {
 			
 			endTurnQuestionText.text = "";
 			endTurnQuestion.SetActive (false);
-			isPlayerTurn = 0;
+			//isPlayerTurn = 0;
 		}
 		
 	}
@@ -383,7 +387,7 @@ public class TurnController : MonoBehaviour {
 
 	public void endTextTurn()
 	{
-		if (isPlayerTurn != 0 && isCutsceneGoingToPlay == false) {
+		/*if (isPlayerTurn != 0 && isCutsceneGoingToPlay == false) {
 			isPlayerTurn = 0;
 			endTurnQuestionText.text = "";
 			endTurnQuestion.SetActive (false);
@@ -393,8 +397,13 @@ public class TurnController : MonoBehaviour {
 			isPlayerTurn = 0;
 			endTurnQuestionText.text = "";
 			endTurnQuestion.SetActive (false);
-		}
-		Debug.Log (isPlayerTurn);
+		}*/
+
+		isPlayerTurn = 3;
+		endTurnQuestionText.text = "";
+		endTurnQuestion.SetActive (false);
+
+		//Debug.Log (isPlayerTurn);
 	}
 
 
@@ -693,7 +702,7 @@ public class TurnController : MonoBehaviour {
 
 
 		} else if (hasNoNewPrincess) {
-			endTurnQuestionText.text = "No new princess";
+			endTurnQuestionText.text = "Nothing suspicious just yet....";
 			endTurnQuestion.SetActive (true);
 		} else {
 			//Text endQuestionText; 
