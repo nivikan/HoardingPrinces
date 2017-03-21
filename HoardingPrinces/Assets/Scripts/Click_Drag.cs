@@ -98,3 +98,6 @@ public class Click_Drag : MonoBehaviour {
 
 	}
 }
+
+
+

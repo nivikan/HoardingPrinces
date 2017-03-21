@@ -266,7 +266,7 @@ public class TurnController : MonoBehaviour {
 
 				// IMPLEMENT A RANDO PRINCESS WARNING IN A RANDOM CASTLE AS LONG AS THERE IS NOT PRINCESS THERE ALREADY
 
-				randPrincess = Random.Range (1,2);
+				randPrincess = Random.Range (1,8);
 				//Debug.Log (randPrincess);
 
 				Sprite princessSprite = null;
@@ -660,14 +660,14 @@ public class TurnController : MonoBehaviour {
 			endTurnQuestionText.text = "Princess has reached an empty castle!";
 
 			if (princess1InCastle1WithPrince1 || princess1InCastle2WithPrince1 || princess1InCastle3WithPrince1 || princess1InCastle4WithPrince1) {
-				endTurnQuestionText.text = "Princess Thyme has reached Prince Darjeeling!";
+				endTurnQuestionText.text = "Princess Thyme has reached Prince Chris!";
 				endTurnQuestion.SetActive (true);
 				isCutsceneGoingToPlay = true;
 			} else if (princess2InCastle1WithPrince1 || princess2InCastle2WithPrince1 || princess2InCastle3WithPrince1 || princess2InCastle4WithPrince1) {
-				endTurnQuestionText.text = "Princess Matcha has reached Prince Darjeeling!";
+				endTurnQuestionText.text = "Princess Matcha has reached Prince Chris!";
 				endTurnQuestion.SetActive (true);
 			} else if (princess3InCastle1WithPrince1 || princess3InCastle2WithPrince1 || princess3InCastle3WithPrince1 || princess3InCastle4WithPrince1) {
-				endTurnQuestionText.text = "Princess Pepper has reached Prince Darjeeling!";
+				endTurnQuestionText.text = "Princess Pepper has reached Prince Chris!";
 				endTurnQuestion.SetActive (true);
 				isCutsceneGoingToPlay = true;
 			} else if (princess1InCastle1WithPrince2 || princess1InCastle2WithPrince2 || princess1InCastle3WithPrince2 || princess1InCastle4WithPrince2) {

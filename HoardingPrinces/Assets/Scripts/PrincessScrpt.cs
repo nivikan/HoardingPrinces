@@ -111,6 +111,4 @@ public class PrincessScrpt : MonoBehaviour {
 		return princess3OnMap;
 	}
 
-
-
 }

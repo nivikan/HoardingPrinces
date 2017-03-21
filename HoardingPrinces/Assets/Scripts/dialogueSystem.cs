@@ -183,18 +183,22 @@ public class dialogueSystem : MonoBehaviour {
 		if (DarjeelingAndThyme != null) {
 			string[] AllConvos = (DarjeelingAndThyme.text.Split ('/'));
 			DarjeelingAndThymeConvo0 = getRidOfBlankArray (AllConvos[0].Split ('\n'));
+			printStringArray (DarjeelingAndThymeConvo0);
 			//printStringArray(DarjeelingAndThymeConvo0);
 			//DarjeelingAndThymeConvo0 = getRidOfBlankArray (DarjeelingAndThymeConvo0);
 
 			DarjeelingAndThymeConvo1 = getRidOfBlankArray(AllConvos[1].Split ('\n'));
+			printStringArray (DarjeelingAndThymeConvo1);
 			//printStringArray(DarjeelingAndThymeConvo1);
 			//DarjeelingAndThymeConvo1 = getRidOfBlankArray (DarjeelingAndThymeConvo1);
 
 			DarjeelingAndThymeConvo2 = getRidOfBlankArray(AllConvos[2].Split ('\n'));
+			printStringArray (DarjeelingAndThymeConvo2);
 			//printStringArray(DarjeelingAndThymeConvo2);
 			//DarjeelingAndThymeConvo2 = getRidOfBlankArray (DarjeelingAndThymeConvo2);
 
 			DarjeelingAndThymeConvo3 = getRidOfBlankArray(AllConvos[3].Split ('\n'));
+			printStringArray (DarjeelingAndThymeConvo3);
 			//printStringArray(DarjeelingAndThymeConvo3);
 			//DarjeelingAndThymeConvo3 = getRidOfBlankArray (DarjeelingAndThymeConvo3);
 
@@ -387,17 +391,32 @@ public class dialogueSystem : MonoBehaviour {
 	void makeDarjeelingMatchaConvo()
 	{
 		if (DarjeelingAndMatchaEncounter == 0) {
-			makeConvo (DarjeelingAndMatchaConvo0[numInConvo]);
+			print (numInConvo);
+			if (numInConvo >= DarjeelingAndMatchaConvo0.Length)
+				endDialogueTurn();
+			else
+				makeConvo (DarjeelingAndMatchaConvo0[numInConvo]);
 		}
 
 		else if (DarjeelingAndMatchaEncounter == 1) {
-			makeConvo (DarjeelingAndMatchaConvo1[numInConvo]);
+			if (numInConvo >= DarjeelingAndMatchaConvo1.Length)
+				endDialogueTurn ();
+			else
+				makeConvo (DarjeelingAndMatchaConvo1[numInConvo]);
 		}
+
 		else if (DarjeelingAndMatchaEncounter == 2) {
-			makeConvo (DarjeelingAndMatchaConvo2[numInConvo]);
+			if (numInConvo >= DarjeelingAndMatchaConvo2.Length)
+				endDialogueTurn ();
+			else
+				makeConvo (DarjeelingAndMatchaConvo2[numInConvo]);
 		}
 		else if (DarjeelingAndMatchaEncounter == 3) {
 			makeConvo (DarjeelingAndMatchaConvo3[numInConvo]);
+			if (numInConvo >= DarjeelingAndMatchaConvo3.Length)
+				endDialogueTurn ();
+			else
+				makeConvo (DarjeelingAndMatchaConvo3[numInConvo]);
 			DarjeelingAndThymeEncounter++;
 			DarjeelingStillOnMap = false;
 			MatchaStillOnMap = false;
@@ -407,19 +426,32 @@ public class dialogueSystem : MonoBehaviour {
 	void makeDarjeelingPepperConvo()
 	{
 		if (DarjeelingAndPepperEncounter == 0) {
-			makeConvo (DarjeelingAndPepperConvo0[numInConvo]);
-
+			print (numInConvo);
+			if (numInConvo >= DarjeelingAndPepperConvo0.Length)
+				endDialogueTurn ();
+			else
+				makeConvo (DarjeelingAndPepperConvo0[numInConvo]);
 		}
 
-		else if (DarjeelingAndMatchaEncounter == 1) {
-			makeConvo (DarjeelingAndPepperConvo1[numInConvo]);
+		else if (DarjeelingAndPepperEncounter == 1) {
+			if (numInConvo >= DarjeelingAndPepperConvo1.Length)
+				endDialogueTurn ();
+			else
+				makeConvo (DarjeelingAndPepperConvo1[numInConvo]);
 		}
-		else if (DarjeelingAndMatchaEncounter == 2) {
-			makeConvo (DarjeelingAndPepperConvo2[numInConvo]);
+		else if (DarjeelingAndPepperEncounter == 2) {
+			if (numInConvo >= DarjeelingAndPepperConvo2.Length)
+				endDialogueTurn ();
+			else
+				makeConvo (DarjeelingAndPepperConvo2[numInConvo]);
+
 		}
 		else if (DarjeelingAndPepperEncounter == 3) {
-			makeConvo (DarjeelingAndPepperConvo3[numInConvo]);
-			DarjeelingAndThymeEncounter++;
+			if (numInConvo >= DarjeelingAndPepperConvo3.Length)
+				endDialogueTurn ();
+			else
+				makeConvo (DarjeelingAndPepperConvo3[numInConvo]);
+			DarjeelingAndPepperEncounter++;
 			DarjeelingStillOnMap = false;
 			PepperStillOnMap = false;
 			frontTalkPanel.SetActive(false);
@@ -429,17 +461,31 @@ public class dialogueSystem : MonoBehaviour {
 	void makeChrisThymeConvo()
 	{
 		if (ChrisAndThymeEncounter == 0) {
-			makeConvo (ChrisAndThymeConvo0[numInConvo]);
+			print (numInConvo);
+			if (numInConvo >= ChrisAndThymeConvo0.Length)
+				endDialogueTurn ();
+			else
+				makeConvo (ChrisAndThymeConvo0[numInConvo]);
 		}
 
 		else if (ChrisAndThymeEncounter == 1) {
-			makeConvo (ChrisAndThymeConvo1[numInConvo]);
+			if (numInConvo >= ChrisAndThymeConvo1.Length)
+				endDialogueTurn ();
+			else
+				makeConvo (ChrisAndThymeConvo1[numInConvo]);
 		}
 		else if (ChrisAndThymeEncounter == 2) {
-			makeConvo (ChrisAndThymeConvo2[numInConvo]);
+			if (numInConvo >= ChrisAndThymeConvo2.Length)
+				endDialogueTurn ();
+			else
+				makeConvo (ChrisAndThymeConvo2[numInConvo]);
+
 		}
 		else if (ChrisAndThymeEncounter == 3) {
-			makeConvo (ChrisAndThymeConvo3[numInConvo]);
+			if (numInConvo >= ChrisAndThymeConvo3.Length)
+				endDialogueTurn ();
+			else
+				makeConvo (ChrisAndThymeConvo3[numInConvo]);
 			ChrisAndThymeEncounter++;
 			ChrisStillOnMap = false;
 			ThymeStillOnMap = false;
@@ -450,17 +496,32 @@ public class dialogueSystem : MonoBehaviour {
 	void makeChrisMatchaConvo()
 	{
 		if (ChrisAndMatchaEncounter == 0) {
-			makeConvo (ChrisAndMatchaConvo0[numInConvo]);
+			print (numInConvo);
+			if (numInConvo >= ChrisAndMatchaConvo0.Length)
+				endDialogueTurn();
+			else
+				makeConvo (ChrisAndMatchaConvo0[numInConvo]);
 		}
 
 		else if (ChrisAndMatchaEncounter == 1) {
-			makeConvo (ChrisAndMatchaConvo1[numInConvo]);
+			if (numInConvo >= ChrisAndMatchaConvo1.Length)
+				endDialogueTurn ();
+			else
+				makeConvo (ChrisAndMatchaConvo1[numInConvo]);
 		}
+
 		else if (ChrisAndMatchaEncounter == 2) {
-			makeConvo (ChrisAndMatchaConvo2[numInConvo]);
+			if (numInConvo >= ChrisAndMatchaConvo2.Length)
+				endDialogueTurn ();
+			else
+				makeConvo (ChrisAndMatchaConvo2[numInConvo]);
 		}
 		else if (ChrisAndMatchaEncounter == 3) {
 			makeConvo (ChrisAndMatchaConvo3[numInConvo]);
+			if (numInConvo >= ChrisAndMatchaConvo3.Length)
+				endDialogueTurn ();
+			else
+				makeConvo (ChrisAndMatchaConvo3[numInConvo]);
 			ChrisAndThymeEncounter++;
 			ChrisStillOnMap = false;
 			MatchaStillOnMap = false;
@@ -470,18 +531,32 @@ public class dialogueSystem : MonoBehaviour {
 	void makeChrisPepperConvo()
 	{
 		if (ChrisAndPepperEncounter == 0) {
-			makeConvo (ChrisAndPepperConvo0[numInConvo]);
+			print (numInConvo);
+			if (numInConvo >= ChrisAndPepperConvo0.Length)
+				endDialogueTurn ();
+			else
+				makeConvo (ChrisAndPepperConvo0[numInConvo]);
 		}
 
-		else if (ChrisAndMatchaEncounter == 1) {
-			makeConvo (ChrisAndPepperConvo1[numInConvo]);
+		else if (ChrisAndPepperEncounter == 1) {
+			if (numInConvo >= ChrisAndPepperConvo1.Length)
+				endDialogueTurn ();
+			else
+				makeConvo (ChrisAndPepperConvo1[numInConvo]);
 		}
-		else if (ChrisAndMatchaEncounter == 2) {
-			makeConvo (ChrisAndPepperConvo2[numInConvo]);
+		else if (ChrisAndPepperEncounter == 2) {
+			if (numInConvo >= ChrisAndPepperConvo2.Length)
+				endDialogueTurn ();
+			else
+				makeConvo (ChrisAndPepperConvo2[numInConvo]);
+
 		}
 		else if (ChrisAndPepperEncounter == 3) {
-			makeConvo (ChrisAndPepperConvo3[numInConvo]);
-			ChrisAndThymeEncounter++;
+			if (numInConvo >= ChrisAndPepperConvo3.Length)
+				endDialogueTurn ();
+			else
+				makeConvo (ChrisAndPepperConvo3[numInConvo]);
+			ChrisAndPepperEncounter++;
 			ChrisStillOnMap = false;
 			PepperStillOnMap = false;
 			frontTalkPanel.SetActive(false);
@@ -489,67 +564,112 @@ public class dialogueSystem : MonoBehaviour {
 	}
 
 
-	void makeThistleThymeConvo()
-	{
-		if (ThistleAndThymeEncounter == 0) {
-			makeConvo (ThistleAndThymeConvo0[numInConvo]);
+		void makeThistleThymeConvo()
+		{
+			if (ThistleAndThymeEncounter == 0) {
+				print (numInConvo);
+				if (numInConvo >= ThistleAndThymeConvo0.Length)
+					endDialogueTurn ();
+				else
+					makeConvo (ThistleAndThymeConvo0[numInConvo]);
+			}
+
+			else if (ThistleAndThymeEncounter == 1) {
+				if (numInConvo >= ThistleAndThymeConvo1.Length)
+					endDialogueTurn ();
+				else
+					makeConvo (ThistleAndThymeConvo1[numInConvo]);
+			}
+			else if (ThistleAndThymeEncounter == 2) {
+				if (numInConvo >= ThistleAndThymeConvo2.Length)
+					endDialogueTurn ();
+				else
+					makeConvo (ThistleAndThymeConvo2[numInConvo]);
+
+			}
+			else if (ThistleAndThymeEncounter == 3) {
+				if (numInConvo >= ThistleAndThymeConvo3.Length)
+					endDialogueTurn ();
+				else
+					makeConvo (ThistleAndThymeConvo3[numInConvo]);
+				ThistleAndThymeEncounter++;
+				ThistleStillOnMap = false;
+				ThymeStillOnMap = false;
+				frontTalkPanel.SetActive(false);
+			}
 		}
 
-		else if (ThistleAndThymeEncounter == 1) {
-			makeConvo (ThistleAndThymeConvo1[numInConvo]);
-		}
-		else if (ThistleAndThymeEncounter == 2) {
-			makeConvo (ThistleAndThymeConvo2[numInConvo]);
-		}
-		else if (ThistleAndThymeEncounter == 3) {
-			makeConvo (ThistleAndThymeConvo3[numInConvo]);
-			ChrisAndThymeEncounter++;
-			ChrisStillOnMap = false;
-			ThymeStillOnMap = false;
-			frontTalkPanel.SetActive(false);
-		}
-	}
+		void makeThistleMatchaConvo()
+		{
+			if (ThistleAndMatchaEncounter == 0) {
+				print (numInConvo);
+				if (numInConvo >= ThistleAndMatchaConvo0.Length)
+					endDialogueTurn();
+				else
+					makeConvo (ThistleAndMatchaConvo0[numInConvo]);
+			}
 
-	void makeThistleMatchaConvo()
-	{
-		if (ThistleAndMatchaEncounter == 0) {
-			makeConvo (ThistleAndMatchaConvo0[numInConvo]);
+			else if (ThistleAndMatchaEncounter == 1) {
+				if (numInConvo >= ThistleAndMatchaConvo1.Length)
+					endDialogueTurn ();
+				else
+					makeConvo (ThistleAndMatchaConvo1[numInConvo]);
+			}
+
+			else if (ThistleAndMatchaEncounter == 2) {
+				if (numInConvo >= ThistleAndMatchaConvo2.Length)
+					endDialogueTurn ();
+				else
+					makeConvo (ThistleAndMatchaConvo2[numInConvo]);
+			}
+			else if (ThistleAndMatchaEncounter == 3) {
+				makeConvo (ThistleAndMatchaConvo3[numInConvo]);
+				if (numInConvo >= ThistleAndMatchaConvo3.Length)
+					endDialogueTurn ();
+				else
+					makeConvo (ThistleAndMatchaConvo3[numInConvo]);
+				ThistleAndThymeEncounter++;
+				ThistleStillOnMap = false;
+				MatchaStillOnMap = false;
+				frontTalkPanel.SetActive(false);
+			}
+		}
+		void makeThistlePepperConvo()
+		{
+			if (ThistleAndPepperEncounter == 0) {
+				print (numInConvo);
+				if (numInConvo >= ThistleAndPepperConvo0.Length)
+					endDialogueTurn ();
+				else
+					makeConvo (ThistleAndPepperConvo0[numInConvo]);
+			}
+
+			else if (ThistleAndPepperEncounter == 1) {
+				if (numInConvo >= ThistleAndPepperConvo1.Length)
+					endDialogueTurn ();
+				else
+					makeConvo (ThistleAndPepperConvo1[numInConvo]);
+			}
+			else if (ThistleAndPepperEncounter == 2) {
+				if (numInConvo >= ThistleAndPepperConvo2.Length)
+					endDialogueTurn ();
+				else
+					makeConvo (ThistleAndPepperConvo2[numInConvo]);
+
+			}
+			else if (ThistleAndPepperEncounter == 3) {
+				if (numInConvo >= ThistleAndPepperConvo3.Length)
+					endDialogueTurn ();
+				else
+					makeConvo (ThistleAndPepperConvo3[numInConvo]);
+				ThistleAndPepperEncounter++;
+				ThistleStillOnMap = false;
+				PepperStillOnMap = false;
+				frontTalkPanel.SetActive(false);
+			}
 		}
 
-		else if (ThistleAndMatchaEncounter == 1) {
-			makeConvo (ThistleAndMatchaConvo1[numInConvo]);
-		}
-		else if (ThistleAndMatchaEncounter == 2) {
-			makeConvo (ThistleAndMatchaConvo2[numInConvo]);
-		}
-		else if (ThistleAndMatchaEncounter == 3) {
-			makeConvo (ThistleAndMatchaConvo3[numInConvo]);
-			ThistleAndThymeEncounter++;
-			ThistleStillOnMap = false;
-			MatchaStillOnMap = false;
-			frontTalkPanel.SetActive(false);
-		}
-	}
-	void makeThistlePepperConvo()
-	{
-		if (ThistleAndPepperEncounter == 0) {
-			makeConvo (ThistleAndPepperConvo0[numInConvo]);
-		}
 
-		else if (ThistleAndPepperEncounter == 1) {
-			makeConvo (ThistleAndPepperConvo1[numInConvo]);
-		}
-		else if (ThistleAndPepperEncounter == 2) {
-			makeConvo (ThistleAndPepperConvo2[numInConvo]);
-		}
-		else if (ThistleAndPepperEncounter == 3) {
-			makeConvo (ThistleAndPepperConvo3[numInConvo]);
-			ThistleAndThymeEncounter++;
-			ThistleStillOnMap = false;
-			PepperStillOnMap = false;
-			frontTalkPanel.SetActive(false);
-		}
-	}
 
 
 
@@ -562,6 +682,7 @@ public class dialogueSystem : MonoBehaviour {
 
 		string[] Line = convoLine.Split (':');
 		frontTalkPanel.SetActive(true);
+		printStringArray (Line);
 
 		//Debug.Log (Line[0]);
 		Debug.Log(numInConvo+ " is apparantly not greater than " + Line.Length);
@@ -638,6 +759,8 @@ public class dialogueSystem : MonoBehaviour {
 				return DarjeelingDissappointed;
 			else if (emotion == "blush")
 				return DarjeelingBlush;
+			else 
+				return DarjeelingNormal; 
 		}
 		if (character == "Chris") {
 			if (emotion == "normal")
@@ -654,6 +777,8 @@ public class dialogueSystem : MonoBehaviour {
 				return ChrisDissappointed;
 			else if (emotion == "blush")
 				return ChrisBlush;
+			else 
+				return ChrisNormal; 
 		}
 		if (character == "Thistle") {
 			if (emotion == "normal")
@@ -670,6 +795,8 @@ public class dialogueSystem : MonoBehaviour {
 				return ThistleDissappointed;
 			else if (emotion == "blush")
 				return ThistleBlush;
+			else 
+				return ThistleNormal; 
 		}
 		if (character == "Thyme") {
 			if (emotion == "normal")
@@ -686,6 +813,8 @@ public class dialogueSystem : MonoBehaviour {
 				return ThymeDissappointed;
 			else if (emotion == "blush")
 				return ThymeBlush;
+			else 
+				return ThymeNormal; 
 		}
 		if (character == "Matcha") {
 			if (emotion == "normal")
@@ -702,6 +831,8 @@ public class dialogueSystem : MonoBehaviour {
 				return MatchaDissappointed;
 			else if (emotion == "blush")
 				return MatchaBlush;
+			else 
+				return MatchaNormal; 
 		}
 
 		if (character == "Pepper") {
@@ -719,6 +850,8 @@ public class dialogueSystem : MonoBehaviour {
 				return PepperDissappointed;
 			else if (emotion == "blush")
 				return PepperBlush;
+			else 
+				return PepperNormal; 
 		}
 
 		return null;
@@ -819,7 +952,7 @@ public class dialogueSystem : MonoBehaviour {
 		int i = 0;
 		while ( i < stringArray.Length )
 		{
-			if (stringArray [i] != " ") {
+			if (stringArray [i] != " " && stringArray [i] != ""  && stringArray [i] != "\n") {
 				returnStringList.Add(stringArray[i]);
 			}
 			i++;
