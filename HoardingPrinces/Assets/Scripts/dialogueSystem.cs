@@ -110,7 +110,7 @@ public class dialogueSystem : MonoBehaviour {
 
 
 	//ALL CHARACTER SPRITES
-
+	//import as Textures
 	public Sprite DarjeelingNormal;
 	public Sprite DarjeelingHappy;
 	public Sprite DarjeelingSad;
@@ -701,15 +701,17 @@ public class dialogueSystem : MonoBehaviour {
 	void makeDialogue(string character, string emotion, string dialogue){
 
 		string fullCharacterName = getCharacter (character);
-		//Debug.Log (fullCharacterName);
-		Sprite characterSprite = getSprite(fullCharacterName,emotion);
+		Debug.Log (fullCharacterName);
+
+		Sprite characterSprite = getSprite(fullCharacterName,emotion); //change to canvas
+		Debug.Log("changed_fmdlksdfkl");
 
 		if (fullCharacterName == "Darjeeling" || fullCharacterName == "Chris" || fullCharacterName == "Thistle") {
-			talkingPrince.GetComponent<SpriteRenderer> ().sprite = characterSprite;
+			talkingPrince.GetComponent<Image>().sprite = characterSprite; //change to canvas
 		}
 
 		if (fullCharacterName == "Thyme" || fullCharacterName == "Matcha" || fullCharacterName == "Pepper") {
-			talkingPrincess.GetComponent<SpriteRenderer> ().sprite = characterSprite;
+			talkingPrincess.GetComponent<Image> ().sprite = characterSprite; //change to canvas
 		}
 
 		theText.text = dialogue;
