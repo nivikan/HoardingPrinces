@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
+
 public class dialogueSystem : MonoBehaviour {
 
 
@@ -181,24 +182,36 @@ public class dialogueSystem : MonoBehaviour {
 		//Prince Darjeeling
 		if (DarjeelingAndThyme != null) {
 			string[] AllConvos = (DarjeelingAndThyme.text.Split ('/'));
-			DarjeelingAndThymeConvo0 = (AllConvos[0].Split ('\n'));
-			DarjeelingAndThymeConvo1 = (AllConvos[1].Split ('\n'));
-			DarjeelingAndThymeConvo2 = (AllConvos[2].Split ('\n'));
-			DarjeelingAndThymeConvo3 = (AllConvos[3].Split ('\n'));
+			DarjeelingAndThymeConvo0 = getRidOfBlankArray (AllConvos[0].Split ('\n'));
+			//printStringArray(DarjeelingAndThymeConvo0);
+			//DarjeelingAndThymeConvo0 = getRidOfBlankArray (DarjeelingAndThymeConvo0);
+
+			DarjeelingAndThymeConvo1 = getRidOfBlankArray(AllConvos[1].Split ('\n'));
+			//printStringArray(DarjeelingAndThymeConvo1);
+			//DarjeelingAndThymeConvo1 = getRidOfBlankArray (DarjeelingAndThymeConvo1);
+
+			DarjeelingAndThymeConvo2 = getRidOfBlankArray(AllConvos[2].Split ('\n'));
+			//printStringArray(DarjeelingAndThymeConvo2);
+			//DarjeelingAndThymeConvo2 = getRidOfBlankArray (DarjeelingAndThymeConvo2);
+
+			DarjeelingAndThymeConvo3 = getRidOfBlankArray(AllConvos[3].Split ('\n'));
+			//printStringArray(DarjeelingAndThymeConvo3);
+			//DarjeelingAndThymeConvo3 = getRidOfBlankArray (DarjeelingAndThymeConvo3);
+
 		}
 		if (DarjeelingAndMatcha != null) {
 			string[] AllConvos = (DarjeelingAndMatcha.text.Split ('/'));
-			DarjeelingAndMatchaConvo0 = (AllConvos[0].Split ('\n'));
-			DarjeelingAndMatchaConvo1 = (AllConvos[1].Split ('\n'));
-			DarjeelingAndMatchaConvo2 = (AllConvos[2].Split ('\n'));
-			DarjeelingAndMatchaConvo3 = (AllConvos[3].Split ('\n'));
+			DarjeelingAndMatchaConvo0 = getRidOfBlankArray(AllConvos[0].Split ('\n'));
+			DarjeelingAndMatchaConvo1 = getRidOfBlankArray(AllConvos[1].Split ('\n'));
+			DarjeelingAndMatchaConvo2 = getRidOfBlankArray(AllConvos[2].Split ('\n'));
+			DarjeelingAndMatchaConvo3 = getRidOfBlankArray(AllConvos[3].Split ('\n'));
 		}
 		if (DarjeelingAndPepper != null) {
 			string[] AllConvos = (DarjeelingAndPepper.text.Split ('/'));
-			DarjeelingAndPepperConvo0 = (AllConvos[0].Split ('\n'));
-			DarjeelingAndPepperConvo1 = (AllConvos[1].Split ('\n'));
-			DarjeelingAndPepperConvo2 = (AllConvos[2].Split ('\n'));
-			DarjeelingAndPepperConvo3 = (AllConvos[3].Split ('\n'));
+			DarjeelingAndPepperConvo0 = getRidOfBlankArray(AllConvos[0].Split ('\n'));
+			DarjeelingAndPepperConvo1 = getRidOfBlankArray(AllConvos[1].Split ('\n'));
+			DarjeelingAndPepperConvo2 = getRidOfBlankArray(AllConvos[2].Split ('\n'));
+			DarjeelingAndPepperConvo3 = getRidOfBlankArray(AllConvos[3].Split ('\n'));
 		}
 
 
@@ -206,24 +219,24 @@ public class dialogueSystem : MonoBehaviour {
 		//Prince Chris
 		if (ChrisAndThyme != null) {
 			string[] AllConvos = (ChrisAndThyme.text.Split ('/'));
-			ChrisAndThymeConvo0 = (AllConvos[0].Split ('\n'));
-			ChrisAndThymeConvo1 = (AllConvos[1].Split ('\n'));
-			ChrisAndThymeConvo2 = (AllConvos[2].Split ('\n'));
-			ChrisAndThymeConvo3 = (AllConvos[3].Split ('\n'));
+			ChrisAndThymeConvo0 = getRidOfBlankArray(AllConvos[0].Split ('\n'));
+			ChrisAndThymeConvo1 = getRidOfBlankArray(AllConvos[1].Split ('\n'));
+			ChrisAndThymeConvo2 = getRidOfBlankArray(AllConvos[2].Split ('\n'));
+			ChrisAndThymeConvo3 = getRidOfBlankArray(AllConvos[3].Split ('\n'));
 		}
 		if (ChrisAndMatcha != null) {
 			string[] AllConvos = (ChrisAndMatcha.text.Split ('/'));
-			ChrisAndMatchaConvo0 = (AllConvos[0].Split ('\n'));
-			ChrisAndMatchaConvo1 = (AllConvos[1].Split ('\n'));
-			ChrisAndMatchaConvo2 = (AllConvos[2].Split ('\n'));
-			ChrisAndMatchaConvo3 = (AllConvos[3].Split ('\n'));
+			ChrisAndMatchaConvo0 = getRidOfBlankArray(AllConvos[0].Split ('\n'));
+			ChrisAndMatchaConvo1 = getRidOfBlankArray(AllConvos[1].Split ('\n'));
+			ChrisAndMatchaConvo2 = getRidOfBlankArray(AllConvos[2].Split ('\n'));
+			ChrisAndMatchaConvo3 = getRidOfBlankArray(AllConvos[3].Split ('\n'));
 		}
 		if (ChrisAndPepper != null) {
 			string[] AllConvos = (ChrisAndPepper.text.Split ('/'));
-			ChrisAndPepperConvo0 = (AllConvos[0].Split ('\n'));
-			ChrisAndPepperConvo1 = (AllConvos[1].Split ('\n'));
-			ChrisAndPepperConvo2 = (AllConvos[2].Split ('\n'));
-			ChrisAndPepperConvo3 = (AllConvos[3].Split ('\n'));
+			ChrisAndPepperConvo0 = getRidOfBlankArray(AllConvos[0].Split ('\n'));
+			ChrisAndPepperConvo1 = getRidOfBlankArray(AllConvos[1].Split ('\n'));
+			ChrisAndPepperConvo2 = getRidOfBlankArray(AllConvos[2].Split ('\n'));
+			ChrisAndPepperConvo3 = getRidOfBlankArray(AllConvos[3].Split ('\n'));
 		}
 
 
@@ -231,24 +244,24 @@ public class dialogueSystem : MonoBehaviour {
 		//Prince Thistle
 		if (ThistleAndThyme != null) {
 			string[] AllConvos = (ThistleAndThyme.text.Split ('/'));
-			ThistleAndThymeConvo0 = (AllConvos[0].Split ('\n'));
-			ThistleAndThymeConvo1 = (AllConvos[1].Split ('\n'));
-			ThistleAndThymeConvo2 = (AllConvos[2].Split ('\n'));
-			ThistleAndThymeConvo3 = (AllConvos[3].Split ('\n'));
+			ThistleAndThymeConvo0 = getRidOfBlankArray(AllConvos[0].Split ('\n'));
+			ThistleAndThymeConvo1 = getRidOfBlankArray(AllConvos[1].Split ('\n'));
+			ThistleAndThymeConvo2 = getRidOfBlankArray(AllConvos[2].Split ('\n'));
+			ThistleAndThymeConvo3 = getRidOfBlankArray(AllConvos[3].Split ('\n'));
 		}
 		if (ThistleAndMatcha != null) {
 			string[] AllConvos = (ThistleAndMatcha.text.Split ('/'));
-			ThistleAndMatchaConvo0 = (AllConvos[0].Split ('\n'));
-			ThistleAndMatchaConvo1 = (AllConvos[1].Split ('\n'));
-			ThistleAndMatchaConvo2 = (AllConvos[2].Split ('\n'));
-			ThistleAndMatchaConvo3 = (AllConvos[3].Split ('\n'));
+			ThistleAndMatchaConvo0 = getRidOfBlankArray(AllConvos[0].Split ('\n'));
+			ThistleAndMatchaConvo1 = getRidOfBlankArray(AllConvos[1].Split ('\n'));
+			ThistleAndMatchaConvo2 = getRidOfBlankArray(AllConvos[2].Split ('\n'));
+			ThistleAndMatchaConvo3 = getRidOfBlankArray(AllConvos[3].Split ('\n'));
 		}
 		if (ThistleAndPepper != null) {
 			string[] AllConvos = (ThistleAndPepper.text.Split ('/'));
-			ThistleAndPepperConvo0 = (AllConvos[0].Split ('\n'));
-			ThistleAndPepperConvo1 = (AllConvos[1].Split ('\n'));
-			ThistleAndPepperConvo2 = (AllConvos[2].Split ('\n'));
-			ThistleAndPepperConvo3 = (AllConvos[3].Split ('\n'));
+			ThistleAndPepperConvo0 = getRidOfBlankArray(AllConvos[0].Split ('\n'));
+			ThistleAndPepperConvo1 = getRidOfBlankArray(AllConvos[1].Split ('\n'));
+			ThistleAndPepperConvo2 = getRidOfBlankArray(AllConvos[2].Split ('\n'));
+			ThistleAndPepperConvo3 = getRidOfBlankArray(AllConvos[3].Split ('\n'));
 		}
 
 
@@ -339,17 +352,31 @@ public class dialogueSystem : MonoBehaviour {
 	void makeDarjeelingThymeConvo()
 	{
 		if (DarjeelingAndThymeEncounter == 0) {
-			makeConvo (DarjeelingAndThymeConvo0[numInConvo]);
+			print (numInConvo);
+			if (numInConvo >= DarjeelingAndThymeConvo0.Length)
+				endDialogueTurn ();
+			else
+				makeConvo (DarjeelingAndThymeConvo0[numInConvo]);
 		}
 
 		else if (DarjeelingAndThymeEncounter == 1) {
-			makeConvo (DarjeelingAndThymeConvo1[numInConvo]);
+			if (numInConvo >= DarjeelingAndThymeConvo1.Length)
+				endDialogueTurn ();
+			else
+				makeConvo (DarjeelingAndThymeConvo1[numInConvo]);
 		}
 		else if (DarjeelingAndThymeEncounter == 2) {
-			makeConvo (DarjeelingAndThymeConvo2[numInConvo]);
+			if (numInConvo >= DarjeelingAndThymeConvo2.Length)
+				endDialogueTurn ();
+			else
+				makeConvo (DarjeelingAndThymeConvo2[numInConvo]);
+			
 		}
 		else if (DarjeelingAndThymeEncounter == 3) {
-			makeConvo (DarjeelingAndThymeConvo3[numInConvo]);
+			if (numInConvo >= DarjeelingAndThymeConvo3.Length)
+				endDialogueTurn ();
+			else
+				makeConvo (DarjeelingAndThymeConvo3[numInConvo]);
 			DarjeelingAndThymeEncounter++;
 			DarjeelingStillOnMap = false;
 			ThymeStillOnMap = false;
@@ -530,63 +557,20 @@ public class dialogueSystem : MonoBehaviour {
 
 	void makeConvo(string convoLine){
 
-		//Debug.Log (convoLine);
+		Debug.Log (convoLine);
+		//Debug.Log (numInConvo);
 
 		string[] Line = convoLine.Split (':');
 		frontTalkPanel.SetActive(true);
 
 		//Debug.Log (Line[0]);
-
-		if (numInConvo + 1 > Line.Length) {
-
-			if (DarjeelingAndThymeMeet){
-				DarjeelingAndThymeEncounter++;
-			}
-			else if (DarjeelingAndMatchaMeet){
-				DarjeelingAndMatchaEncounter++;
-			}
-			else if (DarjeelingAndPepperMeet){
-				DarjeelingAndPepperEncounter++;
-			}
-			else if (ChrisAndThymeMeet){
-				ChrisAndThymeEncounter++;
-			}
-			else if (ChrisAndMatchaMeet){
-				ChrisAndMatchaEncounter++;
-			}
-			else if (ChrisAndPepperMeet){
-				ChrisAndPepperEncounter++;
-			}
-			else if (ThistleAndThymeMeet){
-				ThistleAndThymeEncounter++;
-			}
-			else if (ThistleAndMatchaMeet){
-				ThistleAndMatchaEncounter++;
-			}
-			else if (ThistleAndPepperMeet){
-				ThistleAndPepperEncounter++;
-			}
+		Debug.Log(numInConvo+ " is apparantly not greater than " + Line.Length);
+		if (numInConvo >= Line.Length) {
 
 
-			frontTalkPanel.SetActive (false);
-			numInConvo = 0;
-			DarjeelingAndThymeMeet = false;
-			DarjeelingAndMatchaMeet = false;
-			DarjeelingAndPepperMeet = false;
-			ChrisAndThymeMeet = false;
-			ChrisAndMatchaMeet = false;
-			ChrisAndPepperMeet = false;
-			ThistleAndThymeMeet = false;
-			ThistleAndMatchaMeet = false;
-			ThistleAndPepperMeet = false;
+		} 
 
-			talkingPrince.GetComponent<SpriteRenderer> ().sprite = null;
-			talkingPrincess.GetComponent<SpriteRenderer> ().sprite = null;
-			theText.text = null;
-			personSpeaking.text = null;
-			GameManager.GetComponent<TurnController> ().isPlayerTurn = 0;
-
-		} else {
+		else {
 			makeDialogue (Line [0], Line [1], Line [2]);
 		}
 	
@@ -596,7 +580,7 @@ public class dialogueSystem : MonoBehaviour {
 	void makeDialogue(string character, string emotion, string dialogue){
 
 		string fullCharacterName = getCharacter (character);
-		Debug.Log (fullCharacterName);
+		//Debug.Log (fullCharacterName);
 		Sprite characterSprite = getSprite(fullCharacterName,emotion);
 
 		if (fullCharacterName == "Darjeeling" || fullCharacterName == "Chris" || fullCharacterName == "Thistle") {
@@ -823,6 +807,85 @@ public class dialogueSystem : MonoBehaviour {
 
 			ThistleAndPepperMeet = true;
 		}
+
+	}
+
+
+	string[] getRidOfBlankArray(string[] stringArray)
+	{
+		List<string> returnStringList = new List<string>();
+
+
+		int i = 0;
+		while ( i < stringArray.Length )
+		{
+			if (stringArray [i] != " ") {
+				returnStringList.Add(stringArray[i]);
+			}
+			i++;
+		}
+		//printStringArray (returnStringList.ToArray ());
+		return (returnStringList.ToArray ());
+
+	}
+	void printStringArray(string[] stringArray){
+		int i = 0;
+		while ( i < stringArray.Length )
+		{
+			Debug.Log( stringArray[i] );
+			i++;
+		}
+	}
+
+	void endDialogueTurn()
+	{
+		if (DarjeelingAndThymeMeet){
+			DarjeelingAndThymeEncounter++;
+		}
+		else if (DarjeelingAndMatchaMeet){
+			DarjeelingAndMatchaEncounter++;
+		}
+		else if (DarjeelingAndPepperMeet){
+			DarjeelingAndPepperEncounter++;
+		}
+		else if (ChrisAndThymeMeet){
+			ChrisAndThymeEncounter++;
+		}
+		else if (ChrisAndMatchaMeet){
+			ChrisAndMatchaEncounter++;
+		}
+		else if (ChrisAndPepperMeet){
+			ChrisAndPepperEncounter++;
+		}
+		else if (ThistleAndThymeMeet){
+			ThistleAndThymeEncounter++;
+		}
+		else if (ThistleAndMatchaMeet){
+			ThistleAndMatchaEncounter++;
+		}
+		else if (ThistleAndPepperMeet){
+			ThistleAndPepperEncounter++;
+		}
+
+
+		frontTalkPanel.SetActive (false);
+		numInConvo = 0;
+		DarjeelingAndThymeMeet = false;
+		DarjeelingAndMatchaMeet = false;
+		DarjeelingAndPepperMeet = false;
+		ChrisAndThymeMeet = false;
+		ChrisAndMatchaMeet = false;
+		ChrisAndPepperMeet = false;
+		ThistleAndThymeMeet = false;
+		ThistleAndMatchaMeet = false;
+		ThistleAndPepperMeet = false;
+
+		talkingPrince.GetComponent<SpriteRenderer> ().sprite = null;
+		talkingPrincess.GetComponent<SpriteRenderer> ().sprite = null;
+		theText.text = null;
+		personSpeaking.text = null;
+		GameManager.GetComponent<TurnController> ().isPlayerTurn = 0;
+
 
 	}
 

@@ -10,10 +10,9 @@
  TM:normal:I'm testing the code
  D:normal:dun dun
  /
- D:angry:aaaaaa!
+D:angry:aaaaaa!
  TM:normal:What is it?
- D:normal:TOO MUCH TEXT!
- <
+ D:normal:TOO MUCH TEXT!<
 
 
 
