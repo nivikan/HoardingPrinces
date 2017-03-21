@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Click_Drag : MonoBehaviour {
 
+	public AudioClip myclip;
+
 	private Vector3 screenPoint; 
 	private Vector3 offset;
 
@@ -19,6 +21,9 @@ public class Click_Drag : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		this.gameObject.AddComponent<AudioSource>();
+		this.GetComponent<AudioSource>().clip = myclip;
+
 		GameManager =  GameObject.Find ("GameManager");
 		transform.position = new Vector3(currentCastle.transform.position.x, 2.5f, 0);
 
@@ -64,6 +69,7 @@ public class Click_Drag : MonoBehaviour {
 				transform.position = new Vector3(currentCastle.transform.position.x, 2.5f, 0);
 				prince1StartCastle = currentCastle;
 			}
+			this.GetComponent<AudioSource>().Play();
 		}
 
 		
