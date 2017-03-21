@@ -54,18 +54,16 @@
      <Compile Include="Assets\Scripts\TurnController.cs" />
      <Compile Include="Assets\Scripts\dialogueSystem.cs" />
      <Compile Include="Assets\Scripts\textBoxMounter.cs" />
-     <None Include="Assets\ChrisAndThyme.txt" />
-     <None Include="Assets\ThistleAndThyme.txt" />
-     <None Include="Assets\ChrisAndPepper.txt" />
-     <None Include="Assets\CharacterNames.txt" />
-     <None Include="Assets\DarjeelingAndThyme.txt" />
-     <None Include="Assets\DarjeelingAndPepper.txt" />
-     <None Include="Assets\Dialogue\TestDialogue.txt" />
-     <None Include="Assets\ChrisAndMatcha.txt" />
-     <None Include="Assets\ThistleAndMatcha.txt" />
-     <None Include="Assets\ThistleAndPepper.txt" />
-     <None Include="Assets\EmptyTextFile.txt" />
-     <None Include="Assets\DarjeelingAndMatcha.txt" />
+     <None Include="Assets\Dialogue 1\ChrisAndThyme.txt" />
+     <None Include="Assets\Dialogue 1\ThistleAndThyme.txt" />
+     <None Include="Assets\Dialogue 1\ChrisAndPepper.txt" />
+     <None Include="Assets\Dialogue 1\CharacterNames.txt" />
+     <None Include="Assets\Dialogue 1\DarjeelingAndThyme.txt" />
+     <None Include="Assets\Dialogue 1\DarjeelingAndPepper.txt" />
+     <None Include="Assets\Dialogue 1\ChrisAndMatcha.txt" />
+     <None Include="Assets\Dialogue 1\ThistleAndMatcha.txt" />
+     <None Include="Assets\Dialogue 1\ThistleAndPepper.txt" />
+     <None Include="Assets\Dialogue 1\DarjeelingAndMatcha.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
