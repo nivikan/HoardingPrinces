@@ -315,12 +315,20 @@ public class dialogueSystem : MonoBehaviour {
 			else if (DarjeelingAndMatchaMeet) {
 				currPrinceSprite = getSprite("Darjeeling","normal");
 				currPrincessSprite = getSprite("Matcha","normal");
+
+				talkingPrince.GetComponent<Image>().sprite = currPrinceSprite;
+				talkingPrincess.GetComponent<Image>().sprite = currPrincessSprite;
+
 				makeDarjeelingMatchaConvo ();
 			}
 
 			else if (DarjeelingAndPepperMeet) {
 				currPrinceSprite = getSprite("Darjeeling","normal");
 				currPrincessSprite = getSprite("Pepper","normal");
+
+				talkingPrince.GetComponent<Image>().sprite = currPrinceSprite;
+				talkingPrincess.GetComponent<Image>().sprite = currPrincessSprite;
+
 				makeDarjeelingPepperConvo ();
 			}
 		
@@ -328,37 +336,62 @@ public class dialogueSystem : MonoBehaviour {
 			else if (ChrisAndThymeMeet) {
 				currPrinceSprite = getSprite("Chris","normal");
 				currPrincessSprite = getSprite("Thyme","normal");
+
+				talkingPrince.GetComponent<Image>().sprite = currPrinceSprite;
+				talkingPrincess.GetComponent<Image>().sprite = currPrincessSprite;
+
 				makeChrisThymeConvo ();
 			}
 
 			else if (ChrisAndMatchaMeet) {
 				currPrinceSprite = getSprite("Chris","normal");
 				currPrincessSprite = getSprite("Matcha","normal");
+
+				talkingPrince.GetComponent<Image>().sprite = currPrinceSprite;
+				talkingPrincess.GetComponent<Image>().sprite = currPrincessSprite;
+
 				makeChrisMatchaConvo ();
 			}
 
 			else if (ChrisAndPepperMeet) {
 				currPrinceSprite = getSprite("Chris","normal");
 				currPrincessSprite = getSprite("Pepper","normal");
+
+				talkingPrince.GetComponent<Image>().sprite = currPrinceSprite;
+				talkingPrincess.GetComponent<Image>().sprite = currPrincessSprite;
+
 				makeChrisPepperConvo ();
+
 			}
 
 			//Thistle
 			else if (ThistleAndThymeMeet) {
 				currPrinceSprite = getSprite("Thistle","normal");
 				currPrincessSprite = getSprite("Thyme","normal");
+
+				talkingPrince.GetComponent<Image>().sprite = currPrinceSprite;
+				talkingPrincess.GetComponent<Image>().sprite = currPrincessSprite;
+
 				makeThistleThymeConvo ();
 			}
 
 			else if (ThistleAndMatchaMeet) {
 				currPrinceSprite = getSprite("Thistle","normal");
 				currPrincessSprite = getSprite("Matcha","normal");
+
+				talkingPrince.GetComponent<Image>().sprite = currPrinceSprite;
+				talkingPrincess.GetComponent<Image>().sprite = currPrincessSprite;
+
 				makeThistleMatchaConvo ();
 			}
 
 			else if (ThistleAndPepperMeet) {
 				currPrinceSprite = getSprite("Thistle","normal");
 				currPrincessSprite = getSprite("Pepper","normal");
+
+				talkingPrince.GetComponent<Image>().sprite = currPrinceSprite;
+				talkingPrincess.GetComponent<Image>().sprite = currPrincessSprite;
+
 				makeThistlePepperConvo ();
 			}
 			else{

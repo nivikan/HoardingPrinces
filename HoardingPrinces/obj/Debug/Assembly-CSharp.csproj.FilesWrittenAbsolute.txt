@@ -40,3 +40,24 @@
 /Users/NivethaKannan/Documents/Unity Games/HoardingPrinces/HoardingPrinces/Temp/bin/Debug/Unity.CecilTools.dll
 /Users/NivethaKannan/Documents/Unity Games/HoardingPrinces/HoardingPrinces/Temp/bin/Debug/Mono.Cecil.Pdb.dll
 /Users/NivethaKannan/Documents/Unity Games/HoardingPrinces/HoardingPrinces/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/swetha/Game/HoardingPrinces/HoardingPrinces/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/swetha/Game/HoardingPrinces/HoardingPrinces/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/swetha/Game/HoardingPrinces/HoardingPrinces/obj/Debug/Assembly-CSharp.dll
+/Users/swetha/Game/HoardingPrinces/HoardingPrinces/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/swetha/Game/HoardingPrinces/HoardingPrinces/Temp/bin/Debug/UnityEngine.dll
+/Users/swetha/Game/HoardingPrinces/HoardingPrinces/Temp/bin/Debug/UnityEditor.dll
+/Users/swetha/Game/HoardingPrinces/HoardingPrinces/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/swetha/Game/HoardingPrinces/HoardingPrinces/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/swetha/Game/HoardingPrinces/HoardingPrinces/Temp/bin/Debug/UnityEngine.PlaymodeTestsRunner.dll
+/Users/swetha/Game/HoardingPrinces/HoardingPrinces/Temp/bin/Debug/UnityEngine.Analytics.dll
+/Users/swetha/Game/HoardingPrinces/HoardingPrinces/Temp/bin/Debug/UnityEngine.HoloLens.dll
+/Users/swetha/Game/HoardingPrinces/HoardingPrinces/Temp/bin/Debug/UnityEngine.VR.dll
+/Users/swetha/Game/HoardingPrinces/HoardingPrinces/Temp/bin/Debug/Mono.Cecil.dll
+/Users/swetha/Game/HoardingPrinces/HoardingPrinces/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/swetha/Game/HoardingPrinces/HoardingPrinces/Temp/bin/Debug/Unity.DataContract.dll
+/Users/swetha/Game/HoardingPrinces/HoardingPrinces/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/swetha/Game/HoardingPrinces/HoardingPrinces/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/swetha/Game/HoardingPrinces/HoardingPrinces/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/swetha/Game/HoardingPrinces/HoardingPrinces/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/swetha/Game/HoardingPrinces/HoardingPrinces/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/swetha/Game/HoardingPrinces/HoardingPrinces/Temp/bin/Debug/Mono.Cecil.Mdb.dll
