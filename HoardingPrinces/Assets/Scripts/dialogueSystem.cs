@@ -25,6 +25,8 @@ public class dialogueSystem : MonoBehaviour {
 	public GameObject GameManager;
 	public int numInConvo;
 
+	public Sprite currPrinceSprite;
+	public Sprite currPrincessSprite;
 
 	public Text theText;
 	public Text personSpeaking;
@@ -301,40 +303,62 @@ public class dialogueSystem : MonoBehaviour {
 
 			//DARJEELING
 			if (DarjeelingAndThymeMeet) {
+				currPrinceSprite = getSprite("Darjeeling","normal");
+				currPrincessSprite = getSprite("Thyme","normal");
+
+				talkingPrince.GetComponent<Image>().sprite = currPrinceSprite;
+				talkingPrincess.GetComponent<Image>().sprite = currPrincessSprite;
+
 				makeDarjeelingThymeConvo ();
 			}
 
 			else if (DarjeelingAndMatchaMeet) {
+				currPrinceSprite = getSprite("Darjeeling","normal");
+				currPrincessSprite = getSprite("Matcha","normal");
 				makeDarjeelingMatchaConvo ();
 			}
 
 			else if (DarjeelingAndPepperMeet) {
+				currPrinceSprite = getSprite("Darjeeling","normal");
+				currPrincessSprite = getSprite("Pepper","normal");
 				makeDarjeelingPepperConvo ();
 			}
 		
 			//CHRIS
 			else if (ChrisAndThymeMeet) {
+				currPrinceSprite = getSprite("Chris","normal");
+				currPrincessSprite = getSprite("Thyme","normal");
 				makeChrisThymeConvo ();
 			}
 
 			else if (ChrisAndMatchaMeet) {
+				currPrinceSprite = getSprite("Chris","normal");
+				currPrincessSprite = getSprite("Matcha","normal");
 				makeChrisMatchaConvo ();
 			}
 
 			else if (ChrisAndPepperMeet) {
+				currPrinceSprite = getSprite("Chris","normal");
+				currPrincessSprite = getSprite("Pepper","normal");
 				makeChrisPepperConvo ();
 			}
 
 			//Thistle
 			else if (ThistleAndThymeMeet) {
+				currPrinceSprite = getSprite("Thistle","normal");
+				currPrincessSprite = getSprite("Thyme","normal");
 				makeThistleThymeConvo ();
 			}
 
 			else if (ThistleAndMatchaMeet) {
+				currPrinceSprite = getSprite("Thistle","normal");
+				currPrincessSprite = getSprite("Matcha","normal");
 				makeThistleMatchaConvo ();
 			}
 
 			else if (ThistleAndPepperMeet) {
+				currPrinceSprite = getSprite("Thistle","normal");
+				currPrincessSprite = getSprite("Pepper","normal");
 				makeThistlePepperConvo ();
 			}
 			else{
@@ -701,16 +725,17 @@ public class dialogueSystem : MonoBehaviour {
 	void makeDialogue(string character, string emotion, string dialogue){
 
 		string fullCharacterName = getCharacter (character);
-		Debug.Log (fullCharacterName);
+		//Debug.Log (fullCharacterName);
 
 		Sprite characterSprite = getSprite(fullCharacterName,emotion); //change to canvas
-		Debug.Log("changed_fmdlksdfkl");
 
 		if (fullCharacterName == "Darjeeling" || fullCharacterName == "Chris" || fullCharacterName == "Thistle") {
+			Debug.Log ("Changed PRINCE SPRITE");
 			talkingPrince.GetComponent<Image>().sprite = characterSprite; //change to canvas
 		}
 
 		if (fullCharacterName == "Thyme" || fullCharacterName == "Matcha" || fullCharacterName == "Pepper") {
+			 Debug.Log ("Changed PRINCESSSSSSSSSSSS SPRITE");
 			talkingPrincess.GetComponent<Image> ().sprite = characterSprite; //change to canvas
 		}
 
