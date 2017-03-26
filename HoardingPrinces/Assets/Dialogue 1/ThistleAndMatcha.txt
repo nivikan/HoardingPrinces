@@ -1,19 +1,22 @@
-﻿ TL:angry:Get the hell out of my castle!
- M:normal:Who are you? Are you stuck here?
- TL:normal:Maybe.
+﻿ TL:happy:Hi
+ M:happy:Hello
+ TL:normal:What is your name.
  /
- M:sigh:To baTL.
- TL:confuseTL:What TLo you mean?
- M:normal:The cute ones always get taken.
+ M:sigh:This is our second meeting.
+ TL:confused:I missed you since your last visit
+ M:normal:I've thought nothing but you since my departure.
  /
- TL:angry:Why are you here again?
- M:normal:I'm testing the coTLe
- TL:normal:TLun TLun
+ TL:angry:You've come here for a third time- why?
+ M:normal:Baby, I know its fast and I know we barely know each other but I love you, Babe. We should get married
+ TL:normal: OMG! We totally should!
  /
- TL:angry:aaaaaa!
- M:normal:What is it?
- TL:normal:TOO MUCH TEXT!
+ TL:angry:Who are you?
+ M:normal:You need to get out. There's a ferocious dragon here.
+ TL:normal:It's ok, I like the dragon. Please Leave
+ /
+ TL: Hi, Princess.
+ M: Prince, I have to come with me today.
+ TL: No
+ M: What?
+ TL: The dragon... is pretty kind.
  <
-
-
-

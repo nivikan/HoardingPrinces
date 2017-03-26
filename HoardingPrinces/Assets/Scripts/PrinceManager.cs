@@ -44,10 +44,24 @@ public class PrinceManager : MonoBehaviour {
 	void Update () {
 		seconds = GameObject.Find ("GameManager").GetComponent<Keeping_Time>().seconds;
 
-		Prince1_Location = Prince1.GetComponent<Click_Drag>().prince1StartCastle;
-		Prince2_Location = Prince2.GetComponent<Click_Drag>().prince1StartCastle;
-		Prince3_Location = Prince3.GetComponent<Click_Drag>().prince1StartCastle;
-
+		if (Prince1 == null) {
+			//Debug.Log ("Darjeeling is gone");
+			Prince1_Location = null;
+		} else {
+			Prince1_Location = Prince1.GetComponent<Click_Drag>().prince1StartCastle;
+		}
+		if (Prince2 == null) {
+			//Debug.Log ("Chris is gone");
+			Prince2_Location = null;
+		}else {
+			Prince2_Location = Prince2.GetComponent<Click_Drag>().prince1StartCastle;
+		}
+		if (Prince3 == null) {
+			//Debug.Log ("Darjeeling is gone");
+			Prince3_Location = null;
+		}else {
+			Prince3_Location = Prince3.GetComponent<Click_Drag>().prince1StartCastle;
+		}
 		//Prince1_Happiness = (seconds*1.0f / 100)/10;
 		//Prince2_Happiness = (seconds*1.0f / 100)/10;
 		//Prince3_Happiness = (seconds*1.0f / 100)/10;

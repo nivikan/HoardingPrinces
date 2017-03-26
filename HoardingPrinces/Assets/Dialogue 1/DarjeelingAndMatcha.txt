@@ -1,19 +1,23 @@
-﻿ D:angry:Get the hell out of my castle!
- M:normal:Who are you? Are you stuck here?
- D:normal:Maybe.
+﻿ D:happy:Hi
+ M:happy:Hello
+ D:normal:What is your name.
  /
- M:sigh:To bad.
- D:confused:What do you mean?
- M:normal:The cute ones always get taken.
+ M:sigh:This is our second meeting.
+ D:confused:I missed you since your last visit
+ M:normal:I've thought nothing but you since my departure.
  /
- D:angry:Why are you here again?
- M:normal:I'm testing the code
- D:normal:dun dun
+ D:angry:You've come here for a third time- why?
+ M:normal:Baby, I know its fast and I know we barely know each other but I love you, Babe. We should get married
+ D:normal: OMG! We totally should!
  /
- D:angry:aaaaaa!
- M:normal:What is it?
- D:normal:TOO MUCH TEXT!
+ D:angry:Who are you?
+ M:normal:You need to get out. There's a ferocious dragon here.
+ D:normal:It's ok, I like the dragon. Please Leave
+ /
+ D: Hi, Princess.
+ M: Prince, I have to come with me today.
+ D: No
+ M: What?
+ D: The dragon... is pretty kind.
  <
-
-
 

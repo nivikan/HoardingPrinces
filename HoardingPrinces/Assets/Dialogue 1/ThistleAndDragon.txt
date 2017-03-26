@@ -1,0 +1,18 @@
+﻿ TL:happy:Hi
+ TL:happy:Hello, TLragon
+ TL:normal:What is your name.
+ /
+ TL:happy:This is the second time I al talking to you
+ TL:happy: Why did you decide to keep me?
+ TL:normal:And get rid of the other princes?
+ /
+ TL:happy:This is my third conversation with you
+ TL:happy: I sense there is something different about you
+ TL:normal: You don't really want to hurt me
+ /
+ TL:happy:This is my Fourth conversation with you
+ TL:happy: I love you, dragon
+ TL:normal:You only captured me because you love me
+ >
+
+ 

@@ -1,0 +1,17 @@
+﻿ D:happy:Hi
+ D:happy:Hello, Dragon
+ D:normal:What is your name.
+ /
+ D:happy:This is the second time I al talking to you
+ D:happy: Why did you decide to keep me?
+ D:normal:And get rid of the other princes?
+ /
+ D:happy:This is my third conversation with you
+ D:happy: I sense there is something different about you
+ D:normal: You don't really want to hurt me
+ /
+ D:happy:This is my Fourth conversation with you
+ D:happy: I love you, dragon
+ D:normal:You only captured me because you love me
+ >
+

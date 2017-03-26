@@ -17,6 +17,16 @@ public class TurnController : MonoBehaviour {
 	public string princess2 = "princess2";
 	public string princess3 = "princess3";
 
+
+	public bool DarjeelingStillOnMap = true;
+	public bool ChrisStillOnMap = true;
+	public bool ThistleStillOnMap = true;
+	public bool ThymeStillOnMap = true;
+	public bool MatchaStillOnMap = true;
+	public bool PepperStillOnMap = true;
+
+
+
 	public GameObject castle1;
 	public GameObject castle2;
 	public GameObject castle3; 
@@ -142,13 +152,56 @@ public class TurnController : MonoBehaviour {
 		prince3 =  GameObject.Find ("Prince3");
 
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 
+
+		//Debug Puposes
+		if (Input.GetKey ("r")) {
+			print ("Getting rid of Chris, Thistle, Thyme, and Matcha");
+			GameObject.Find ("GameManager").GetComponent<dialogueSystem> ().ChrisStillOnMap = false;
+			GameObject.Find ("GameManager").GetComponent<dialogueSystem> ().ThistleStillOnMap = false;
+			GameObject.Find ("GameManager").GetComponent<dialogueSystem> ().ThymeStillOnMap = false;
+			GameObject.Find ("GameManager").GetComponent<dialogueSystem> ().MatchaStillOnMap = false;
+			GameObject.Find ("GameManager").GetComponent<dialogueSystem> ().DarjeelingAlone = true;
+		}
+		
+
 		updateVariables ();
 		getRidOfEndTurnButton ();
-	
+
+		if (GameObject.Find ("GameManager").GetComponent<dialogueSystem>().CountingDragonPrinceTime == 2){
+ 
+			isCutsceneGoingToPlay = true;
+		}
+
+		if (GameObject.Find ("GameManager").GetComponent<dialogueSystem>().CountingDragonPrinceTime == 5){
+
+			isCutsceneGoingToPlay = true;
+		}
+
+		if (GameObject.Find ("GameManager").GetComponent<dialogueSystem>().CountingDragonPrinceTime == 10){
+
+			isCutsceneGoingToPlay = true;
+		}
+
+		if (GameObject.Find ("GameManager").GetComponent<dialogueSystem>().CountingDragonPrinceTime == 15){
+
+			isCutsceneGoingToPlay = true;
+		}
+
+		if (isPlayerTurn == 0) {
+			if (DarjeelingStillOnMap == false) {
+				Destroy (prince1);
+			}
+			if (ChrisStillOnMap == false) {
+				Destroy (prince2);
+			}
+			if (ThistleStillOnMap == false) {
+				Destroy (prince3);
+			}
+		}
 
 		if (isPlayerTurn == 1) {
 
@@ -159,7 +212,7 @@ public class TurnController : MonoBehaviour {
 
 			//Check if there is any princess currently on the map. If yes, have princess leave the screen
 
-		
+
 			if (Castle1princess.activeSelf) {
 				Castle1princess.SetActive (false);
 				numPrincesses--;
@@ -183,7 +236,7 @@ public class TurnController : MonoBehaviour {
 
 
 			//If there are no more than 2 princesses on screen + about to be on screen
-	
+
 			if (numPrincesses < 2) {
 
 				//princessInCastle = true;
@@ -262,21 +315,24 @@ public class TurnController : MonoBehaviour {
 						princess3InCastle = true;
 					}
 				}
-					
+
 
 				// IMPLEMENT A RANDO PRINCESS WARNING IN A RANDOM CASTLE AS LONG AS THERE IS NOT PRINCESS THERE ALREADY
 
-				randPrincess = Random.Range (1,8);
+				randPrincess = Random.Range (1,4);
 				//Debug.Log (randPrincess);
 
 				Sprite princessSprite = null;
 
-				if (randPrincess == 1 && princess1OnMap== false) {
+				if (randPrincess == 1 && ThymeStillOnMap && princess1OnMap== false) {
 					princessSprite = princess1WarningSprite;
-				} else if (randPrincess == 2 && princess2OnMap== false) {
+					princess1OnMap = true;
+				} else if (randPrincess == 2 && MatchaStillOnMap && princess2OnMap== false) {
 					princessSprite = princess2WarningSprite;
-				} else if (randPrincess == 3 && princess3OnMap== false) {
+					princess2OnMap = true;
+				} else if (randPrincess == 3 && PepperStillOnMap && princess3OnMap== false) {
 					princessSprite = princess3WarningSprite;
+					princess3OnMap = true;
 				}
 
 				//Debug.Log (princessSprite);
@@ -333,7 +389,7 @@ public class TurnController : MonoBehaviour {
 					hasNoNewPrincess = true;
 				}
 			}
-		
+
 
 
 
@@ -353,7 +409,7 @@ public class TurnController : MonoBehaviour {
 				princessInCastle = true;
 			else
 				princessInCastle = false;
-			
+
 			isPlayerTurn = 2;
 
 
@@ -371,18 +427,38 @@ public class TurnController : MonoBehaviour {
 
 
 		if (isPlayerTurn == 3) {
-			
+
 			endTurnQuestionText.text = "";
 			endTurnQuestion.SetActive (false);
 			//isPlayerTurn = 0;
 		}
-		
+
 	}
-		
+
 	public void endTurn()
 	{
-		if (isPlayerTurn == 0)
+		if (isPlayerTurn == 0) {
 			isPlayerTurn = 1;
+
+			//Debug.Log ("UPDATING DRAGIN VAR");
+			if (ChrisStillOnMap == false && ThymeStillOnMap == false) {
+				// WOOing DARJEELING
+				Debug.Log("Wooing Darjeeling");
+				GetComponent<dialogueSystem> ().CountingDragonPrinceTime += 1;
+			}
+
+			else if (DarjeelingStillOnMap == false && ThymeStillOnMap == false) {
+				// WOOing CHRIS
+				Debug.Log("Wooing Chris");
+				GetComponent<dialogueSystem> ().CountingDragonPrinceTime += 1;
+			}
+
+			else if (DarjeelingStillOnMap == false && ChrisStillOnMap == false) {
+				// WOOing THYME
+				Debug.Log("Wooing Chris");
+				GetComponent<dialogueSystem> ().CountingDragonPrinceTime += 1;
+			}
+		}
 	}
 
 	public void endTextTurn()
@@ -412,8 +488,8 @@ public class TurnController : MonoBehaviour {
 	public void checkIfPrincessInCastle()
 	{
 
-	
-/*
+
+		/*
 		if (princessInCastle) {
 			if (princessInCastle1) {
 				if (Prince1Location == castle1 && )
@@ -430,6 +506,15 @@ public class TurnController : MonoBehaviour {
 
 	public void updateVariables()
 	{
+
+		DarjeelingStillOnMap = GameObject.Find ("GameManager").GetComponent<dialogueSystem>().DarjeelingStillOnMap;
+		ChrisStillOnMap = GameObject.Find ("GameManager").GetComponent<dialogueSystem>().ChrisStillOnMap;
+		ThistleStillOnMap = GameObject.Find ("GameManager").GetComponent<dialogueSystem>().ThistleStillOnMap;
+		ThymeStillOnMap = GameObject.Find ("GameManager").GetComponent<dialogueSystem>().ThymeStillOnMap;
+		MatchaStillOnMap = GameObject.Find ("GameManager").GetComponent<dialogueSystem>().MatchaStillOnMap;
+		PepperStillOnMap = GameObject.Find ("GameManager").GetComponent<dialogueSystem>().PepperStillOnMap;
+
+
 
 		Prince1Location = GameObject.Find ("GameManager").GetComponent<PrinceManager>().Prince1_Location;
 		Prince2Location = GameObject.Find ("GameManager").GetComponent<PrinceManager>().Prince2_Location;
@@ -523,7 +608,7 @@ public class TurnController : MonoBehaviour {
 					princess3InCastle1WithPrince3 = true;
 			}
 		}
-		
+
 		Sprite Castle2PrincessSprite;
 		if (Castle2princess.activeSelf) {
 			Castle2PrincessSprite = Castle2princess.GetComponent<SpriteRenderer> ().sprite;
@@ -559,7 +644,7 @@ public class TurnController : MonoBehaviour {
 					princess3InCastle2WithPrince3 = true;
 			}
 		}
-		
+
 		Sprite Castle3PrincessSprite;
 		if (Castle3princess.activeSelf) {
 			Castle3PrincessSprite = Castle3princess.GetComponent<SpriteRenderer> ().sprite;
@@ -632,7 +717,7 @@ public class TurnController : MonoBehaviour {
 					princess3InCastle4WithPrince3 = true;
 			}
 		}
-	
+
 	}
 
 

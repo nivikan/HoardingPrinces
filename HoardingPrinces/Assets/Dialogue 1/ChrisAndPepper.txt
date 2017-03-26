@@ -1,19 +1,23 @@
-﻿ C:angry:Get the hell out of my castle!
- P:normal:Who are you? Are you stuck here?
- C:normal:Maybe.
+﻿ C:happy:Hi
+ P:happy:Hello
+ C:normal:What is your name.
  /
- P:sigh:To baC.
- C:confuseC:What Co you mean?
- P:normal:The cute ones always get taken.
+ P:sigh:This is our second meeting.
+ C:confused:I missed you since your last visit
+ P:normal:I've thought nothing but you since my departure.
  /
- C:angry:Why are you here again?
- P:normal:I'm testing the coCe
- C:normal:Cun Cun
+ C:angry:You've come here for a third time- why?
+ P:normal:Baby, I know its fast and I know we barely know each other but I love you, Babe. We should get married
+ C:normal: OMG! We totally should!
  /
- C:angry:aaaaaa!
- P:normal:What is it?
- C:normal:TOO MUCH TEXT!
+ C:angry:Who are you?
+ P:normal:You need to get out. There's a ferocious dragon here.
+ C:normal:It's ok, I like the dragon. Please Leave
+ /
+ C: Hi, Princess.
+ P: Prince, I have to come with me today.
+ C: No
+ P: What?
+ C: The dragon... is pretty kind.
  <
-
-
 
