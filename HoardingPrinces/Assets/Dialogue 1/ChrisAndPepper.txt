@@ -1,23 +1,107 @@
-﻿ C:happy:Hi
- P:happy:Hello
- C:normal:What is your name.
- /
- P:sigh:This is our second meeting.
- C:confused:I missed you since your last visit
- P:normal:I've thought nothing but you since my departure.
- /
- C:angry:You've come here for a third time- why?
- P:normal:Baby, I know its fast and I know we barely know each other but I love you, Babe. We should get married
- C:normal: OMG! We totally should!
- /
- C:angry:Who are you?
- P:normal:You need to get out. There's a ferocious dragon here.
- C:normal:It's ok, I like the dragon. Please Leave
- /
- C: Hi, Princess.
- P: Prince, I have to come with me today.
- C: No
- P: What?
- C: The dragon... is pretty kind.
+﻿C:normal:My what do we have here!
+C:happy:Come over here fair little lady! Don't worry the cunning, handsome, PRINCE CHRYSANTHEMUM does not bite.
+P:normal:...Prince Chrys.
+C:sad:Gah! Such a lackluster nickname does not suit me...
+P:normal:I am Princess Pepper. I have been looking for you...
+C:sad:Hmmm. Pepper. Pepper...Why have I heard that name before?
+C:angry:BLAST! This dragon must have me under a curse! A curse of forgetfulness! How tragic! How ROMANTIC!
+P:Normal:...
+C:happy:Hah! Has the fair princess Pepper gone speechless in horror? Never you mind Princess. This curse is one I must bear.
+P:angry:...
+C:sad:W-what is it Princess?
+P:angry:Do you not remember me Prince Chrys?
+C:normal:Tis a cu-
+P:normal:I don't believe in curses.
+P:normal: in any case, your parents are worried about you Prince. If you're just playing around...
+P:normal:...then please return to your kingdom.
+C:sad:W-wait!
+C:sad: And there she goes. How am I supposed to tell a cute little girl like that....that...
+C:disappointed: ... that the great Prince Chrysanthemum may need some help escaping from this dragon.
+/
+P:normal:…
+C:excited:Why! If it isn’t the ever gorgeous Princess Pepper!
+C:disappointed:I-I suppose I offended you somehow last time? If there is anything this horrid man can do to gain your favor, then please…let it be known.
+P:happy:Last time…was my fault.
+C:happy: Huh?
+P:normal:I just got a bit annoyed of you. That’s all. 
+P:happy:You haven’t changed since we were children.
+P:angry:And you managed to forget about me.
+C:angry:Ch-children!? My could it be…
+P:excited:…
+C:excited:My DARLING PEPPERMINT!
+P:sad:ah…Please don’t call me that…
+C:happy:Why it is simply a pleasure seeing you again my childhood accomplice. Have you come to be a side kick in my daring adventures?
+P:normal:Actually…your mom set me. She wants you to stop wasting time and let me rescue you
+C:disappointed:Argh…That woman…she just doesn’t understand my…my…my ARTISTRY!
+P:happy:Please…Let’s go back.
+C:angry:I can’t return home. If I stay in my parents’ castle all the time, I’ll never become a WONDEROUS crusader of justice
+C:happy:it is my duty as a prince, dear Peppermint, to stay out here and protect the citizens from this dragon.
+P:angry:Don’t be so stubborn…
+C:angry:I’m not! I am perfectly capable of escaping on my own so…please leave.
+P:normal:…alright.
+C:normal:…
+C:sad:…argh…will this foul tongue never leave me…?
+/
+P:normal:Hello Prince Chrys.
+C:excited:Peppermint!
+C:disappointed:I-I’m glad you came back.
+P:sad:A-are you?
+P:normal:I wanted to come check up on you, Prince. 
+C:sad:I-apologize for raising my voice last time.
+P:happy:I understand where you were coming from. Your mother can be overbearing.
+C:angry:No!
+C:angry:To think that a prince such as myself would revert to such a demon! it must be the CURSE!
+P:normal:>sigh< Y’know wanting to be adventurous is fine but you’re putting yourself in danger. 
+P:happy:Even when we were kids you were always this way.
+P:excited:It used to make me laugh.
+C:happy:Used to?
+P:happy:I suppose it’s still endearing.
+P:normal:I love that side of you but I also want you to be safe, Chrys. Can we leave this tower now?
+C:normal:…
+C:angry:…Argh…
+C:sad:I…I talked big at the beginning but it has come a time for me to admit I DO need help. This dragon is a cautious one. Even a prince as gallant as I cannot leave without a weapon.
+C:disappointed:I just didn’t want to tell you at the beginning because well…well…
+P:normal:…well?
+C:blush:Even at the beginning when I didn’t know you were my dear Peppermint, I wanted to impress you. 
+C:sad:I didn’t want to admit I’d been captured.
+C:blush:Because…well…I value you, Pepper. And I want you to think well of me.
+P:blush:…I already think the best of you Chrys. 
+P:blush:Ever since we were children. And even now.
+C:blush:…
+P:happy:….
+P:blush:…ready to escape this tower?
+C:excited:But of course!
+/
+C:happy:Fair maiden! who are you?
+P:normal:I…I am….
+C:excited:Shy now are we? Well it IS surprising to meet such a GENTLEMAN like I! Please try to calm yourself.
+P:angry:I am here to save you from the dragon.
+C:PFFT! Me? I am a prince my sweet Lady! There is no need to save me. I have everything under control.
+P:normal:Think carefully, Prince, you can’t possibly mean that.
+C:normal:….
+C:sad: I suppose it would be wisest to escape….but…
+C:disappointed:I can’t leave that dragon alone. It would be…un-chivalrous.
+P:normal:excuse me?
+C:normal:I said, I appreciate your offer princess but there is something I must accomplish here. 
+P:sad:…think carefully.
+C:excited:Believe me, I’m touched by your concern but I am determined to stay. It is my destiny! Or-or rather…
+C:normal:even if it is not my destiny….I need to stay and help the dragon…
+P:…I understand. Be safe.
+/
+C:happy:Princess! How are you?
+P:normal:….
+C:excited:Shy now are we? Well it is a breathtaking to be in the presence of a GENTLEMAN like I! Please try to calm yourself.
+P:angry:I am here to save you from the dragon.
+C:PFFT! Me? I am a prince, Princess Peppermint! There is no need to save me. I have everything under control.
+P:normal:Think carefully, Prince Chrys, you can’t possibly mean that.
+C:normal:….
+C:sad: I suppose it would be wisest to escape….but…
+C:disappointed:I can’t leave that dragon alone. It would be…un-chivalrous.
+P:normal:excuse me?
+C:normal:I said, I appreciate your offer princess but there is something I must accomplish here. 
+P:sad:…think carefully.
+C:excited:Believe me, I’m touched by your concern but I am determined to stay. It is my destiny! Or-or rather…
+C:normal:even if it is not my destiny….I need to stay and help the dragon…
+P:…I understand. Be safe.
  <
 

@@ -1,22 +1,99 @@
-﻿ TL:happy:Hi
- P:happy:Hello
- TL:normal:What is your name.
- /
- P:sigh:This is our second meeting.
- TL:confused:I missed you since your last visit
- P:normal:I've thought nothing but you since my departure.
- /
- TL:angry:You've come here for a third time- why?
- P:normal:Baby, I know its fast and I know we barely know each other but I love you, Babe. We should get married
- TL:normal: OMG! We totally should!
- /
- TL:angry:Who are you?
- P:normal:You need to get out. There's a ferocious dragon here.
- TL:normal:It's ok, I like the dragon. Please Leave
- /
- TL: Hi, Princess.
- P: Prince, I have to come with me today.
- TL: No
- P: What?
- TL: The dragon... is pretty kind.
- <
+﻿P:normal:...
+T:normal:...
+P:normal:...hello...
+T:happy:Hello there, young one.
+T:normal: Is there anything I can do for you?
+P:normal:Are you the prince that went missing from the coastal kingdom?
+T:sad:I...ah...may be.
+P:normal:My name is Princess Pepper. I'm here to rescue you, Prince Thistle.
+T:happy: Alliteration. I like it. But about the other matter...
+P:normal:...?
+T:sad:How desperate would you say my kingdom is to have me back?
+P:normal:...
+T:happy:Surely they can wait a bit before I return. After all, I have three other brothers.
+P:normal:You...don't want to be rescued?
+T:normal:Perhaps another time? Definitely when I get through this book...Probably...
+P:normal:...
+/
+T:normal:Why, Pepper, how nice of you to visit me. I was just about to sit down for tea. Would you care to join me?
+P:normal:you seem awfully well adjusted for someone kidnapped by a dragon.
+T:happy:Yes well, Isolation does have it’s perks doesn’t it? 
+P:normal:No. Why don’t you enlighten me?
+T:sad:Well…I suppose I have always been an introvert.
+T:disappointed:But more importantly. Being in these towers has given me so much time that I never had before.
+T:excited:I can finally read as many books as I want to. And research! I have time to follow whatever catches my interests.
+P:angry:Your kingdom needs you.
+T:sad:Y-yes I know. 
+P:normal:Listen. Prince Thistle, I can understand where you’re coming from. I’m also…not very good with people…and responsibilities…
+T:normal:No need to convince me, Princess, I understand that I need to return to my kingdom at some point. I just need to ready my heart. 
+P:normal:…
+T:sad:I know, I’m being very childish. But the dragon isn’t a cruel keeper. And I have my books….
+P:normal:…
+P:normal:You mentioned before about your brothers…Don’t you miss them?
+T:sad:My brothers…yes, they must be worried about me. But I could ask you the same Princess Pepper. Isn’t your family worried about you as you rescue mysterious men from dragon guarded towers?
+P:sad:…
+T:disappointed:Excuse me. That was personal.
+P:normal:No, I apologize for talking about your brothers first. 
+P:normal:…actually, I am on this quest to help my kingdom.
+P:sad: you see, we are in a bit of a financial struggle. 
+P:normal:I’ve been on the trail of this dragon to find it’s treasure and save my kingdom.
+P:sad:when I found out the dragon hadkidnapped princes from the neighboring kingdom, I figured I would save them and…
+T:normal:…and my kingdom would owe yours, most likely financially, for saving me.
+P:normal:…yes.
+P:normal:Are you upset?
+T:sad:No. I understand. 
+T:normal:The responsibility  of royals is first and foremost to their kingdom. You were simply looking out for yours.
+P:sad:…I’ll head out for today. But please think about leaving this place. Not only for the sake of my kingdom but yours as well.
+T:normal:…
+/
+T:normal:Ah, Pepper. How nice of you to join me.
+P:normal:Hello Thistle…you seem to be in a better mood today.
+T:normal:Yes…I was thinking about what you said before.
+P:sad:I apologize for that, Prince.
+T:sad:No, it’s not that, Princess. I was- how should I put it?- impressed.
+T:normal:I was impressed with your determination to fulfill your responsibility to your kingdom. 
+P:blush:Why…Thank you…
+T:happy:I suppose it would be wise of me to learn from you. 
+P:normal:Prince Thistle, I don’t want to pressure you into going back to your kingdom in order to help my own. 
+P:happy: do what you want. 
+P:normal: I…I don’t think that dragon is actually going to hurt you. It seems almost fond of you….
+T:happy:I’ve grown quite fond of it myself.
+T:sad:It does seem like a sad creature. It almost reminds me of myself…how I used to be at the palace.
+P:normal:…
+T:happy:But the palace is also my home. It may seem like a cage at times but this…this tower is a cage too.
+P:happy:I’m glad…
+T:blush:If you can support your kingdom and still be so noble…Pepper…Then surely I can as well.
+P:blush:are you ready 
+/
+P:normal:...
+T:normal:...
+P:normal:...hello...
+T:happy:Hello there, young one.
+T:normal: Is there anything I can do for you?
+P:normal:Are you the prince that went missing from the coastal kingdom?
+T:sad:I...ah...may be.
+P:normal:My name is Princess Pepper. I'm here to rescue you, Prince Thistle.
+T:happy: Alliteration. I like it. But about the other matter...
+P:normal:...?
+T:sad:How desperate would you say my kingdom is to have me back?
+P:normal:...
+T:happy:Surely they can wait a bit before I return. After all, I have three other brothers.
+P:normal:You...don't want to be rescued?
+T:normal:Perhaps another time? Definitely when I get through this book...Probably...
+P:normal:...
+T:sad:I can’t leave now…Not when that dragon is so…lonely….
+/
+T:normal:Ah, Pepper. How nice of you to join me.
+P:normal:Hello Thistle…ready to go home?
+T:sad:I-I…
+T:normal:I’m sorry. But I’ve decided to stay here.
+Pepper:sad:…
+Pepper:sad:For your books…?
+T:normal:That too… 
+T:blush:And some other reasons. I need to stay here. Someone needs me.
+Pepper:sad:…
+P:normal: do what you want. 
+P:sad: I…I don’t think that dragon is actually going to hurt you. It seems almost fond of you….
+T:happy:I’ve grown quite fond of it myself.
+T:sad:It does seem like a sad creature. It almost reminds me of myself…how I used to be at the palace.
+P:normal:…
