@@ -1,23 +1,40 @@
-﻿ TL:happy:Hi
- TM:happy:Hello
- TL:normal:What is your name.
- /
- TM:sigh:This is our second meeting.
- TL:confused:I missed you since your last visit
- TM:normal:I've thought nothing but you since my departure.
- /
- TL:angry:You've come here for a third time- why?
- TM:normal:Baby, I know its fast and I know we barely know each other but I love you, Babe. We should get married
- TL:normal: OMG! We totally should!
- /
- TL:angry:Who are you?
- TM:normal:You need to get out. There's a ferocious dragon here.
- TL:normal:It's ok, I like the dragon. Please Leave
- /
- TL: Hi, Princess.
- TM: Prince, I have to come with me today.
- TL: No
- TM: What?
- TL: The dragon... is pretty kind.
- <
-
+﻿THISTLExTHYME
+T:normal:Well, hello there.
+Th:normal:Hello? Hello!! There is a dragon outside! Come on! I’m here to rescue you!
+T:normal:Rescue?Hm…
+T:sad:What an inopportune time. 
+Th:angry:Excuse me?
+T:normal:Actually, I’m in the middle of the riveting text. I can hardly imagine leaving right now.
+Th:angry:Gah! read your text some other time we need to get going NOW!
+T:sad:Must we?
+T:normal:Why don’t you come back later once I’m finished with my research. It should only take a few hours.
+Th:angry:Y-You…
+T:normal:…
+Th:sad:maybe I will leave before I end up killing this idiot…
+/
+Th:normal:Prince Thistle! 
+T:normal:hm?
+Th:happy:That’s you’re name isn’t it? You’re brothers are looking for you. 
+T:sad:Are they now? 
+Th:excited:Well?Doesn’t that make you want to go back to your kingdom?
+T:normal:….
+T:sad:Can you stop yelling? 
+T:normal:Honestly, I’m trying to read.
+Th:angry:Why you…!
+T:normal:You sound like my nursemaids and tutors at the palace. They were also quiet demanding.
+Th:angry:Perhaps it’s because you’re so vexing?
+T:happy:Well, think what you will. I’m much happier here than back home so you’ll have to try extra hard to get me to leave.
+Th:angry:And what about the dragon?
+T:normal:what about it?
+Th:angry:it can eat you, y’know. What if it kills you?
+T:normal:What if it does?
+Th:normal:…
+T:happy: we’ll wait and see.
+Th:sad:Right…I get it, there’s definitely nothing I can say to get you to leave?
+T:normal:…I’m quiet happy here thank you. 
+T:happy:What’s your name?
+Th:normal:Hm? it’s Thistle. Princess Thistle.
+T:happy:Princess Thistle. If you ever go back to my kingdom…Tell my brothers that I’m sorry for being…the way I am.
+Th:normal:…will do.
+/
+T: 

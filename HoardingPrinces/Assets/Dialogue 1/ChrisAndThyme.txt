@@ -1,23 +1,35 @@
-﻿ C:happy:Hi
- TM:happy:Hello
- C:normal:What is your name.
- /
- TM:sigh:This is our second meeting.
- C:confused:I missed you since your last visit
- TM:normal:I've thought nothing but you since my departure.
- /
- C:angry:You've come here for a third time- why?
- TM:normal:Baby, I know its fast and I know we barely know each other but I love you, Babe. We should get married
- C:normal: OMG! We totally should!
- /
- C:angry:Who are you?
- TM:normal:You need to get out. There's a ferocious dragon here.
- C:normal:It's ok, I like the dragon. Please Leave
- /
- C: Hi, Princess.
- TM: Prince, I have to come with me today.
- C: No
- TM: What?
- C: The dragon... is pretty kind.
- <
+﻿C:happy:What do we have here? A woman, nay, a PRINCESS!
+Th:normal:…right…I’m Thyme…
+C:excited:oh GLORIOUS DAY! My fair Princess. My name is Chrysanthemum. 
+Th:normal:Ugh…What a mouthful. I’ll call you Chrys for short. 
+C:sad:Everyone does. How tragic that such a charming name should be reduced to such drugdery…
+Th:angry:I’ve seen that dragon circling around this tower. Are you in trouble? Need any help?
+Th:happy:I’ll rip that dragon apart with my sword.
+C:normal:PFFT! What? Me? In trouble! Why, the very thought makes me bellow in laughter!
+Th:normal:Oh. I just thought-
+C:excited: For you see, fair Princess! I am holding this dragon captive. I’m staying here as GUARD!
+Th:normal:A Guard?
+C: normal:Of a sort. Why, it stands to reason that a charming Prince such as myself is burdened with glorious purpose does it not? 
+C:happy:My purpose in life is to protect you princesses by making sure this Dragon doesn’t go anywhere.
+Th:sad:So you…let yourself get captured so that other princesses don’t get captured?
+C:excited: Correct! What a wondrous Princess you are. Beautiful and clever!
+Th:angry: I hate to break this to you, Shakespeare, but I don’t think this dragon is necessarily attracted to women.
+C:happy:…?
+Th:normal:It’s kidnapped 3 princes from the surrounding kingdoms.
+Th:happy:It wasn’t even interested in any of the princesses 
+C:excited: Hahaha! Why princess you’re sense of humor is incredible!
+Th:angry:Are you even listening to me? Do I have to slay a dragon or not?
+C:normal:I am happy to hear your worry fair lady. But this is a burden I alone must bare. Is it fair? Of course not.
+C:Happy: But it is my lot in life and I have come to accept it!
+Th:angry:Can’t you talk normally? If you really don’t want my help then just say so!
+C:sad:W-Wait! Princess? Where are you going? I…I may need SOME assistance.
+/
 
+C:happy:Princess Thyme! How very wondrous it is to see you!
+Th:normal:Are you still sticking with your story about this being for the greater good?
+C:sad:Y-yes well.
+C:happy:To think you were able to see through my ruse! Yes princess, I may require SOME assistance!
+Th:excited:Great! Now we’re getting somewhere. I’ll smite that dragon and then-
+C:excited:Smite! PFFT! I won’t ask you to waste your time on this dragon, Thyme!
+Th:angry:Then what do you want me to do about it?!
+C:happy:It is one I who am destined to vanquish this foe. It is my GLORIOUS PURPOSE!
