@@ -31,11 +31,11 @@ P:excited:…
 C:excited:My DARLING PEPPERMINT!
 P:sad:ah…Please don’t call me that…
 C:happy:Why it is simply a pleasure seeing you again my childhood accomplice. Have you come to be a side kick in my daring adventures?
-P:normal:Actually…your mom set me. She wants you to stop wasting time and let me rescue you
+P:normal:Actually…your mom sent me. She wants you to stop wasting time and let me rescue you
 C:disappointed:Argh…That woman…she just doesn’t understand my…my…my ARTISTRY!
 P:happy:Please…Let’s go back.
 C:angry:I can’t return home. If I stay in my parents’ castle all the time, I’ll never become a WONDEROUS crusader of justice
-C:happy:it is my duty as a prince, dear Peppermint, to stay out here and protect the citizens from this dragon.
+C:happy:It is my duty as a prince, dear Peppermint, to stay out here and protect the citizens from this dragon.
 P:angry:Don’t be so stubborn…
 C:angry:I’m not! I am perfectly capable of escaping on my own so…please leave.
 P:normal:…alright.

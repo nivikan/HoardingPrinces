@@ -1,81 +1,81 @@
-﻿T:sad:Ha!
+﻿TM:sad:Ha!
 D:normal:…I suppose you were able to sneak past the dragon?
-T:normal:Are you the Prince that’s kept here by that dragon?
+TM:normal:Are you the Prince that’s kept here by that dragon?
 D:normal: And who would you be?
-T:angry:No time for that now, we need to leave before that dragon comes back. 
+TM:angry:No time for that now, we need to leave before that dragon comes back. 
 D:angry:Leave? 
 D:normal:Please, I can leave whenever I want to. You’re services are not necessary.
-T:normal:Services? 
-T:angry:I’ve heard of a rude prince that lives around these parts. Don’t be so prideful.
+TM:normal:Services? 
+TM:angry:I’ve heard of a rude prince that lives around these parts. Don’t be so prideful.
 D: Rude? I’m simply allowing this dragon to keep me until I can get my sword back.
-T:normal:right….
-T:normal:You lost your sword? Is it really this important?
+TM:normal:right….
+TM:normal:You lost your sword? Is it really this important?
 D:sad: … 
-T:angry:…Gah!
-T:angry: I can hear that dragon coming. I’ll be back, perhaps you’ll be more receptive to my help then…
+TM:angry:…Gah!
+TM:angry: I can hear that dragon coming. I’ll be back, perhaps you’ll be more receptive to my help then…
 /
 D:normal:Well if it isn’t...
-T:normal:Thyme.
+TM:normal:Thyme.
 D:happy:A knight?
-T:normal:Princess actually. Are you ready to go now?
+TM:normal:Princess actually. Are you ready to go now?
 D:angry:Are you checking up on me? Frankly, it’s not appreciated. 
-T:angry:Is this about that sword? Just leave it behind. You can’t just stay here until that monster decides to eat you.
+TM:angry:Is this about that sword? Just leave it behind. You can’t just stay here until that monster decides to eat you.
 D:angry:Excuse you, but that sword is an important family heirloom and I...lost it. 
-T:normal:Fine then…I’ll find it for you, where is it?
+TM:normal:Fine then…I’ll find it for you, where is it?
 D:happy:Wha-Ah, I mean…
 D:angry:If I knew I would have it wouldn’t I? I don’t know. It’s probably long gone by now. 
 D:sad:That...That dragon took it when I came here to smite the beast.
-T:normal:Smite it? By yourself? And I assume that bravado didn’t work for you?
+TM:normal:Smite it? By yourself? And I assume that bravado didn’t work for you?
 D:sad:No need to rub salt to the wound, Princess.
-T:normal:…hm.
+TM:normal:…hm.
 D:normal:I’m not returning to my kingdom. Without that sword. I-It’s impossible.
-T:normal:…
-T:sad:…Well, I suppose that’s not COMPLETELY crazy.
+TM:normal:…
+TM:sad:…Well, I suppose that’s not COMPLETELY crazy.
 D:happy:Ah!
 D:You think so?
-T:happy:Yes, my sword is pretty special too. 
-T:normal:My brothers gave it to me when I began my journey. I would hate to lose it. 
-T:normal:I assume your sword has some sort of similar back story?
+TM:happy:Yes, my sword is pretty special too. 
+TM:normal:My brothers gave it to me when I began my journey. I would hate to lose it. 
+TM:normal:I assume your sword has some sort of similar back story?
 D:normal:….
-T:angry: Look!
-T:sad: ah, that is. I’d LIKE to help you but I wan to know why I’m risking my life to get a sword.
-T:disappointed:I mean… If you really think I’m bothering you I’ll leave, but…
+TM:angry: Look!
+TM:sad: ah, that is. I’d LIKE to help you but I wan to know why I’m risking my life to get a sword.
+TM:disappointed:I mean… If you really think I’m bothering you I’ll leave, but…
 D:normal:…it was my sister’s.
-T:normal:what?
+TM:normal:what?
 D:sad:The sword was my sister’s. She died in battle when I was much younger …it’s all my family has left of her. 
 D:normal:I just couldn’t leave it hanging up in our castle as an heirloom forever…she wouldn’t have wanted that.
-T:happy:castle, huh? You’re a prince?
+TM:happy:castle, huh? You’re a prince?
 D:happy:Prince Darjeeling actually.
-T:happy:Ah! I’ve heard of you.
-T:blush:you’re as pretty as the rumors say.”
+TM:happy:Ah! I’ve heard of you.
+TM:blush:you’re as pretty as the rumors say.”
 D:blush:R-Rumors?
-T:excited:haha, yeah and they say your nickname is Prince DARLING.
+TM:excited:haha, yeah and they say your nickname is Prince DARLING.
 D:angry: It. Is. NOT.
-T:happy: hehe.
-T:normal:I’ll find that sword for you. The dragon took it right? I’ll check it’s Liar.
+TM:happy: hehe.
+TM:normal:I’ll find that sword for you. The dragon took it right? I’ll check it’s Liar.
 D:normal:…be careful.
 /
 D:happy:Thyme!
-T:happy:You remembered my name. I’m honored, Prince Darling.
+TM:happy:You remembered my name. I’m honored, Prince Darling.
 D:Blush:I see you remembered mine as well. 
-T:happy:I’m here to take you out of this tower, Darjeeling, and I’m not taking “No” for an answer. 
+TM:happy:I’m here to take you out of this tower, Darjeeling, and I’m not taking “No” for an answer. 
 D:angry:Wha-? Didn’t I tell you before? If I’m returning home, it must be with the sword or with nothing else. 
-T:normal:Fine. I get it.
-T:happy:I was just teasing. I came prepared.
+TM:normal:Fine. I get it.
+TM:happy:I was just teasing. I came prepared.
 D:excited:T-That’s my sword. How did you…? 
-T:normal:Like I thought, it was in the Dragon’s Lair.
-T:angry:I had a hard time sneaking in.
+TM:normal:Like I thought, it was in the Dragon’s Lair.
+TM:angry:I had a hard time sneaking in.
 D:angry:Y-you…And you called me foolish before, how could you sneak in there by yourself? 
-T:normal:Actually, it was much easier than I thought. 
-T:angry:T-the dragon actually came back while I was inside.
+TM:normal:Actually, it was much easier than I thought. 
+TM:angry:T-the dragon actually came back while I was inside.
 D:angry:Gah! Are you alright?
-T:normal:I’m fine, the dragon didn’t attack. Almost as if… it wanted me to come save you.
-T:happy:That dragon must have developed quite a fondness for you. 
+TM:normal:I’m fine, the dragon didn’t attack. Almost as if… it wanted me to come save you.
+TM:happy:That dragon must have developed quite a fondness for you. 
 D:normal:Yes, well, the feeling is NOT appreciated.
-T:blush:I-I’ve developed something of a fondness as well.
+TM:blush:I-I’ve developed something of a fondness as well.
 D:normal:…
 D:blush:…that. That’s a sentiment I may be able to reciprocate. 
-T:blush:..ha…
+TM:blush:..ha…
 D:blush:hm…quite. I suppose, a thank you is in order.
-T:happy:Don’t mention it. Ready to leave this tower, Prince Darjeeling?
+TM:happy:Don’t mention it. Ready to leave this tower, Prince Darjeeling?
 D:happy:Most, definitely.

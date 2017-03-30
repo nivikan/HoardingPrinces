@@ -1,35 +1,107 @@
 ﻿C:happy:What do we have here? A woman, nay, a PRINCESS!
-Th:normal:…right…I’m Thyme…
+TM:normal:…right…I’m Thyme…
 C:excited:oh GLORIOUS DAY! My fair Princess. My name is Chrysanthemum. 
-Th:normal:Ugh…What a mouthful. I’ll call you Chrys for short. 
+TM:normal:Ugh…What a mouthful. I’ll call you Chrys for short. 
 C:sad:Everyone does. How tragic that such a charming name should be reduced to such drugdery…
-Th:angry:I’ve seen that dragon circling around this tower. Are you in trouble? Need any help?
-Th:happy:I’ll rip that dragon apart with my sword.
+TM:angry:I’ve seen that dragon circling around this tower. Are you in trouble? Need any help?
+TM:happy:I’ll rip that dragon apart with my sword.
 C:normal:PFFT! What? Me? In trouble! Why, the very thought makes me bellow in laughter!
-Th:normal:Oh. I just thought-
+TM:normal:Oh. I just thought-
 C:excited: For you see, fair Princess! I am holding this dragon captive. I’m staying here as GUARD!
-Th:normal:A Guard?
+TM:normal:A guard?
 C: normal:Of a sort. Why, it stands to reason that a charming Prince such as myself is burdened with glorious purpose does it not? 
 C:happy:My purpose in life is to protect you princesses by making sure this Dragon doesn’t go anywhere.
-Th:sad:So you…let yourself get captured so that other princesses don’t get captured?
+TM:sad:So you…let yourself get captured so that princesses don’t get captured?
 C:excited: Correct! What a wondrous Princess you are. Beautiful and clever!
-Th:angry: I hate to break this to you, Shakespeare, but I don’t think this dragon is necessarily attracted to women.
+TM:angry: I hate to break this to you, Shakespeare, but I don’t think this dragon is necessarily attracted to women.
 C:happy:…?
-Th:normal:It’s kidnapped 3 princes from the surrounding kingdoms.
-Th:happy:It wasn’t even interested in any of the princesses 
+TM:normal:It’s kidnapped 3 princes from the surrounding kingdoms.
+TM:happy:It wasn’t even interested in any of the princesses.
 C:excited: Hahaha! Why princess you’re sense of humor is incredible!
-Th:angry:Are you even listening to me? Do I have to slay a dragon or not?
+TM:angry:Are you even listening to me? Do I have to slay a dragon or not?
 C:normal:I am happy to hear your worry fair lady. But this is a burden I alone must bare. Is it fair? Of course not.
 C:Happy: But it is my lot in life and I have come to accept it!
-Th:angry:Can’t you talk normally? If you really don’t want my help then just say so!
+TM:angry:Can’t you talk normally? If you really don’t want my help then just say so!
 C:sad:W-Wait! Princess? Where are you going? I…I may need SOME assistance.
 /
-
 C:happy:Princess Thyme! How very wondrous it is to see you!
 Th:normal:Are you still sticking with your story about this being for the greater good?
 C:sad:Y-yes well.
+C:angry: Blast!
 C:happy:To think you were able to see through my ruse! Yes princess, I may require SOME assistance!
-Th:excited:Great! Now we’re getting somewhere. I’ll smite that dragon and then-
+TM:excited:Great! Now we’re getting somewhere. I’ll smite that dragon and then-
 C:excited:Smite! PFFT! I won’t ask you to waste your time on this dragon, Thyme!
-Th:angry:Then what do you want me to do about it?!
+TM:angry:Then what do you want me to do about it?!
 C:happy:It is one I who am destined to vanquish this foe. It is my GLORIOUS PURPOSE!
+TM: Right, right. You're oh so very important purpose...
+C: I'm glad you understand, Thyme. There is only one thing I'll need to fulfill this destiny of mine!
+TM: And what's that?
+C: Well, How should I say... A prince, as you know, has a destiny to vanquish an evil dragon.
+TM: Of course.
+C: Well, in my haste to join with my destiny after I heard of this foul beast, I may have forgotten to grab my sword.
+TM: You're stuck beacuse you came here without any weapons? Are you an idiot?
+C: Alas! Tis the fate of all us positively dashing princes! To be burdened with such unfortunate twists of fate! 
+C: It is as if the angels are jealous of my form and face. They cannot help but to punish me for it!
+TM: Hehe, calm down a bit. You just need a weapon, right? Would you care to try my sword?
+C: Try your sword?! Would my lady be so kind as to allow me a chance to use it?
+TM: Here you go.
+C: Well now... this is quite... heavy....
+C: Pricess! However do you carry this MOUND of bricks with you? This sword is positively dense!
+TM: Haha! I guess it is rather heavy. It gives me good balance along with my dress and hair.
+C: Alas, I cannot use this. Am I cursed to stay here forever? With this foul dragon? I suppose they do say that the beautiful die young...
+TM: Calm down, Chrys. I shall retrieve your sword. Just promise me you will stay safe till then.
+C: What a positively grand woman...
+/
+TM: Chris! Are you here?
+C: Thyme! It's you!
+C: I mean- Of course you would come again to bask in the glow of the great Chrysanthemum!
+TM: Hehe, not quite. I've come with your request.
+C: Oh my sword! How were you able to find the right one?
+TM: I retrieved it from your kingdom. Your mother and father have been extremely worried. They asked me to tell you that they don't care about whether you kill the dragon or not.
+TM: They just want you home.
+C: My parents have always wanted such a boring and quiet life for me... They do not understand that I am burdened with glorious purpose! 
+C: I suppose it was part of the reason I was so excited to exit the castle when I left.
+TM: Chrys... There are better ways of living out your glorious purpose than by putting yourself in danger.
+C: How else, my dear princess? My blood yearns for the call of adventure and I have no way to quench its thirst.
+TM: Perhaps... if it suits your purpose, you can join with me? 
+TM: I've travelled from a far away land and have only begun my quest to see as much of this land as I can.
+TM: I'm sure I'll stumble across many an adventure that has your name on it.
+C: My Princess! Are you positive?! You would have me accompany you on your quest? Is it to fight dragons and smite enemies for you?
+TM: No. It's because you make me smile.
+C: Oh my heart! Princess, could this mean what I think it does? Shall I allow my hopes to flutter?
+TM: If you're ok with it, Chrys... Leave this castle and this dragon. Please explore the world with me.
+C: My darling! 
+/
+C:happy:What do we have here? A woman, nay, a PRINCESS!
+TM:normal:…right…I’m Thyme…
+C:excited:oh GLORIOUS DAY! My fair Princess. My name is Chrysanthemum. 
+TM:normal:Ugh…What a mouthful. I’ll call you Chrys for short. 
+C:sad:Everyone does. How tragic that such a charming name should be reduced to such drugdery…
+TM:angry:I’ve seen that dragon circling around this tower. Are you in trouble? Need any help?
+TM:happy:I’ll rip that dragon apart with my sword.
+C:normal:PFFT! That dragon? It is nothing but a sweetheart!
+TM: Excuse me?
+C: Well, I understand. For once not blessed with the gift of everlasting empathy, it may be hard to see past this beast's foul exterior.
+TM: Are you sympathetic to this beast?
+C: I assure you I have not gone crazy... It is simply my burden to hold more perceptiveness and kindness towards those less fortunate.
+TM: Right... well, I suppose I will come back again... when you're in the right head.
+C: I will be fine without your concern, dear princess. But do tell the world of the prince that calmed the rage of the a mighty and dangerous beast 
+C: simply with his dashing looks and charming personality!
+TM: ...Right...
+/
+C: My dear, Thyme. We have crossed paths again!
+TM: Chris, what are you doing? I thought you were getting ready to slay the dragon but right now it just looks like you're...
+C: Admiring my beautiful visage in this mirror? Why yes, I am. 
+C: Actually, my dragon friend gifted me this pocket mirror, isn't it absolutely grand?
+TM:Chris, what are you doing?! If you don't what to kill this dragon anymore than we need to get out. 
+TM: Here, I can sneak you out.
+C: Nay, my princess. I cannot bear to leave this beast alone by its lonesome.
+TM: What?
+C: Well, I understand. For once not blessed with the gift of everlasting empathy, it may be hard to see past this beast's foul exterior.
+TM: Are you sympathetic to this beast?
+C: I assure you I have not gone crazy... It is simply my burden to hold more perceptiveness and kindness towards those less fortunate.
+TM: Right... well, I suppose I will come back again... when you're in the right head.
+C: I will be fine without your concern, dear princess. But do tell the world of the prince that calmed the rage of the a mighty and dangerous beast 
+C: simply with his dashing looks and charming personality!
+TM: ...Right...
+>
