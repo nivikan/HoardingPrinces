@@ -25,6 +25,17 @@ public class dialogueSystem : MonoBehaviour {
 	public GameObject GameManager;
 	public int numInConvo;
 
+	public Sprite PrincessCGMatchaThistle;
+	public Sprite PrincessCGMatchaDarjeeling;
+	public Sprite PrincessCGMatchaChris;
+	public Sprite PrincessCGThymeThistle;
+	public Sprite PrincessCGThymeDarjeeling;
+	public Sprite PrincessCGThymeChris;
+	public Sprite PrincessCGPepperThistle;
+	public Sprite PrincessCGPepperDarjeeling;
+	public Sprite PrincessCGPepperChris;
+	public GameObject princessCG;
+
 	public Sprite currPrinceSprite;
 	public Sprite currPrincessSprite;
 	public Sprite currPrinceToDragonSprite;
@@ -648,6 +659,7 @@ public class dialogueSystem : MonoBehaviour {
 	void makeDarjeelingThymeConvo()
 	{
 
+
 		if (DarjeelingAlone == true){
 			if (DarjeelingAndThymeEncounter == 0) {
 				if (numInConvo >= DarjeelingAndThymeConvo3_GoAwayNoMet.Length)
@@ -678,11 +690,16 @@ public class dialogueSystem : MonoBehaviour {
 				makeConvo (DarjeelingAndThymeConvo1[numInConvo]);
 		}
 		else if (DarjeelingAndThymeEncounter == 2) {
-			if (numInConvo >= DarjeelingAndThymeConvo2.Length)
+			if (numInConvo >= DarjeelingAndThymeConvo2.Length) {
+				princessCG.SetActive (false);
 				endDialogueTurn ();
-			else
-				makeConvo (DarjeelingAndThymeConvo2[numInConvo]);
-
+			} else {
+				if (numInConvo >= 11) {
+					princessCG.GetComponent<Image> ().sprite = PrincessCGThymeDarjeeling;
+					princessCG.SetActive (true);
+				}
+				makeConvo (DarjeelingAndThymeConvo2 [numInConvo]);
+			}
 			//DarjeelingAndThymeEncounter++;
 			DarjeelingStillOnMap = false;
 			ThymeStillOnMap = false;
@@ -735,11 +752,18 @@ public class dialogueSystem : MonoBehaviour {
 		}
 
 		else if (DarjeelingAndMatchaEncounter == 2) {
-			if (numInConvo >= DarjeelingAndMatchaConvo2.Length)
+			if (numInConvo >= DarjeelingAndMatchaConvo2.Length) {
+				princessCG.SetActive (false);
 				endDialogueTurn ();
-			else
-				makeConvo (DarjeelingAndMatchaConvo2[numInConvo]);
+			}
+			else {
+				if (numInConvo >= 11) {
+					princessCG.GetComponent<Image>().sprite = PrincessCGMatchaDarjeeling;
+					princessCG.SetActive (true);
+				}
+				makeConvo (DarjeelingAndMatchaConvo2 [numInConvo]);
 
+			}
 			DarjeelingStillOnMap = false;
 			MatchaStillOnMap = false;
 		}
@@ -789,11 +813,18 @@ public class dialogueSystem : MonoBehaviour {
 				makeConvo (DarjeelingAndPepperConvo1[numInConvo]);
 		}
 		else if (DarjeelingAndPepperEncounter == 2) {
-			if (numInConvo >= DarjeelingAndPepperConvo2.Length)
+			if (numInConvo >= DarjeelingAndPepperConvo2.Length) {
 				endDialogueTurn ();
-			else
-				makeConvo (DarjeelingAndPepperConvo2[numInConvo]);
-
+				princessCG.SetActive (true);
+			}
+			else {
+				if (numInConvo >= 11) {
+					princessCG.GetComponent<Image>().sprite = PrincessCGPepperDarjeeling;
+					princessCG.SetActive (true);
+				}
+				makeConvo (DarjeelingAndPepperConvo2 [numInConvo]);
+			}
+			//princessCG.SetActive (false);
 			DarjeelingStillOnMap = false;
 			PepperStillOnMap = false;
 		}
@@ -843,11 +874,16 @@ public class dialogueSystem : MonoBehaviour {
 				makeConvo (ChrisAndThymeConvo1[numInConvo]);
 		}
 		else if (ChrisAndThymeEncounter == 2) {
-			if (numInConvo >= ChrisAndThymeConvo2.Length)
+			if (numInConvo >= ChrisAndThymeConvo2.Length) {
+				princessCG.SetActive (false);
 				endDialogueTurn ();
-			else
-				makeConvo (ChrisAndThymeConvo2[numInConvo]);
-
+			} else {
+				if (numInConvo >= 11) {
+					princessCG.GetComponent<Image> ().sprite = PrincessCGThymeChris;
+					princessCG.SetActive (true);
+				}
+				makeConvo (ChrisAndThymeConvo2 [numInConvo]);
+			}
 			ChrisStillOnMap = false;
 			ThymeStillOnMap = false;
 
@@ -899,10 +935,16 @@ public class dialogueSystem : MonoBehaviour {
 		}
 
 		else if (ChrisAndMatchaEncounter == 2) {
-			if (numInConvo >= ChrisAndMatchaConvo2.Length)
+			if (numInConvo >= ChrisAndMatchaConvo2.Length) {
+				princessCG.SetActive (false);
 				endDialogueTurn ();
-			else
-				makeConvo (ChrisAndMatchaConvo2[numInConvo]);
+			} else {
+				if (numInConvo >= 11) {
+					princessCG.GetComponent<Image> ().sprite = PrincessCGMatchaChris;
+					princessCG.SetActive (true);
+				}
+				makeConvo (ChrisAndMatchaConvo2 [numInConvo]);
+			}
 
 			ChrisStillOnMap = false;
 			MatchaStillOnMap = false;
@@ -953,10 +995,16 @@ public class dialogueSystem : MonoBehaviour {
 				makeConvo (ChrisAndPepperConvo1[numInConvo]);
 		}
 		else if (ChrisAndPepperEncounter == 2) {
-			if (numInConvo >= ChrisAndPepperConvo2.Length)
+			if (numInConvo >= ChrisAndPepperConvo2.Length) {
+				princessCG.SetActive (false);
 				endDialogueTurn ();
-			else
-				makeConvo (ChrisAndPepperConvo2[numInConvo]);
+			} else {
+				if (numInConvo >= 11) {
+					princessCG.GetComponent<Image> ().sprite = PrincessCGPepperChris;
+					princessCG.SetActive (true);
+				}
+				makeConvo (ChrisAndPepperConvo2 [numInConvo]);
+			}
 
 			ChrisStillOnMap = false;
 			PepperStillOnMap = false;
@@ -1010,10 +1058,16 @@ public class dialogueSystem : MonoBehaviour {
 				makeConvo (ThistleAndThymeConvo1[numInConvo]);
 		}
 		else if (ThistleAndThymeEncounter == 2) {
-			if (numInConvo >= ThistleAndThymeConvo2.Length)
+			if (numInConvo >= ThistleAndThymeConvo2.Length) {
+				princessCG.SetActive (false);
 				endDialogueTurn ();
-			else
-				makeConvo (ThistleAndThymeConvo2[numInConvo]);
+			} else {
+				if (numInConvo >= 11) {
+					princessCG.GetComponent<Image> ().sprite = PrincessCGThymeThistle;
+					princessCG.SetActive (true);
+				}
+				makeConvo (ThistleAndThymeConvo2 [numInConvo]);
+			}
 
 			ThistleStillOnMap = false;
 			ThymeStillOnMap = false;
@@ -1067,10 +1121,16 @@ public class dialogueSystem : MonoBehaviour {
 		}
 
 		else if (ThistleAndMatchaEncounter == 2) {
-			if (numInConvo >= ThistleAndMatchaConvo2.Length)
+			if (numInConvo >= ThistleAndMatchaConvo2.Length) {
+				princessCG.SetActive (false);
 				endDialogueTurn ();
-			else
-				makeConvo (ThistleAndMatchaConvo2[numInConvo]);
+			} else {
+				if (numInConvo >= 11) {
+					princessCG.GetComponent<Image> ().sprite = PrincessCGMatchaThistle;
+					princessCG.SetActive (true);
+				}
+				makeConvo (ThistleAndMatchaConvo2 [numInConvo]);
+			}
 
 			ThistleStillOnMap = false;
 			MatchaStillOnMap = false;
@@ -1122,10 +1182,16 @@ public class dialogueSystem : MonoBehaviour {
 				makeConvo (ThistleAndPepperConvo1[numInConvo]);
 		}
 		else if (ThistleAndPepperEncounter == 2) {
-			if (numInConvo >= ThistleAndPepperConvo2.Length)
+			if (numInConvo >= ThistleAndPepperConvo2.Length) {
+				princessCG.SetActive (false);
 				endDialogueTurn ();
-			else
-				makeConvo (ThistleAndPepperConvo2[numInConvo]);
+			} else {
+				if (numInConvo >= 11) {
+					princessCG.GetComponent<Image> ().sprite = PrincessCGPepperThistle;
+					princessCG.SetActive (true);
+				}
+				makeConvo (ThistleAndPepperConvo2 [numInConvo]);
+			}
 
 			ThistleStillOnMap = false;
 			PepperStillOnMap = false;
@@ -1263,7 +1329,7 @@ public class dialogueSystem : MonoBehaviour {
 
 	void makeConvo(string convoLine){
 
-		//Debug.Log (convoLine);
+		Debug.Log (convoLine);
 		//Debug.Log (numInConvo);
 
 		string[] Line = convoLine.Split (':');
@@ -1272,12 +1338,14 @@ public class dialogueSystem : MonoBehaviour {
 
 		//Debug.Log (Line[0]);
 		//Debug.Log(numInConvo+ " is apparantly not greater than " + Line.Length);
-		if (numInConvo >= Line.Length) {
-
-
-		} 
-
-		else {
+		Debug.Log ("*****************************************");
+		Debug.Log (Line[0]);
+		Debug.Log (Line[1]);
+		Debug.Log (Line[2]);
+		Debug.Log (Line.Length);
+		Debug.Log (numInConvo);
+		Debug.Log ("*****************************************");
+		if (3 <= Line.Length) {
 			makeDialogue (Line [0], Line [1], Line [2]);
 		}
 	
@@ -1285,9 +1353,13 @@ public class dialogueSystem : MonoBehaviour {
 	}
 
 	void makeDialogue(string character, string emotion, string dialogue){
-
+		Debug.Log ("Making dialog");
+		Debug.Log (character);
+		Debug.Log (emotion);
+		Debug.Log (dialogue);
+		Debug.Log ("Making dialog");
 		string fullCharacterName = getCharacter (character);
-		//Debug.Log (fullCharacterName);
+
 
 		Sprite characterSprite = getSprite(fullCharacterName,emotion); //change to canvas
 
@@ -1301,9 +1373,13 @@ public class dialogueSystem : MonoBehaviour {
 			talkingPrincess.GetComponent<Image> ().sprite = characterSprite; //change to canvas
 		}
 
+		Debug.Log (fullCharacterName);
+
 		theText.text = dialogue;
 		personSpeaking.text = fullCharacterName;
 
+		Debug.Log (theText.text);
+		Debug.Log (personSpeaking.text);
 
 	}
 
@@ -1311,22 +1387,22 @@ public class dialogueSystem : MonoBehaviour {
 
 	string getCharacter(string characterSimple){
 
-		if (characterSimple == " D") {
+		if (characterSimple == " D" || characterSimple == "D") {
 			return "Darjeeling";
 		}
-		else if (characterSimple == " C") {
+		else if (characterSimple == " C" || characterSimple == "C") {
 			return "Chris";
 		}
-		else if (characterSimple == " TL") {
+		else if (characterSimple == " TL" || characterSimple == "TL" || characterSimple == " T" || characterSimple == "T") {
 			return "Thistle";
 		}
-		else if (characterSimple == " TM") {
+		else if (characterSimple == " TM" || characterSimple == "TM" || characterSimple == " Th" || characterSimple == "Th") {
 			return "Thyme";
 		}
-		else if (characterSimple == " M") {
+		else if (characterSimple == " M" || characterSimple == "M") {
 			return "Matcha";
 		}
-		else if (characterSimple == " P") {
+		else if (characterSimple == " P" || characterSimple == "P") {
 			return "Pepper";
 		}
 		return null;

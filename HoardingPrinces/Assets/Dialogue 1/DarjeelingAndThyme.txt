@@ -79,3 +79,14 @@ TM:blush:..ha…
 D:blush:hm…quite. I suppose, a thank you is in order.
 TM:happy:Don’t mention it. Ready to leave this tower, Prince Darjeeling?
 D:happy:Most, definitely.
+/
+D:angry:Who are you?
+TM:normal:You need to get out. There's a ferocious dragon here.
+D:normal:It's ok, I like the dragon. Please Leave
+/
+D: Hi, Princess.
+TM: Prince, I have to come with me today.
+D: No
+TM: What?
+D: The dragon... is pretty kind.
+ <

@@ -1,5 +1,4 @@
-﻿THISTLExTHYME
-T:normal:Well, hello there.
+﻿T:normal:Well, hello there.
 Th:normal:Hello? Hello!! There is a dragon outside! Come on! I’m here to rescue you!
 T:normal:Rescue?Hm…
 T:sad:What an inopportune time. 
@@ -37,4 +36,12 @@ Th:normal:Hm? it’s Thistle. Princess Thistle.
 T:happy:Princess Thistle. If you ever go back to my kingdom…Tell my brothers that I’m sorry for being…the way I am.
 Th:normal:…will do.
 /
-T: 
+T:normal:yo
+Th:normal:yo
+/
+T:normal:yo
+Th:normal:yo
+/
+T:normal:yo
+Th:normal:yo
+<

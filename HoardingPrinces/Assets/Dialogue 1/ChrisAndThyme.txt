@@ -1,6 +1,6 @@
 ﻿C:happy:What do we have here? A woman, nay, a PRINCESS!
 TM:normal:…right…I’m Thyme…
-C:excited:oh GLORIOUS DAY! My fair Princess. My name is Chrysanthemum. 
+C:excited:Oh GLORIOUS DAY! My fair Princess. My name is Chrysanthemum. 
 TM:normal:Ugh…What a mouthful. I’ll call you Chrys for short. 
 C:sad:Everyone does. How tragic that such a charming name should be reduced to such drugdery…
 TM:angry:I’ve seen that dragon circling around this tower. Are you in trouble? Need any help?
