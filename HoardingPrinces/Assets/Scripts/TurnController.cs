@@ -159,12 +159,12 @@ public class TurnController : MonoBehaviour {
 
 		//Debug Puposes
 		if (Input.GetKey ("r")) {
-			print ("Getting rid of Chris, Thistle, Thyme, and Matcha");
-			GameObject.Find ("GameManager").GetComponent<dialogueSystem> ().ChrisStillOnMap = false;
+			print ("Getting rid of Darjeeling, Thistle, Thyme, and Matcha");
+			GameObject.Find ("GameManager").GetComponent<dialogueSystem> ().DarjeelingStillOnMap = false;
 			GameObject.Find ("GameManager").GetComponent<dialogueSystem> ().ThistleStillOnMap = false;
 			GameObject.Find ("GameManager").GetComponent<dialogueSystem> ().ThymeStillOnMap = false;
 			GameObject.Find ("GameManager").GetComponent<dialogueSystem> ().MatchaStillOnMap = false;
-			GameObject.Find ("GameManager").GetComponent<dialogueSystem> ().DarjeelingAlone = true;
+			GameObject.Find ("GameManager").GetComponent<dialogueSystem> ().ChrisAlone = true;
 		}
 		
 
@@ -745,14 +745,14 @@ public class TurnController : MonoBehaviour {
 			endTurnQuestionText.text = "Princess has reached an empty castle!";
 
 			if (princess1InCastle1WithPrince1 || princess1InCastle2WithPrince1 || princess1InCastle3WithPrince1 || princess1InCastle4WithPrince1) {
-				endTurnQuestionText.text = "Princess Thyme has reached Prince Chris!";
+				endTurnQuestionText.text = "Princess Thyme has reached Prince Darjeeling!";
 				endTurnQuestion.SetActive (true);
 				isCutsceneGoingToPlay = true;
 			} else if (princess2InCastle1WithPrince1 || princess2InCastle2WithPrince1 || princess2InCastle3WithPrince1 || princess2InCastle4WithPrince1) {
-				endTurnQuestionText.text = "Princess Matcha has reached Prince Chris!";
+				endTurnQuestionText.text = "Princess Matcha has reached Prince Darjeeling!";
 				endTurnQuestion.SetActive (true);
 			} else if (princess3InCastle1WithPrince1 || princess3InCastle2WithPrince1 || princess3InCastle3WithPrince1 || princess3InCastle4WithPrince1) {
-				endTurnQuestionText.text = "Princess Pepper has reached Prince Chris!";
+				endTurnQuestionText.text = "Princess Pepper has reached Prince Darjeeling!";
 				endTurnQuestion.SetActive (true);
 				isCutsceneGoingToPlay = true;
 			} else if (princess1InCastle1WithPrince2 || princess1InCastle2WithPrince2 || princess1InCastle3WithPrince2 || princess1InCastle4WithPrince2) {

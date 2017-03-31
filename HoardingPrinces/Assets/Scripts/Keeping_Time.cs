@@ -24,9 +24,9 @@ public class Keeping_Time : MonoBehaviour {
 	void OnGUI() {
 		minutes = Mathf.FloorToInt(time / 60F);
 		seconds = Mathf.FloorToInt(time - minutes * 60);
-		string niceTime = string.Format("{0:00}:{1:00}", minutes, seconds);
+		//string niceTime = string.Format("{0:00}:{1:00}", minutes, seconds);
 
-		GUI.Label(new Rect(10,10,250,100), niceTime);
+		//GUI.Label(new Rect(10,10,250,100), niceTime);
 
 	}
 }

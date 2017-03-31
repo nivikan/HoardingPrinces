@@ -5,7 +5,7 @@ C:sad:Gah! Such a lackluster nickname does not suit me...
 P:normal:I am Princess Pepper. I have been looking for you...
 C:sad:Hmmm. Pepper. Pepper...Why have I heard that name before?
 C:angry:BLAST! This dragon must have me under a curse! A curse of forgetfulness! How tragic! How ROMANTIC!
-P:Normal:...
+P:normal:...
 C:happy:Hah! Has the fair princess Pepper gone speechless in horror? Never you mind Princess. This curse is one I must bear.
 P:angry:...
 C:sad:W-what is it Princess?
@@ -76,7 +76,7 @@ C:happy:Fair maiden! who are you?
 P:normal:I…I am….
 C:excited:Shy now are we? Well it IS surprising to meet such a GENTLEMAN like I! Please try to calm yourself.
 P:angry:I am here to save you from the dragon.
-C:PFFT! Me? I am a prince my sweet Lady! There is no need to save me. I have everything under control.
+C:normal:PFFT! Me? I am a prince my sweet Lady! There is no need to save me. I have everything under control.
 P:normal:Think carefully, Prince, you can’t possibly mean that.
 C:normal:….
 C:sad: I suppose it would be wisest to escape….but…
@@ -86,13 +86,13 @@ C:normal:I said, I appreciate your offer princess but there is something I must 
 P:sad:…think carefully.
 C:excited:Believe me, I’m touched by your concern but I am determined to stay. It is my destiny! Or-or rather…
 C:normal:even if it is not my destiny….I need to stay and help the dragon…
-P:…I understand. Be safe.
+P:normal:…I understand. Be safe.
 /
 C:happy:Princess! How are you?
 P:normal:….
 C:excited:Shy now are we? Well it is a breathtaking to be in the presence of a GENTLEMAN like I! Please try to calm yourself.
 P:angry:I am here to save you from the dragon.
-C:PFFT! Me? I am a prince, Princess Peppermint! There is no need to save me. I have everything under control.
+C:normal:PFFT! Me? I am a prince, Princess Peppermint! There is no need to save me. I have everything under control.
 P:normal:Think carefully, Prince Chrys, you can’t possibly mean that.
 C:normal:….
 C:sad: I suppose it would be wisest to escape….but…
@@ -102,6 +102,6 @@ C:normal:I said, I appreciate your offer princess but there is something I must 
 P:sad:…think carefully.
 C:excited:Believe me, I’m touched by your concern but I am determined to stay. It is my destiny! Or-or rather…
 C:normal:even if it is not my destiny….I need to stay and help the dragon…
-P:…I understand. Be safe.
+P:normal:…I understand. Be safe.
  <
 

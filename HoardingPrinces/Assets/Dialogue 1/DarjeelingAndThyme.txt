@@ -7,7 +7,7 @@ D:angry:Leave?
 D:normal:Please, I can leave whenever I want to. You’re services are not necessary.
 TM:normal:Services? 
 TM:angry:I’ve heard of a rude prince that lives around these parts. Don’t be so prideful.
-D: Rude? I’m simply allowing this dragon to keep me until I can get my sword back.
+D:angry: Rude? I’m simply allowing this dragon to keep me until I can get my sword back.
 TM:normal:right….
 TM:normal:You lost your sword? Is it really this important?
 D:sad: … 
@@ -32,7 +32,7 @@ D:normal:I’m not returning to my kingdom. Without that sword. I-It’s impossi
 TM:normal:…
 TM:sad:…Well, I suppose that’s not COMPLETELY crazy.
 D:happy:Ah!
-D:You think so?
+D:normal:You think so?
 TM:happy:Yes, my sword is pretty special too. 
 TM:normal:My brothers gave it to me when I began my journey. I would hate to lose it. 
 TM:normal:I assume your sword has some sort of similar back story?
@@ -57,7 +57,7 @@ D:normal:…be careful.
 /
 D:happy:Thyme!
 TM:happy:You remembered my name. I’m honored, Prince Darling.
-D:Blush:I see you remembered mine as well. 
+D:blush:I see you remembered mine as well. 
 TM:happy:I’m here to take you out of this tower, Darjeeling, and I’m not taking “No” for an answer. 
 D:angry:Wha-? Didn’t I tell you before? If I’m returning home, it must be with the sword or with nothing else. 
 TM:normal:Fine. I get it.
@@ -84,9 +84,9 @@ D:angry:Who are you?
 TM:normal:You need to get out. There's a ferocious dragon here.
 D:normal:It's ok, I like the dragon. Please Leave
 /
-D: Hi, Princess.
-TM: Prince, I have to come with me today.
-D: No
-TM: What?
-D: The dragon... is pretty kind.
+D:normal: Hi, Princess.
+TM:normal:  Prince, I have to come with me today.
+D:normal:  No
+TM:normal:  What?
+D:normal:  The dragon... is pretty kind.
  <

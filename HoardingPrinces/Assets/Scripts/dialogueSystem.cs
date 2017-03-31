@@ -546,9 +546,10 @@ public class dialogueSystem : MonoBehaviour {
 
 				makeThistlePepperConvo ();
 			}
+				
 
 			else if (DarjeelingAndDragonMeet) {
-				Debug.Log ("Darjeeling and Dragon Meeting");
+
 				currPrinceSprite = null;
 				currPrincessSprite = null;
 				currPrinceToDragonSprite = getSprite("Darjeeling","normal");
@@ -556,14 +557,16 @@ public class dialogueSystem : MonoBehaviour {
 				talkingPrince.SetActive (false);
 				talkingPrincess.SetActive (false);
 				talkingPrinceToDragon.SetActive (true);
-
 				talkingPrinceToDragon.GetComponent<Image>().sprite = currPrinceToDragonSprite;
 
 				makeDarjeelingDragonConvo ();
+
 			}
 
+
 			else if (ChrisAndDragonMeet) {
-				
+
+				Debug.Log ("Chris And Dragon Meet");
 				currPrinceSprite = null;
 				currPrincessSprite = null;
 				currPrinceToDragonSprite = getSprite("Chris","normal");
@@ -571,24 +574,26 @@ public class dialogueSystem : MonoBehaviour {
 				talkingPrince.SetActive (false);
 				talkingPrincess.SetActive (false);
 				talkingPrinceToDragon.SetActive (true);
-
 				talkingPrinceToDragon.GetComponent<Image>().sprite = currPrinceToDragonSprite;
 
 				makeChrisDragonConvo ();
+
 			}
 
+
 			else if (ThistleAndDragonMeet) {
+
 				currPrinceSprite = null;
 				currPrincessSprite = null;
-				currPrinceToDragonSprite = getSprite("Thistle","normal");
+				currPrinceToDragonSprite = getSprite("Chris","normal");
 
 				talkingPrince.SetActive (false);
 				talkingPrincess.SetActive (false);
 				talkingPrinceToDragon.SetActive (true);
-
 				talkingPrinceToDragon.GetComponent<Image>().sprite = currPrinceToDragonSprite;
 
 				makeThistleDragonConvo ();
+
 			}
 
 
@@ -602,53 +607,6 @@ public class dialogueSystem : MonoBehaviour {
 			/////////////CHECK IF ONLY 1 PRINCE IS LEFT AND IMPLEMENT CONVO WITH DRAGON
 			////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-
-			if (DarjeelingAndDragonMeet) {
-
-				currPrinceSprite = null;
-				currPrincessSprite = null;
-				currPrinceToDragonSprite = getSprite("Darjeeling","normal");
-
-				talkingPrince.SetActive (false);
-				talkingPrincess.SetActive (false);
-				talkingPrinceToDragon.SetActive (true);
-				talkingPrinceToDragon.GetComponent<Image>().sprite = currPrinceToDragonSprite;
-
-				makeDarjeelingDragonConvo ();
-
-			}
-
-
-			if (ChrisAndDragonMeet) {
-
-				currPrinceSprite = null;
-				currPrincessSprite = null;
-				currPrinceToDragonSprite = getSprite("Darjeeling","normal");
-
-				talkingPrince.SetActive (false);
-				talkingPrincess.SetActive (false);
-				talkingPrinceToDragon.SetActive (true);
-				talkingPrinceToDragon.GetComponent<Image>().sprite = currPrinceToDragonSprite;
-
-				makeChrisDragonConvo ();
-
-			}
-
-
-			if (ThistleAndDragonMeet) {
-
-				currPrinceSprite = null;
-				currPrincessSprite = null;
-				currPrinceToDragonSprite = getSprite("Darjeeling","normal");
-
-				talkingPrince.SetActive (false);
-				talkingPrincess.SetActive (false);
-				talkingPrinceToDragon.SetActive (true);
-				talkingPrinceToDragon.GetComponent<Image>().sprite = currPrinceToDragonSprite;
-
-				makeThistleDragonConvo ();
-
-			}
 
 	}
 	}
@@ -1252,13 +1210,15 @@ public class dialogueSystem : MonoBehaviour {
 
 	void makeChrisDragonConvo()
 	{
+		Debug.Log ("Called 'makeCHRISDragonConvo()'");
 		if (CountingDragonPrinceTime ==2) {
 			//print (numInConvo);
 			if (numInConvo >= ChrisAndDragonConvo0.Length)
 				endDialogueTurn ();
-			else
-				makeConvo (ChrisAndDragonConvo0[numInConvo]);
-
+			else {
+				makeConvo (ChrisAndDragonConvo0 [numInConvo]);
+				Debug.Log ("Making Convo");
+			}
 		}
 
 		else if (CountingDragonPrinceTime == 5) {
@@ -1329,7 +1289,7 @@ public class dialogueSystem : MonoBehaviour {
 
 	void makeConvo(string convoLine){
 
-		Debug.Log (convoLine);
+		//Debug.Log (convoLine);
 		//Debug.Log (numInConvo);
 
 		string[] Line = convoLine.Split (':');
@@ -1338,13 +1298,13 @@ public class dialogueSystem : MonoBehaviour {
 
 		//Debug.Log (Line[0]);
 		//Debug.Log(numInConvo+ " is apparantly not greater than " + Line.Length);
-		Debug.Log ("*****************************************");
-		Debug.Log (Line[0]);
-		Debug.Log (Line[1]);
-		Debug.Log (Line[2]);
-		Debug.Log (Line.Length);
-		Debug.Log (numInConvo);
-		Debug.Log ("*****************************************");
+		//Debug.Log ("*****************************************");
+		//Debug.Log (Line[0]);
+		//Debug.Log (Line[1]);
+		//Debug.Log (Line[2]);
+		//Debug.Log (Line.Length);
+		//Debug.Log (numInConvo);
+		//Debug.Log ("*****************************************");
 		if (3 <= Line.Length) {
 			makeDialogue (Line [0], Line [1], Line [2]);
 		}
@@ -1353,11 +1313,11 @@ public class dialogueSystem : MonoBehaviour {
 	}
 
 	void makeDialogue(string character, string emotion, string dialogue){
-		Debug.Log ("Making dialog");
-		Debug.Log (character);
-		Debug.Log (emotion);
-		Debug.Log (dialogue);
-		Debug.Log ("Making dialog");
+		//Debug.Log ("Making dialog");
+		//Debug.Log (character);
+		//Debug.Log (emotion);
+		//Debug.Log (dialogue);
+		//Debug.Log ("Making dialog");
 		string fullCharacterName = getCharacter (character);
 
 
@@ -1366,6 +1326,7 @@ public class dialogueSystem : MonoBehaviour {
 		if (fullCharacterName == "Darjeeling" || fullCharacterName == "Chris" || fullCharacterName == "Thistle") {
 			//Debug.Log ("Changed PRINCE SPRITE");
 			talkingPrince.GetComponent<Image>().sprite = characterSprite; //change to canvas
+			talkingPrinceToDragon.GetComponent<Image>().sprite = characterSprite; //change to canvas
 		}
 
 		if (fullCharacterName == "Thyme" || fullCharacterName == "Matcha" || fullCharacterName == "Pepper") {
@@ -1373,13 +1334,13 @@ public class dialogueSystem : MonoBehaviour {
 			talkingPrincess.GetComponent<Image> ().sprite = characterSprite; //change to canvas
 		}
 
-		Debug.Log (fullCharacterName);
+		//Debug.Log (fullCharacterName);
 
 		theText.text = dialogue;
 		personSpeaking.text = fullCharacterName;
 
-		Debug.Log (theText.text);
-		Debug.Log (personSpeaking.text);
+		//Debug.Log (theText.text);
+		//Debug.Log (personSpeaking.text);
 
 	}
 
@@ -1439,7 +1400,7 @@ public class dialogueSystem : MonoBehaviour {
 				return ChrisAngry;
 			else if (emotion == "excited")
 				return ChrisExcited;
-			else if (emotion == "dissappointed")
+			else if (emotion == "disappointed")
 				return ChrisDissappointed;
 			else if (emotion == "blush")
 				return ChrisBlush;
@@ -1457,7 +1418,7 @@ public class dialogueSystem : MonoBehaviour {
 				return ThistleAngry;
 			else if (emotion == "excited")
 				return ThistleExcited;
-			else if (emotion == "dissappointed")
+			else if (emotion == "disappointed")
 				return ThistleDissappointed;
 			else if (emotion == "blush")
 				return ThistleBlush;
@@ -1475,7 +1436,7 @@ public class dialogueSystem : MonoBehaviour {
 				return ThymeAngry;
 			else if (emotion == "excited")
 				return ThymeExcited;
-			else if (emotion == "dissappointed")
+			else if (emotion == "disappointed")
 				return ThymeDissappointed;
 			else if (emotion == "blush")
 				return ThymeBlush;
@@ -1493,7 +1454,7 @@ public class dialogueSystem : MonoBehaviour {
 				return MatchaAngry;
 			else if (emotion == "excited")
 				return MatchaExcited;
-			else if (emotion == "dissappointed")
+			else if (emotion == "disappointed")
 				return MatchaDissappointed;
 			else if (emotion == "blush")
 				return MatchaBlush;
@@ -1512,7 +1473,7 @@ public class dialogueSystem : MonoBehaviour {
 				return PepperAngry;
 			else if (emotion == "excited")
 				return PepperExcited;
-			else if (emotion == "dissappointed")
+			else if (emotion == "disappointed")
 				return PepperDissappointed;
 			else if (emotion == "blush")
 				return PepperBlush;
@@ -1630,7 +1591,7 @@ public class dialogueSystem : MonoBehaviour {
 		}
 
 		if ((CountingDragonPrinceTime == 2 ||CountingDragonPrinceTime == 5 || CountingDragonPrinceTime == 10 ||CountingDragonPrinceTime == 15 ) && ChrisAlone && ChrisAndThymeMeet == false && ChrisAndMatchaMeet == false && ChrisAndPepperMeet == false) {
-			DarjeelingAndDragonMeet = true;
+			ChrisAndDragonMeet = true;
 		} else if (ChrisAlone && (CountingDragonPrinceTime == 2 ||CountingDragonPrinceTime == 5 || CountingDragonPrinceTime == 10 ||CountingDragonPrinceTime == 15 ) &&  (ChrisAndThymeMeet == true || ChrisAndMatchaMeet == true || ChrisAndPepperMeet == true)) {
 			CountingDragonPrinceTime -= 1;
 		}

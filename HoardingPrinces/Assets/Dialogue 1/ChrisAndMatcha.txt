@@ -14,10 +14,10 @@
  M:normal:You need to get out. There's a ferocious dragon here.
  C:normal:It's ok, I like the dragon. Please Leave
  /
- C: Hi, Princess.
- M: Prince, I have to come with me today.
- C: No
- M: What?
- C: The dragon... is pretty kind.
+ C:normal: Hi, Princess.
+ M:normal: Prince, I have to come with me today.
+ C:normal: No
+ M:normal: What?
+ C:normal: The dragon... is pretty kind.
  <
 
