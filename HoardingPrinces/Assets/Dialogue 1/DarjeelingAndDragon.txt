@@ -29,11 +29,34 @@
  D:blush:...Thank you.
  /
  D:normal:I suppose you are wondering why I haven't simply left yet.
- D:normal:Now taht I have my sword, I can easily leave the tower and journey onn home.
+ D:normal:Now that I have my sword, I can easily leave the tower and journey onn home.
  D:normal:But I've come to... reconsider that course of action.
+ D:normal:At the start I believed you were a garrish beast. Obsessed with ruining my life and keeping me locked up in a life of moving from tower to tower as part of hour hoard.
+ D:happy:But I realize now that you are more complicated than that.
+ D:normal:I've grown... curious, shall we say, Of your true intentions. Why you go about kidnapping and hoarding young princes like me in your towers.
+ D:normal:A beast such as yourself cannot really feel complex emotions such as loneliness...
+ D:sad:...Or so I thought.
+ D:normal:I'm starting to see that that may not be the case.
+ D:normal:If you can feel guilt for taking my sword, I suppose you can also feel the sting of being alone for centuries up in this mountain.
+ D:sad:...
+ D:sad: Truth be told... this sword is a momento of my sister. It's... quite important to me. 
+ D:normal:Thank you for returning it.
+ D:normal:I know you're lonely.
+ D:happy:But I think you're on the right track to being considered... my friend.
  /
- D:happy:This is my Fourth conversation with you
- D:happy: I love you, dragon
- D:normal:You only captured me because you love me
+ D:normal:Dragon, do you have a moment?
+ D:normal:I need to tell you something.
+ D:angry:I know you're lonely here all by youself.
+ D:sad:And I'm sorry... but I cannot stay here with you any longer.
+ D:normal:My kingdom has gone on too long without their princes. I need to leave to attend my duties.
+ D:blush:But... there is no need for you to feel lonesome any longer.
+ D:blush:I will bring you back to the kingdom with me. We will live out our lives together in the castle.
+ D:normal:Perhpas it will be well... the other kingdoms wouldn't dare invade if we had a dragon on our side. But I know my people would probably not want a beast in the midst...
+ D:normal:What's that? You want to know what this is all about?
+ D:blush:That is...
+ D:normal:Perhaps I just cannot let your loneliness go unanswered.
+ D:blush:Or maybe... I've grown fond of you...
+ D:blush:At the start, I assumed you were a heartless monster. But the more time I spend with you... I see teh care you;ve trated me with...
+ D:blush:And I've grown to like you more and more...
  >
 

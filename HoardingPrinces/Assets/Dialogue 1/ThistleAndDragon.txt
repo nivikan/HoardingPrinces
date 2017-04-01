@@ -1,18 +1,60 @@
-﻿ TL:happy:Hi
- TL:happy:Hello, TLragon
- TL:normal:What is your name.
+﻿ TL:normal:Dragon.
+ TL:normal:I know you can understand me.
+ TL:normal:Might I ask why you let the other princes escape?
+ TL:normal:I see you are confused. Yes, I knew of the others. Moreover, I've seen those princesses wandering about. 
+ TL:normal:I assume you've seen them as well. They weren't very subtle.
+ TL:normal:So why did you you allow them to escape with the other two princes?
+ TL:normal:...
+ TL:happy:I knew you were a harmless dragon.
  /
- TL:happy:This is the second time I al talking to you
- TL:happy: Why did you decide to keep me?
- TL:normal:And get rid of the other princes?
+ TL:normal:Hello, Dragon. I would like some new books. I believe I've read all these texts already... I've compiled a list here of what I will need. You'll retrive them for me, won't you?
+ TL:happy:Wonderful! Thank you, as always, Dragon.
+ TL:normal:Wait! Usually I just ask you to retrive me some artifacts and you go but today I'd like to talk with you.
+ TL:happy:Here-Please join me for some tea. 
+ TL:normal:Apologies, I don't have a cup big enough for you but- oh!- here, I will pour your tea in this soup bowl.
+ TL:happy:How is it? To your taste?
+ TL:happy:Haha! I see you're not very keen on the taste!
+ TL:normal:...
+ TL:normal:I've been meaning to talk to you, Dragon.
+ TL:happy:I must first thank you immensely for all the treats you've given me.
+ TL:normal:You bring me all the finest clothing and texts I could asked for. I honestly feel so spoiled staying here.
+ TL:normal:These past few months have been...nice.
+ TL:normal:No parties to attend, no dignitaries to impress, no one telling me what I can and can't do...
+ TL:happy:And waking up at noon! That's been especially convenient!
+ TL:normal:... That will be all, Dragon. Thank you for this opportunity to relax.
  /
- TL:happy:This is my third conversation with you
- TL:happy: I sense there is something different about you
- TL:normal: You don't really want to hurt me
+ TL:normal:Dragon, I see you have retrieved the items I've requested! 
+ TL:normal:Thank you. You may leave them on my bed for me.
+ TL:happy:Stay awhile before you leave. Let me prepare some tea.
+ TL:normal:...
+ TL:normal:Dragon, listen. 
+ TL:sad:I know you are an immensely lonely beast. I admit, when I lived in my kingdom among humans I also feared you as most people do.
+ TL:normal:But when you kidnapped me while I was coming back from a most unpleasant meeting with a foreign dignitary, I feared I was doomed.
+ TL:happy:But you've been nothing but kind to me.
+ TL:normal:Kinder than most people are... As the third prince I am not fortunate enough to have the favor of my parents or even the castle servers.
+ TL:sad:I have two other brothers above me ready to take the throne.
+ TL:sad:Alas, I am only given the unpleasant roles that my brothers do not want. Travelling to foreign countries, answering summons from our allies..
+ TL:normal:It's all very stressful and rather boring stuff. I never had time to simply sit down and read my books. And above that, I'm just a spare prince, anyway.
+ TL:normal:But you never treated me as a spare.
+ TL:happy:And you've let the other princes go but have somehow chosen to hang on to me.
+ TL:blush:I'd like to think it's because I'm... special to you somehow.
+ TL:happy:...
+ TL:blush:Thank you for having tea with me, Dragon. 
  /
- TL:happy:This is my Fourth conversation with you
- TL:happy: I love you, dragon
- TL:normal:You only captured me because you love me
+ TL:sad:Dragon, I have something to say.
+ TL:normal:You've known that I appreciate everything you are doing for me. Everything you have given me.
+ TL:happy:And you know that I enjoy lounging about your castles.
+ TL:normal:But...mentioning my kingdom earlier got me thinking about it again.
+ TL:sad:I thought of my two brothers and my parents and how worried they must be.
+ TL:sad:I thought of my duties. Though boring, they were very important. I wonder if my brothers are overworked seeing to their duties as well as mine.
+ TL:sad:Though I hate to admit it, though I hate the duties of a prince, It is the duty I was born into.
+ TL:normal:And besides, once my brothers get married they will inherit the kingdom and my duties will be considerably less. 
+ TL:normal:Most likely if I wait till my brother is official ruler I can retreat back to my summer castle and live in relative comfort...
+ TL:sad:I'll still have duties I despise but they will be considerably less... and perhaps with someone I care about there, even the duties won't be too tying.
+ TL:normal:...
+ TL:happy:Yes, Dragon, I'd like for you to come with me.
+ TL:blush:You've become... a dear friend to me and I would hate for you to stay up here lonely and miserable for the rest of your life.
+ TL:blush:In fact...I've come to admire your kindness more and more...
  >
 
  
