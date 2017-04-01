@@ -1,14 +1,36 @@
-﻿ D:happy:Hi
- D:happy:Hello, Dragon
- D:normal:What is your name.
+﻿ D:normal:Dragon?
+ D:angry:...
+ D:normal:Ignoring you for this long hasn't necessarily worked in my favor.
+ D:angry:...
+ D:angry:I'm angry, you know? You've let all the other princes leave except me.
+ D:angry:Don't look so surprised! I know you've had other princes! And I know you've allowed them to leave with the princesses always walking about here.
+ D:normal:What I want to know is why am I still here?
+ D:angry:...
+ D:angry:Ugh! Don't you have anything to say for yourself?! I-
+ D:normal:What's that?
+ D:sad:...
+ D:I suppose from the look in your eye you are trying to tell me you are lonely.
+ D:angry:Don't be riduculous. Stupid, ugly beasts such as yourself cannot possibly experience human emotions such as loneliness.
+ D:angry:Well, what are you looking at?! GO AWAY! Your putrid breathe is repulsive.
  /
- D:happy:This is the second time I al talking to you
- D:happy: Why did you decide to keep me?
- D:normal:And get rid of the other princes?
+ D:angry:You're wondering why I am so angry?
+ D:angry:Being held here against my will is hardly anything to be happy about. 
+ D:angry: And if you haven't forgotten- YOU'VE TAKEN SOMETHING OF MINE!
+ D:normal:...
+ D:angry: You don't even remember, do you? It was my sword! YOU TOOK MY SWORD!
+ D:normal:If you had any sort of honor you would return me my sword and fight me like a true dragon!
+ D:angry:...
+ D:angry:I-!
+ D:blush:What's this...?
+ D:normal:Are you... giving me my sword back?
+ D:angry:You understand that I can stab you as soon as you turn aroun with this, don't you?!
+ D:blush:What? Y-Yes. It is very important to me... Did you just figure that out... and you don't want to take it if it is that important to me?
+ D:normal:...
+ D:blush:...Thank you.
  /
- D:happy:This is my third conversation with you
- D:happy: I sense there is something different about you
- D:normal: You don't really want to hurt me
+ D:normal:I suppose you are wondering why I haven't simply left yet.
+ D:normal:Now taht I have my sword, I can easily leave the tower and journey onn home.
+ D:normal:But I've come to... reconsider that course of action.
  /
  D:happy:This is my Fourth conversation with you
  D:happy: I love you, dragon

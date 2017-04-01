@@ -4,11 +4,11 @@ TM:normal:Are you the Prince that’s kept here by that dragon?
 D:normal: And who would you be?
 TM:angry:No time for that now, we need to leave before that dragon comes back. 
 D:angry:Leave? 
-D:normal:Please, I can leave whenever I want to. You’re services are not necessary.
+D:normal:Please, I can leave whenever I want to. Your services are not necessary.
 TM:normal:Services? 
 TM:angry:I’ve heard of a rude prince that lives around these parts. Don’t be so prideful.
 D:angry: Rude? I’m simply allowing this dragon to keep me until I can get my sword back.
-TM:normal:right….
+TM:normal:Right….
 TM:normal:You lost your sword? Is it really this important?
 D:sad: … 
 TM:angry:…Gah!
@@ -23,11 +23,11 @@ TM:angry:Is this about that sword? Just leave it behind. You can’t just stay h
 D:angry:Excuse you, but that sword is an important family heirloom and I...lost it. 
 TM:normal:Fine then…I’ll find it for you, where is it?
 D:happy:Wha-Ah, I mean…
-D:angry:If I knew I would have it wouldn’t I? I don’t know. It’s probably long gone by now. 
+D:angry:If I knew, I would have it, wouldn’t I? I don’t know. It’s probably long gone by now. 
 D:sad:That...That dragon took it when I came here to smite the beast.
 TM:normal:Smite it? By yourself? And I assume that bravado didn’t work for you?
 D:sad:No need to rub salt to the wound, Princess.
-TM:normal:…hm.
+TM:normal:…Hm.
 D:normal:I’m not returning to my kingdom. Without that sword. I-It’s impossible.
 TM:normal:…
 TM:sad:…Well, I suppose that’s not COMPLETELY crazy.
@@ -35,25 +35,25 @@ D:happy:Ah!
 D:normal:You think so?
 TM:happy:Yes, my sword is pretty special too. 
 TM:normal:My brothers gave it to me when I began my journey. I would hate to lose it. 
-TM:normal:I assume your sword has some sort of similar back story?
+TM:normal:I assume your sword has some sort of a similar backstory?
 D:normal:….
 TM:angry: Look!
-TM:sad: ah, that is. I’d LIKE to help you but I wan to know why I’m risking my life to get a sword.
+TM:sad: Ah, that is. I’d LIKE to help you but I want to know why I’m risking my life to get a sword.
 TM:disappointed:I mean… If you really think I’m bothering you I’ll leave, but…
-D:normal:…it was my sister’s.
+D:normal:…It was my sister’s.
 TM:normal:what?
-D:sad:The sword was my sister’s. She died in battle when I was much younger …it’s all my family has left of her. 
-D:normal:I just couldn’t leave it hanging up in our castle as an heirloom forever…she wouldn’t have wanted that.
-TM:happy:castle, huh? You’re a prince?
-D:happy:Prince Darjeeling actually.
+D:sad:The sword was my sister’s. She died in battle when I was much younger…It’s all my family has left of her. 
+D:normal:I just couldn’t leave it hanging up in our castle as an heirloom forever…She wouldn’t have wanted that.
+TM:happy:Castle, huh? You’re a prince?
+D:happy:Prince Darjeeling, actually.
 TM:happy:Ah! I’ve heard of you.
-TM:blush:you’re as pretty as the rumors say.”
+TM:blush:You’re as pretty as the rumors say.
 D:blush:R-Rumors?
-TM:excited:haha, yeah and they say your nickname is Prince DARLING.
+TM:excited:Haha, yeah, and they say your nickname is Prince DARLING.
 D:angry: It. Is. NOT.
 TM:happy: hehe.
-TM:normal:I’ll find that sword for you. The dragon took it right? I’ll check it’s Liar.
-D:normal:…be careful.
+TM:normal:I’ll find that sword for you. The dragon took it right? I’ll check its lair.
+D:normal:…Be careful.
 /
 D:happy:Thyme!
 TM:happy:You remembered my name. I’m honored, Prince Darling.
@@ -74,19 +74,41 @@ TM:happy:That dragon must have developed quite a fondness for you.
 D:normal:Yes, well, the feeling is NOT appreciated.
 TM:blush:I-I’ve developed something of a fondness as well.
 D:normal:…
-D:blush:…that. That’s a sentiment I may be able to reciprocate. 
-TM:blush:..ha…
-D:blush:hm…quite. I suppose, a thank you is in order.
+D:blush:…That. That’s a sentiment I may be able to reciprocate. 
+TM:blush:…Ha…
+D:blush:Hm…quite. I suppose, a thank you is in order.
 TM:happy:Don’t mention it. Ready to leave this tower, Prince Darjeeling?
-D:happy:Most, definitely.
+D:happy:Most definitely.
 /
-D:angry:Who are you?
-TM:normal:You need to get out. There's a ferocious dragon here.
-D:normal:It's ok, I like the dragon. Please Leave
+TM:normal:Are you the Prince that’s kept here by that dragon?
+D:normal: And who would you be?
+TM:angry:No time for that now, we need to leave before that dragon comes back. 
+D:angry:Leave? 
+TM:normal:Yes. We haven't much time. It could come back at any moment.
+D:sad:I suppose... No. I can't leave with you.
+TM:angry: What? Are you crazy.
+D:angry:No! Excuse you, you rude little princess! I'm just... concerned. For the Dragon's well being if I were to leave...
+TM:normal:Suffering from Stolkholm syndrome then...
+D:angry:What did you say?!
+TM:normal:I'll be around. I'll come back for you once you've had some time to think.
+D:norma:Please don't bother.
 /
-D:normal: Hi, Princess.
+D:normal:Hi, Princess Thyme. I see you've come again.
 TM:normal:  Prince, I have to come with me today.
-D:normal:  No
-TM:normal:  What?
-D:normal:  The dragon... is pretty kind.
+TM:happy:I’m here to take you out of this tower, Darjeeling, and I’m not taking “No” for an answer. 
+D:angry:Wha-? Didn’t I tell you before? If I’m returning home, it must be with the sword or with nothing else. 
+TM:angry: Don't be stubborn. You've been hostile since I've met you but this isn't a joking matter- you absolutely need to get out of here.
+TM:angry: You are in so much danger here!
+D:normal:Don't say that. I'm not in any danger.
+TM:angry:If you haven't noticed you have a giant, ferocious, dragon outside your castle.
+D:normal:It is giant but is not at all ferocious.
+TM:angry:Are you blind?! It's kidnapped mulitple princes and trapped them in these towers.
+D:normal:Well, its let most of them go already, ok?
+D:sad:I'm... special to it. That's why I can't leave adn let it down.
+TM:angry:Are you insane? It is a monster! It's keeping you here against your will!
+D:normal:I'm sorry but it is my will to remain here with the dragon right now. I want to see how this plays out.
+TM:angry:...
+TM:normal:I suppose I can't drag you out of here... I'll be around in case you'd like to change your mind.
+D:normal:Thank you, Thyme...
+Thyme:sad:...
  <

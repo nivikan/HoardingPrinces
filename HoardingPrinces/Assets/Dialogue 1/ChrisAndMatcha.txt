@@ -1,6 +1,13 @@
-﻿ C:happy:Hi
- M:happy:Hello
- C:normal:What is your name.
+﻿M:normal: My, my, what do we have here? By your rich clothing I'd say you are one of the princes the dragon has kidnapped.
+C:happy:A visitor! A woman, nay, a PRINCESS!
+M:happy:What an enthusiastic greeting. I assume you don't get visitors much?
+C:sad:Alas, I do not. Such a shame this lovely face should be hidden from all those who deserve to gaze upon my beauty.
+M:happy:My, what a modest, prince.
+C:excited:Oh GLORIOUS DAY! My fair Princess. My name is Chrysanthemum. 
+M:normal:What a diginified name. But I think I will call you... Chrys. It suits you a little better, don't you agree?
+C:sad:Everyone says that. 'Tis my curse. How tragic that such a charming name should be reduced to such drugdery…
+C:normal:How did my princess possibly make it past the dragon? Was it not difficult?
+M:normal:Not terribly difficult. And it was worth it for me to meet such a cut little Prince.
  /
  M:sigh:This is our second meeting.
  C:confused:I missed you since your last visit

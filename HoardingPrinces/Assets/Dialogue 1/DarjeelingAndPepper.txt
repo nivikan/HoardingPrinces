@@ -1,8 +1,8 @@
 ﻿D:normal:And who might you be?
 P:normal:My name is Pepper...and you?
-D:angry: Pepper? What are you doing in this tower? This isn't exactly a place young women should be wandering around
+D:angry: Pepper? What are you doing in this tower? This isn't exactly a place young women should be wandering around.
 P:normal:...
-P:angry:Neither should a young man be trapped in here
+P:angry:Neither should a young man be trapped in here.
 P:normal:I've seen the dragon that keeps you here. I've come to help. Let's leave this tower together.
 D:normal:...
 D:sad:I...I can't do that.
@@ -17,17 +17,17 @@ D:angry:Aa! Stop looking at me that way! I know I'm prideful but this is how it 
 P:normal:...I will come again.
 D:normal:..
 P:gone:
-D:sad:Don't Bother
+D:sad:Don't bother.
 /
 D:happy:Well, well, well. If it isn't Pepper. Did you sneak past that dragon again?
 P:happy: Nice to see you again. Prince Darjeeling...
 D:normal:As happy as I am to see you again, Pepper, I have to remind you. I'm not leaving. I can't without my sword.
 P:happy:I understand, Prince. I wanted to bring you news about your sword. I...I've seen it in the dragon's lair.
-D:angry:You-you certainly have some nerve don't you! A Dragon's Liar! You could have died!
+D:angry:You-you certainly have some nerve don't you! A dragon's lair! You could have died!
 P:normal:...
 D:sad:Y-you certainly have a way with words, Pepper. You're right, I shouldn't criticize when it was me who wound up a prisoner by charging a dragon by myself.
 P:happy:No need to worry, Prince. The dragon was far away. Probably off kidnapping more princes. I was only able to catch a glimpse of it before I had to escape. But I am certain that it was the sword you were looking for.
-D:angry:But seeing as how I'm stuck here there's no way to get it back.
+D:angry:But seeing as how I'm stuck here, there's no way to get it back.
 P:normal: I would be happy to offer my aid.
 D:excited:R-really?
 D:angry:I-I mean, I'm not so foolish as to believe that you'd do it out of the kindness of your own heart. What's the catch?
@@ -37,7 +37,7 @@ D:sad: L-like I said it's been a family heirloom. Mother and Father would be hea
 P:smile:...
 D:angry:Drat! It's like you can see right through me. Fine, it's not an heirloom. It's actually the only reminder we have of my sister. It was the one thing she left behind when she...she...
 P:sad:I understand.
-D:sad:D-don't think badly of me. It was wrong to risk my sisters sword, I know that.
+D:sad:D-don't think badly of me. It was wrong to risk my sister’s sword, I know that.
 D:disappointed:Y-you look so young, Pepper. I'm supposed to be an example for you and here I am sharing my blunders with you and asking you to fix them. I...
 D:disappointed:...I can't lose face in front of you.
 P:sad:I understand...Darjeeling.
@@ -47,12 +47,13 @@ P:happy:Take care, my Prince.
 D:Blush:P-Pepper.
 P:happy:Prince.
 D:Blush:Honestly, I'm not ready to face you yet.
-D:angry:I feel like you've seen of my bad side and none of the good. I'm honestly very charming when I'm not being held hostage by a dragon.
+D:angry:I feel like you've seen my bad side and none of the good. I'm honestly very charming when I'm not being held hostage by a dragon.
 P:normal:...
 P:sad:I don't feel that way at all Darjeeling. I-I'm actually quite shy. You are the only one who seems to think I'm strong.
-D:happy:Then perhaps I am the only one who can recognize your chivalrous spirit.P:blush:...
-D:happy:...it's beautiful.
-P:blush:...charming...
+D:happy:Then perhaps I am the only one who can recognize your chivalrous spirit.
+P:blush:...
+D:happy:...It's beautiful.
+P:blush:...Charming...
 D:excited:I told you so.
 D:normal: Listen, Pepper. I've decided that waiting for that sword isn't worth my life. So...I'll leave the tower with you this time.
 P:normal:Prince...you don't have to do that...
@@ -69,12 +70,12 @@ D:happy:Pepper.
 P:happy:But I can't ask you to give up your sister's keepsake for me.
 D:angry:I just told you that-
 P:happy:Which is why I've already got it. I've stolen it back from the dragon
-D:normal:what..?
-D:excited:Pepper! How did..Why didn't you tell me?! 
+D:normal:What...?
+D:excited:Pepper! How did...Why didn't you tell me?! 
 P:normal:Well I was leading up to that and then you began saying all those lines about how much you care for me. 
 D:happy:You'll be rewarded handsomely once we get back to my kingdom, I promise you.
-P:happy:I was actually hoping you'd accompany me to my kingdom,Prince.
-D:blush:Don't tell me I've been swept of my feet by a princess.
+P:happy:I was actually hoping you'd accompany me to my kingdom, Prince.
+D:blush:Don't tell me I've been swept off my feet by a princess.
 /
 D:angry:Wh-what? Who exactly are you?
 P:normal:There's no time to explain. I'm here to rescue you.
@@ -91,7 +92,7 @@ D:disappointed:...
 P:angry:There's no time for this. The dragon will come back.
 D:normal:I can't go with you.
 P:normal:...
-D:sad:It's not anything personal...I just..I can't leave that dragon by itself...
+D:sad:It's nothing personal...I just..I can't leave that dragon by itself...
 P:sad:What did you say...?
 D:angry:I said that if I'm ever going to walk out of here it will be by myself. I am perfectly capable of leaving whenever I want especially with this sword.
 D:normal:So please leave.
@@ -102,7 +103,7 @@ P:normal:Prince Darjeeling. That dragon has been around you more and more lately
 P:sad:I can't stay back any longer.
 D:normal:...
 P:angry:Please, Prince, leave this tower with me before that dragon eats you.
-P:normal:It was hard sneaking in this time. I doupt I can get in again so despite not having your sword...
+P:normal:It was hard sneaking in this time. I doubt I can get in again so despite not having your sword...
 P:normal:We must leave.
 D:sad:I...
 D:normal:I actually have already received my sword. The dragon gave it back to me.
@@ -111,9 +112,9 @@ D:sad:You can see right through me, can't you? Yes, I've decided to stay in with
 P:normal:...
 D:angry:D-don't get me wrong! I don't actually like the beast. I...
 D:sad:I'm just looking for the perfect time to slay the lizard with my sword.
-D:sad:Honestly. Giving me back my weapon. it's begging me to use it.
+D:sad:Honestly. Giving me back my weapon. It's begging me to use it.
 P:normal:Prince Darjeeling?
 D:angry:What is it? you can't convince me out of this you know!
-P:normal:...stay safe.
+P:normal:...Stay safe.
 D:normal:...You too, Pepper.
 <
