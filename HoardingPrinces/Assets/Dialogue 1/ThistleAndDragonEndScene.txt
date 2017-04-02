@@ -3,14 +3,15 @@ blush:I've come to love you because of that wonderful kindness you've shown me.
 blush:I knew from the moment we met. 
 blush:You are not a beast.
 blush:Come back to my kingdom with me. We shall live in comfort and company.
-blush:I...love you, Dragon.
+blush:I...believe in you, Dragon. In your kindness...because I've seen your humanity.
+blush:You're my friend.
 surprise:My, my, what have we got here?
 surprise:Could this human be my beautiful dragon?
 blush:I see...
 blush:This is certainly very unexpected...
 blush:You were put under a curse that turned you into that that dragon.
 surprise:You poor thing, you must have been under the curse for years!
-blush2:But... you may no longer worry, my love.
+blush2:But... you may no longer worry...
 blush2:I shall take you back to my home and allow you to live in the lap of luxury.
-blush2:This time you shall be my captive lover.
+blush2:This time I'll be the one to capture you.
 
