@@ -1,30 +1,101 @@
-﻿M:normal: My, my, what do we have here? By your rich clothing I'd say you are one of the princes the dragon has kidnapped.
-C:happy:A visitor! A woman, nay, a PRINCESS!
-M:happy:What an enthusiastic greeting. I assume you don't get visitors much?
-C:sad:Alas, I do not. Such a shame this lovely face should be hidden from all those who deserve to gaze upon my beauty.
-M:happy:My, what a modest, prince.
-C:excited:Oh GLORIOUS DAY! My fair Princess. My name is Chrysanthemum. 
-M:normal:What a diginified name. But I think I will call you... Chrys. It suits you a little better, don't you agree?
-C:sad:Everyone says that. 'Tis my curse. How tragic that such a charming name should be reduced to such drugdery…
-C:normal:How did my princess possibly make it past the dragon? Was it not difficult?
-M:normal:Not terribly difficult. And it was worth it for me to meet such a cut little Prince.
+﻿C:excited:Why hello there! What a WONDEROUS occasion that I should meet a beautiful woman like yourself.
+M:happy:well, the pleasure is all mine. And what do we have here? a gallant prince?
+C:blush:Y-yes! 
+C:happy: My, what a MARVELOUS day! It's allowed me to meet a kindred spirit like yourself.
+M:normal:Is this gallant prince in trouble? Perhaps you need some assistance in slaying that dragon that lurks outside? 
+C:happy:PFFT! Never you mind that! It is my eternal burden to be held captive by that dragon. Fate has decided to mold me to its whim.
+C:happy:As a prince it is my calling, nay, my duty to undergo hardship and the gods have stepped in to do just that.
+C:excited:what can an innocent servant of the people like me do but give my self unto the gods' hand to do with me as they will?
+C:excited:Oh GLORIOUS burden!
+M:sad:My how...nice?
+M:happy:but that does sound exciting given your context. I suppose it's almost romantic.
+C:blush:Y-you think so too?
+C:happy:I mean, of course! So as you can see, I am perfectly fine where I am. 
+C:excited:Given time, I will personally call upon the heavens and smite that dragon!
+M:normal:Well you do sound confident. I suppose I'll have to rescue another dashing prince in some other lonely tower.
+M:happy:My name is Princess Matcha, If you ever get out of this tower, let's get lunch.
+C:blush:W-wait! Ah, there she goes....I suppose I got a bit too carried away.
+C:sad:I hope she comes back...I MAY need some help.
  /
- M:sigh:This is our second meeting.
- C:confused:I missed you since your last visit
- M:normal:I've thought nothing but you since my departure.
- /
- C:angry:You've come here for a third time- why?
- M:normal:Baby, I know its fast and I know we barely know each other but I love you, Babe. We should get married
- C:normal: OMG! We totally should!
- /
- C:angry:Who are you?
- M:normal:You need to get out. There's a ferocious dragon here.
- C:normal:It's ok, I like the dragon. Please Leave
- /
- C:normal: Hi, Princess.
- M:normal: Prince, I have to come with me today.
- C:normal: No
- M:normal: What?
- C:normal: The dragon... is pretty kind.
- <
-
+C:excited:Princess Matcha! How glorious it is to see you again! My name is Prince Chrysanthemum!
+C:normal:I suppose you couldn't find any other prince to rescue?
+M:happy:Perhaps I did, perhaps I did not.
+C:happy: PFFT! Your worry for me is as apparent as the smile on your lips. I appreciate you coming to check up on me Matcha.
+M:normal:Am I that see through? Yes, I was worried, my charming Prince <3
+C:blush:...
+M:happy:Hm? Perhaps I came on too strong?
+C:happy:N-no of course not, Princess! A noble prince like me is used to such flattery.
+M:happy:hm...(It's obvious that he's not).
+M:excited: is there anything this princess can do for you, Prince Chrysanthemum?
+C:blush:Hah...No one ever really calls me that.
+C:happy:Just call me Chrys!
+M:happy:Chrys...
+M:blush:What a familiar way of addressing someone. Almost like we're friends.
+C:excited:What are you talking about Matcha. WE ARE Friends.
+M:sad:...!
+M:excited:Thank you, Chrys.
+C:blush:Ah! No problem....
+C:normal:And I am NOT being held by this dragon if that's what you were implying.
+M:normal:Are you sure? Because it looks like quiet the opposite.
+C:happy: Of course! I have everything under control.
+M:sad:That's too bad...
+C:sad:...?
+M:disappointed:I was hoping to be able to live out a fairytale dream and save a dashing Prince, escape from a fearsome dragon, and ride off into the night...
+C:sad:...that DOES sound romantic...
+M:normal:But alas, I will have to look for another prince to fulfill my dream...Obviously, you are very capable of slaying this dragon so I will take my leave, Chrys.
+C:sad:Ah~! Don't be upset, Matcha!
+/
+C:happy:Matcha! Just the girl I wanted to see!
+M:happy:I came to check up on you, Chrys, you're certainly taking your time escaping aren't you.
+C:blush:M-Matcha...About your dream.
+M:angry:What dream?
+M:excited:O-Oh! That dream, yes, I am so looking forward to saving a prince...
+C:blush:A-Actually what I said before about having the situation under control MAY have been an exaggeration...
+C:happy:I could actually use your help!
+C:excited:For I, sweet Matcha, am the gorgeous prince of your DREAMS! The gods of given me the unbearable burden of being this dragon's prisoner.
+C:normal:Will, you save me, my Princess?
+M:normal:With such poetry as that, how can I refuse?
+M:happy:Chris I would be happy to save you...
+M:excited:We are friends afterall! My first and precious friend.
+C:sad:F-first friend? Seriously, Matcha? 
+M:normal:Well, I tend to remain distant from people...Especially as a princess it's been hard not to feel lonely. 
+C:happy:When we get out of here, Matcha, I'll make SURE you're never lonely.
+M:excited:Spoken like a true, noble, Prince.
+C:blush:...geeez...
+M:blush:Let's get going, my Prince.
+/
+C:excited:Why hello there! What a WONDEROUS occasion that I should meet a beautiful woman like yourself.
+M:happy:well, the pleasure is all mine. And what do we have here? a gallant prince?
+C:blush:Y-yes! 
+C:happy: My, what a MARVELOUS day! It's allowed me to meet a kindred spirit like yourself.
+M:normal:Is this gallant prince in trouble? Perhaps you need some assistance in slaying that dragon that lurks outside? 
+C:happy:PFFT! Never you mind that! It is my eternal burden to be held captive by that dragon. And it's fun!
+M:sad:Fun?
+C:happy:But of course! This dragon needs me. And I'm here to help!
+M:happy:won't you leave this tower with me, Prince? We can escape the dragon.
+C:sad:W-What?
+M:normal:think about it. It's for the best.
+C:sad:...
+C:happy:No.
+M:sad:No?
+C:excited:I'm going to stay with the dragon. There is something positively human about it.
+C:sad:I think...no I'm positive that it needs my help.
+M:sad:...I won't stop you.
+M:normal:...Good luck.
+/
+C:Princess Matcha! How marvelous to see you again!
+M:normal:Hello, Prince. How are you today?
+C:happy: Wonderful as always! Staying here...Getting to know this dragon...It's been fun!
+M:sad:Fun?
+C:happy:But of course! This dragon needs me. And I'm here to help!
+M:happy:won't you leave this tower with me, Prince? We can escape the dragon.
+C:sad:W-What?
+M:normal:think about it. It's for the best.
+C:sad:...
+C:happy:No.
+M:sad:No?
+C:excited:I'm going to stay with the dragon. There is something positively human about it.
+C:sad:I think...no I'm positive that it needs my help.
+M:sad:...I won't stop you.
+M:normal:...Good luck.
+<

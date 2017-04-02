@@ -1,23 +1,94 @@
-﻿ D:happy:Hi
- M:happy:Hello
- D:normal:What is your name.
- /
- M:sigh:This is our second meeting.
- D:confused:I missed you since your last visit
- M:normal:I've thought nothing but you since my departure.
- /
- D:angry:You've come here for a third time- why?
- M:normal:Baby, I know its fast and I know we barely know each other but I love you, Babe. We should get married
- D:normal: OMG! We totally should!
- /
- D:angry:Who are you?
- M:normal:You need to get out. There's a ferocious dragon here.
- D:normal:It's ok, I like the dragon. Please Leave
- /
- D: Hi, Princess.
- M: Prince, I have to come with me today.
- D: No
- M: What?
- D: The dragon... is pretty kind.
- <
-
+﻿M:normal:Hello, my name is Princess Matcha. Are you one of the Princes who recently went missing?
+D:normal:...Prince Darjeeling. A Pleasure.
+M:excited:It's lovely to meet you! You don't need to be scared anymore, I'm here to-
+D:angry:I don't know what you've heard but I do NOT need help. 
+D:normal:I can get out whenever I want to. I just...need my sword.
+M:normal:Sword, huh? I notice you're not wearing one...
+D:angry:So what if I lost it!
+D:angry:I'll get it back soon so you can leave. 
+M:angry:I'm assuming you lost your sword fighting that dragon, correct.
+D:normal:...
+M:sad:Right, right, I'll get going.
+/
+M:normal:Hello Prince Darjeeling.
+D:normal:Princess Matcha...welcome back I suppose. Do you have any business here?
+M:happy:I'm assuming that dragon took your sword, right Darjeeling? 
+D:angry:You don't need to worry about that. 
+M:happy: I checked out the Dragon's Liar. It's definitely there.
+D:sad:What? Did you now...
+D:sad:...
+D:normal:Thank you, Princess. Now that I know where my sword is, I will be able to find it and escape.
+M:normal:My, Prince Darjeeling. I suppose even you can be polite if you put your mind to it. 
+D:disappointed:Why you irritating...
+M:normal:But, Prince, How do you plan on finding your sword if you can hardly leave this tower?
+D:angry:...I...
+M:happy:I am offering my help, Prince. ill you take it?
+D:angry:...I...
+D:sad:I do. Thank you for your help Princess Matcha. 
+M:normal:No problem. Now, I can simply get you another sword. I better one and we could-
+D:angry:No! It MUST be my sword. 
+D:sad:I-it's a family heirloom. 
+M:sad:I understand that the sword is important to you, Prince Darjeeling, but we can't put both our lives in danger for it. 
+D:disappointed:Actually, the sword is all I have left of my sister. It's...much too precious to leave with a dragon.
+D:sad:but I understand if you won't help me, Princess. It's dangerous to go into a Dragon's Lair. 
+M:sad:...
+M:disappointed:Your sister, huh? I see...Well! I will get help!
+D:normal:excuse me.
+M:excited:If I explain the situation to your parents...
+M:excited:I can certainly convince them to give me a few extra soldiers to infiltrate the Dragon's Lair. 
+D:sad:W-wait, Matcha...
+M:normal:You're the prince from the kingdom close to the desert correct? Be back soon!
+D:angry:Wait! Drat, she's gone.
+/ 
+M:normal:Prince Darjeeling!
+D:normal:Princess Matcha.
+D:sad:did you, er, meet my parents.
+M:excited:I sure did, Prince Darjeeling....or should I say, Prince Darling.
+D:blush:Ugh...Everyone in my kingdom has that annoying name for me...
+D:normal:About my sword...
+M:happy:Don't worry about that. With the help of your kingdom I was able to return it to the King and Queen. 
+M:sad:They're still worried about you. They want you to safely return.
+D:sad:I suppose I no longer need to hide my mistakes from them...I shouldn't have taken my sister's sword.
+D:disappointed:But it was a shame to leave the sword in the royal vault...untouched and unseen...
+M:normal:I'm sure your parents would understand. 
+D:blush:I suppose...I should thank you.
+M:normal:My my, Darling, no need to be so shy.
+D:angry:Quit teasing me, I'm trying to be serious....
+M:blush:I am too...Prince Darjeeling I didn't help you out of selflessness. I was actually quite enamored with you when we first met. 
+D:blush:M-Matcha...
+M:sad:But don't get me wrong, I'm not expecting anything for saving you. 
+M:disappointed:I suppose it was just easier to express my feelings for you after I'd helped you out...It's a bit cruel of me...
+D:normal:...
+D:blush:I'm glad you did so Matcha...I wouldn't be adverse to starting some sort of relationship...
+M:blush:P-Prince, Darjeeling. Are you sure...?
+D:happy:Of course. You are after all, my knight in shining armor. 
+M:happy: Will you be my darling, then?
+D:angry:Don't push your luck.
+/
+M:normal:Hello, my name is Princess Matcha. Are you one of the Princes who recently went missing?
+D:normal:...Prince Darjeeling. A Pleasure.
+M:excited:It's lovely to meet you! You don't need to be scared anymore, I'm here to-
+D:angry:I don't know what you've heard but I do NOT need help.
+M:happy:But I-
+D:angry:You may leave now. 
+M:angry:There is a dragon around here. I'm just worried for you.
+D:normal:...
+D:sad:...
+D:normal:...No need to to worry. I am perfectly fine here. This dragon...will not hurt me.
+D:blush:I see that now...
+M:normal:I see... Well if you're sure. I'll take my leave.
+/
+M:normal:Prince, good to see you again.
+D:normal:...Princess.
+M:excited:I've come here to convince you to leave with me, my Prince.
+D:angry:I don't-
+D:normal:...I may not leave anymore...
+M:happy:But Prince-
+D:angry:You may leave now. 
+M:angry:There is a dragon around here. I'm just worried for you.
+D:normal:...
+D:sad:...
+D:normal:...No need to to worry. I am perfectly fine here. This dragon...will not hurt me.
+D:blush:I see that now...
+M:normal:I see... Well if you're sure. I'll take my leave.
+<

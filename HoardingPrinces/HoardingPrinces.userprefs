@@ -1,9 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/dialogueSystem.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Dialogue 1/ChrisAndMatcha.txt">
     <Files>
-      <File FileName="Assets/Scripts/TurnController.cs" Line="482" Column="1" />
-      <File FileName="Assets/Scripts/dialogueSystem.cs" Line="1197" Column="4" />
+      <File FileName="Assets/Scripts/Click_Drag.cs" Line="77" Column="3" />
+      <File FileName="Assets/Scripts/TurnController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/dialogueSystem.cs" Line="1" Column="1" />
+      <File FileName="Assets/Dialogue 1/ChrisAndMatcha.txt" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

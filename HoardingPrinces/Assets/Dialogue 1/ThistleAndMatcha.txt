@@ -1,22 +1,86 @@
-﻿ TL:happy:Hi
- M:happy:Hello
- TL:normal:What is your name.
- /
- M:sigh:This is our second meeting.
- TL:confused:I missed you since your last visit
- M:normal:I've thought nothing but you since my departure.
- /
- TL:angry:You've come here for a third time- why?
- M:normal:Baby, I know its fast and I know we barely know each other but I love you, Babe. We should get married
- TL:normal: OMG! We totally should!
- /
- TL:angry:Who are you?
- M:normal:You need to get out. There's a ferocious dragon here.
- TL:normal:It's ok, I like the dragon. Please Leave
- /
- TL: Hi, Princess.
- M: Prince, I have to come with me today.
- TL: No
- M: What?
- TL: The dragon... is pretty kind.
+﻿M:normal:Hello there. And who might you be?
+TL:normal:...
+M:happy:No need to be shy! Could you perhaps be trapped in this tower?
+TL:normal:...
+M:excited:Well fear not because I am here to-
+TL:normal:Excuse me, can you please stay silent? I'm trying to finish this text and it's rather advanced.
+TL:angry:I can't properly understand it with you distracting me.
+M:sad:This is no time to be reading texts. There's a dragon outside.
+TL:normal:Yes, you can leave him alone.
+M:disappointed:What...?
+TL:normal:now if you'll excuse me I'll be returning to my reading now. 
+M:sad:I suppose I'll have to get going.
+/
+M:normal:Hello, I think we got off on the wrong foot. My name is Princess Matcha.
+TL:normal:...
+M:sad:Unless I'm really not welcome...?
+TL:happy:No. It should be me who apologizes. I am Prince Thistle, I'm sorry for being curt with you.
+TL:normal:I suppose I was just a bit scared last time.
+M:happy:scared? Whatever for?
+TL:sad:Well, I was concerned that you would actually attempt to rescue me. 
+M:sad:Do you actually enjoy staying in this tower?
+TL:sad:I can't say I necessarily enjoy it...it is a prison after all. 
+TL:happy:But compared to the prison of castle life, this has turned out to be quite the nice vacation.
+M:normal:I'm happy for you. 
+M:happy:but that dragon can still turn on you any second. It's not safe here.
+TL:normal:On the contrary. I'm sure I'm quite safe here with this dragon. There's something almost...human about it.
+TL:sad:Besides, palace life barely suited me. I'm sure my older brothers are happy to have me out of the way. 
+M:sad:Of course not, Prince Thistle. 
+M:happy:You're obviously well read, inquisitive, and kind. I'm sure your kingdom misses their prince. 
+TL:normal: And how about yours Princess Matcha? You're just as much a prisoner of your travels as I am of this tower.
+TL:normal:Are you planning on heading home soon?
+M:normal:Well...
+M:happy:That would be nice but I suppose I am the same as you. 
+M:excited:Traveling like this, rescuing dashing Princes, facing fearsome dragons. It blows away my old life at the palace.
+TL:normal:...
+TL:happy:...I'm surprised. You're the first person I've met that feels the same way I do. 
+M:normal:I suppose you don't need to be rescued any longer...I'll be taking my leave.
+TL:sad:Oh! Ah, I see, See you soon, I hope, Princess Matcha.
+/
+M:normal:Prince Thistle, It's good to see you again.
+TL:happy:Princess Matcha, It's good to see you've been doing well. 
+TL:normal:Princess I've thought a lot about our conversation before.
+TL:blush:I'm pretty embarrassed. You must think I am ungrateful for my position as a prince. 
+M:sad:Of course I don't, Prince. I do think it's understandable.
+M:normal:But I do think your being too hard on yourself. I actually went by your kingdom. Your Brothers and people miss you and your tactical prowess. Prince.
+TL:normal:...
+TL:blush:How...embarrassing. Now I do feel as if I've been away for far too long...I think it's time for me to return home. If you will assist me, Matcha?
+M:excited:Of course I will, Prince Thistle!
+M:sad:But wait. If you're going to be miserable in the castle I don't want to save you for that.
+M:disappointed:I want to bring you a happily ever after, Prince Thistle. 
+TL:happy:I will not be miserable, Princess. And...there are a lot of things that "Happily Ever Afters" are made out of.
+TL:happy:I don't need to get everything I want to get my happiness.
+M:happy:Those books are showing, Thistle, You're very wise. 
+M:disappointed:Ah, I suppose it's time I put my adventures on hold to start serving my own kingdom.
+M:sad:it will be hard.
+TL:blush:Perhaps both our transitions wouldn't be as hard if we had each other?
+M:blush:...
+TL:blush:It's simple logic. If you support me, then I will be better prepared to support my kingdom. And if I support you- 
+M:blush:That would be lovely. 
+M:blush:Let's get out of here so we can begin 'supporting' each other better.
+TL:sad:Oh dear, I feel like I've walked out of the Dragon's Lair and to the dragon itself.
+/
+M:normal:Hello there. And who might you be?
+TL:normal:...
+M:happy:No need to be shy! Could you perhaps be trapped in this tower?
+TL:normal:...
+M:excited:Well fear not because I am here to-
+TL:normal:Excuse me, can you please stay silent? I'm trying to finish this text and it's rather advanced.
+TL:angry:I can't properly understand it with you distracting me.
+M:sad:This is no time to be reading texts. There's a dragon outside.
+TL:normal:Yes, you can leave him alone.
+M:disappointed:What...?
+TL:normal:now if you'll excuse me I'll be returning to my reading now. 
+M:sad:I suppose I'll have to get going.
+TL:normal:...
+TL:normal:...I'm sorry...I can't leave now...
+TL:blush:...This dragon will not hurt me, I'm sure of it. It may even need my help...
+/
+M:normal:Good to see you again. 
+M:happy: Ready to leave this tower?
+TL:normal:...
+TL:normal:...I'm sorry...I can't leave now...
+TL:blush:...This dragon will not hurt me, I'm sure of it. It may even need my help...
+M:sad:....
+M:disappointed:I don't approve....but I won't stop you...
  <
