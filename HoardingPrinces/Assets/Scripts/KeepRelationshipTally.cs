@@ -72,95 +72,95 @@ public class KeepRelationshipTally : MonoBehaviour {
 		ThistlePepperEncounter = GameObject.Find ("GameManager").GetComponent<dialogueSystem> ().ThistleAndPepperEncounter;
 
 		//Update Colors
-		if (DarjeelingThymeEncounter == 1) {
+		if (DarjeelingThymeEncounter == 1 && ThymeD1 != null) {
 			ThymeD1.GetComponent<SpriteRenderer> ().color =(Color.yellow);
 		}
-		if (DarjeelingThymeEncounter == 2) {
+		if (DarjeelingThymeEncounter == 2 && ThymeD2 != null) {
 			ThymeD2.GetComponent<SpriteRenderer> ().color =(Color.yellow);
 		}
-		if (DarjeelingThymeEncounter == 3) {
+		if (DarjeelingThymeEncounter == 3 && ThymeD3 != null) {
 			ThymeD3.GetComponent<SpriteRenderer> ().color =(Color.yellow);
 		}
 
-		if (DarjeelingMatchaEncounter == 1) {
+		if (DarjeelingMatchaEncounter == 1 && MatchaD1 != null) {
 			MatchaD1.GetComponent<SpriteRenderer> ().color =(Color.green);
 		}
-		if (DarjeelingMatchaEncounter == 2) {
+		if (DarjeelingMatchaEncounter == 2 && MatchaD2 != null) {
 			MatchaD2.GetComponent<SpriteRenderer> ().color =(Color.green);
 		}
-		if (DarjeelingMatchaEncounter == 3) {
+		if (DarjeelingMatchaEncounter == 3 && MatchaD3 != null) {
 			MatchaD3.GetComponent<SpriteRenderer> ().color =(Color.green);
 		}
 
-		if (DarjeelingPepperEncounter == 1) {
+		if (DarjeelingPepperEncounter == 1 && PepperD1 != null) {
 			PepperD1.GetComponent<SpriteRenderer> ().color =new Color(1F,0F,1F,1F);
 		}
-		if (DarjeelingPepperEncounter == 2) {
+		if (DarjeelingPepperEncounter == 2 && PepperD2 != null) {
 			PepperD2.GetComponent<SpriteRenderer> ().color =new Color(1F,0F,1F,1F);
 		}
-		if (DarjeelingPepperEncounter == 3) {
+		if (DarjeelingPepperEncounter == 3 && PepperD3 != null) {
 			PepperD3.GetComponent<SpriteRenderer> ().color =new Color(1F,0F,1F,1F);
 		}
 
 
-		if (ChrisThymeEncounter == 1) {
+		if (ChrisThymeEncounter == 1 && ThymeC1 != null) {
 			ThymeC1.GetComponent<SpriteRenderer> ().color =(Color.yellow);
 		}
-		if (ChrisThymeEncounter == 2) {
+		if (ChrisThymeEncounter == 2 && ThymeC2 != null) {
 			ThymeC2.GetComponent<SpriteRenderer> ().color =(Color.yellow);
 		}
-		if (ChrisThymeEncounter == 3) {
+		if (ChrisThymeEncounter == 3 && ThymeC3 != null) {
 			ThymeC3.GetComponent<SpriteRenderer> ().color =(Color.yellow);
 		}
 
-		if (ChrisMatchaEncounter == 1) {
+		if (ChrisMatchaEncounter == 1 && MatchaC1 != null) {
 			MatchaC1.GetComponent<SpriteRenderer> ().color =(Color.green);
 		}
-		if (ChrisMatchaEncounter == 2) {
+		if (ChrisMatchaEncounter == 2 && MatchaC2 != null) {
 			MatchaC2.GetComponent<SpriteRenderer> ().color =(Color.green);
 		}
-		if (ChrisMatchaEncounter == 3) {
+		if (ChrisMatchaEncounter == 3 && MatchaC3 != null) {
 			MatchaC3.GetComponent<SpriteRenderer> ().color =(Color.green);
 		}
 
-		if (ChrisPepperEncounter == 1) {
+		if (ChrisPepperEncounter == 1 && PepperC1 != null) {
 			PepperC1.GetComponent<SpriteRenderer> ().color =new Color(1F,0F,1F,1F);
 		}
-		if (ChrisPepperEncounter == 2) {
+		if (ChrisPepperEncounter == 2 && PepperC2 != null) {
 			PepperC2.GetComponent<SpriteRenderer> ().color =new Color(1F,0F,1F,1F);
 		}
-		if (ChrisPepperEncounter == 3) {
+		if (ChrisPepperEncounter == 3 && PepperC3 != null) {
 			PepperC3.GetComponent<SpriteRenderer> ().color =new Color(1F,0F,1F,1F);
 		}
 
 
-		if (ThistleThymeEncounter == 1) {
+		if (ThistleThymeEncounter == 1 && ThymeT1 != null) {
 			ThymeT1.GetComponent<SpriteRenderer> ().color =(Color.yellow);
 		}
-		if (ThistleThymeEncounter == 2) {
+		if (ThistleThymeEncounter == 2 && ThymeT2 != null) {
 			ThymeT2.GetComponent<SpriteRenderer> ().color =(Color.yellow);
 		}
-		if (ThistleThymeEncounter == 3) {
+		if (ThistleThymeEncounter == 3 && ThymeT3 != null) {
 			ThymeT3.GetComponent<SpriteRenderer> ().color =(Color.yellow);
 		}
 
-		if (ThistleMatchaEncounter == 1) {
+		if (ThistleMatchaEncounter == 1  && MatchaT1 != null) {
 			MatchaT1.GetComponent<SpriteRenderer> ().color =(Color.green);
 		}
-		if (ThistleMatchaEncounter == 2) {
+		if (ThistleMatchaEncounter == 2 && MatchaT2 != null) {
 			MatchaT2.GetComponent<SpriteRenderer> ().color =(Color.green);
 		}
-		if (ThistleMatchaEncounter == 3) {
+		if (ThistleMatchaEncounter == 3 && MatchaT3 != null) {
 			MatchaT3.GetComponent<SpriteRenderer> ().color =(Color.green);
 		}
 
-		if (ThistlePepperEncounter == 1) {
+		if (ThistlePepperEncounter == 1  && PepperT1 != null) {
 			PepperT1.GetComponent<SpriteRenderer> ().color =new Color(1F,0F,1F,1F);
 		}
-		if (ThistlePepperEncounter == 2) {
+		if (ThistlePepperEncounter == 2  && PepperT2 != null) {
 			PepperT2.GetComponent<SpriteRenderer> ().color =new Color(1F,0F,1F,1F);
 		}
-		if (ThistlePepperEncounter == 3) {
+		if (ThistlePepperEncounter == 3  && PepperT3 != null) {
 			PepperT3.GetComponent<SpriteRenderer> ().color =new Color(1F,0F,1F,1F);
 		}
 	}

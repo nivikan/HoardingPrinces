@@ -1,0 +1,12 @@
+﻿blush:And now...
+blush:I love you, Dragon. 
+blush:Please...stay with me.
+surprise:What's this??
+surpirse:You're a human!?
+blush:I understand now...
+blush:You were put under a curse that turned you into that foul beast.
+blush:I see now that you are quite attractive...
+blush2:Was it my love that broke your curse?
+blush2:You needn't worry, dragon. You shall come with me back to my kingdom.
+blush2:And we shall live happily ever after.
+

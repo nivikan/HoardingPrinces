@@ -11,7 +11,8 @@ D:angry:I am most certainly NOT scared. I simply cannot leave just yet.
 P:normal:...
 D:sad:Listen. Pepper? I am Prince Darjeeling of a neighboring kingdom and this dragon has taken something from me. My...sword.
 P:normal:I...see.
-D:angry:Well? I can see the judgment in your eyes! But this isn't any normal sword! It's a family heirloom and one that I lost while trying to slay this beastly dragon. I can't return home without it.
+D:angry:Well? I can see the judgment in your eyes! But this isn't any normal sword! 
+D:angry:It's a family heirloom and one that I lost while trying to slay this beastly dragon. I can't return home without it.
 P:sad:...
 D:angry:Aa! Stop looking at me that way! I know I'm prideful but this is how it is. I'm not leaving.
 P:normal:...I will come again.
@@ -25,8 +26,10 @@ D:normal:As happy as I am to see you again, Pepper, I have to remind you. I'm no
 P:happy:I understand, Prince. I wanted to bring you news about your sword. I...I've seen it in the dragon's lair.
 D:angry:You-you certainly have some nerve don't you! A dragon's lair! You could have died!
 P:normal:...
-D:sad:Y-you certainly have a way with words, Pepper. You're right, I shouldn't criticize when it was me who wound up a prisoner by charging a dragon by myself.
-P:happy:No need to worry, Prince. The dragon was far away. Probably off kidnapping more princes. I was only able to catch a glimpse of it before I had to escape. But I am certain that it was the sword you were looking for.
+D:sad:Y-you certainly have a way with words, Pepper. 
+D:sad:You're right, I shouldn't criticize when it was me who wound up a prisoner by charging a dragon by myself.
+P:happy:No need to worry, Prince. The dragon was far away. Probably off kidnapping more princes. 
+P:happy:I was only able to catch a glimpse of it before I had to escape. But I am certain that it was the sword you were looking for.
 D:angry:But seeing as how I'm stuck here, there's no way to get it back.
 P:normal: I would be happy to offer my aid.
 D:excited:R-really?
@@ -35,10 +38,12 @@ P:normal:...
 P:smile: Why is it so important to get that sword?
 D:sad: L-like I said it's been a family heirloom. Mother and Father would be heartbroken If I returned to the kingdom without it.
 P:smile:...
-D:angry:Drat! It's like you can see right through me. Fine, it's not an heirloom. It's actually the only reminder we have of my sister. It was the one thing she left behind when she...she...
+D:angry:Drat! It's like you can see right through me. Fine, it's not an heirloom. 
+D:angry:It's actually the only reminder we have of my sister. It was the one thing she left behind when she...she...
 P:sad:I understand.
 D:sad:D-don't think badly of me. It was wrong to risk my sister’s sword, I know that.
-D:disappointed:Y-you look so young, Pepper. I'm supposed to be an example for you and here I am sharing my blunders with you and asking you to fix them. I...
+D:disappointed:Y-you look so young, Pepper. 
+D:disappointed:I'm supposed to be an example for you and here I am sharing my blunders with you and asking you to fix them. I...
 D:disappointed:...I can't lose face in front of you.
 P:sad:I understand...Darjeeling.
 D:sad:...
@@ -94,7 +99,8 @@ D:normal:I can't go with you.
 P:normal:...
 D:sad:It's nothing personal...I just..I can't leave that dragon by itself...
 P:sad:What did you say...?
-D:angry:I said that if I'm ever going to walk out of here it will be by myself. I am perfectly capable of leaving whenever I want especially with this sword.
+D:angry:I said that if I'm ever going to walk out of here it will be by myself. 
+D:angry:I am perfectly capable of leaving whenever I want especially with this sword.
 D:normal:So please leave.
 P:normal:...I hope you know what you're doing...
 /

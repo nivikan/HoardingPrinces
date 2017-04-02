@@ -1,11 +1,31 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Dialogue 1/ChrisAndMatcha.txt">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Dialogue 1/ChrisAndThyme.txt">
     <Files>
-      <File FileName="Assets/Scripts/Click_Drag.cs" Line="77" Column="3" />
-      <File FileName="Assets/Scripts/TurnController.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/dialogueSystem.cs" Line="1" Column="1" />
-      <File FileName="Assets/Dialogue 1/ChrisAndMatcha.txt" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PrincessScrpt.cs" Line="104" Column="3" />
+      <File FileName="Assets/Scripts/KeepRelationshipTally.cs" Line="163" Column="47" />
+      <File FileName="Assets/Scripts/Click_Drag.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/TurnController.cs" Line="841" Column="72" />
+      <File FileName="Assets/Scripts/dialogueSystem.cs" Line="1287" Column="36" />
+      <File FileName="Assets/Dialogue 1/ChrisAndMatcha.txt" Line="96" Column="11" />
+      <File FileName="Assets/Scripts/SkipOpening.cs" Line="14" Column="3" />
+      <File FileName="Assets/Scripts/Dialogue_LastDragonScene.cs" Line="82" Column="45" />
+      <File FileName="Assets/Dialogue 1/DarjeelingAndDragonEndScene.txt" Line="1" Column="17" />
+      <File FileName="Assets/Dialogue 1/DarjeelingAndDragon.txt" Line="63" Column="111" />
+      <File FileName="Assets/Scripts/NextScene.cs" Line="4" Column="1" />
+      <File FileName="Assets/Dialogue 1/ChrisAndDragonEndScene.txt" Line="18" Column="21" />
+      <File FileName="Assets/Dialogue 1/ThistleAndDragonEndScene.txt" Line="1" Column="22" />
+      <File FileName="Assets/Dialogue 1/ThistleAndDragon.txt" Line="59" Column="10" />
+      <File FileName="Assets/Dialogue 1/ChrisAndDragon.txt" Line="59" Column="44" />
+      <File FileName="Assets/Dialogue 1/ChrisAndThyme.txt" Line="89" Column="17" />
+      <File FileName="Assets/Dialogue 1/CharacterNames.txt" Line="1" Column="1" />
+      <File FileName="Assets/Dialogue 1/ChrisAndPepper.txt" Line="64" Column="7" />
+      <File FileName="Assets/Dialogue 1/DarjeelingAndMatcha.txt" Line="1" Column="1" />
+      <File FileName="Assets/Dialogue 1/DarjeelingAndPepper.txt" Line="103" Column="9" />
+      <File FileName="Assets/Dialogue 1/DarjeelingAndThyme.txt" Line="1" Column="1" />
+      <File FileName="Assets/Dialogue 1/ThistleAndMatcha.txt" Line="49" Column="10" />
+      <File FileName="Assets/Dialogue 1/ThistleAndPepper.txt" Line="34" Column="8" />
+      <File FileName="Assets/Dialogue 1/ThistleAndThyme.txt" Line="65" Column="8" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

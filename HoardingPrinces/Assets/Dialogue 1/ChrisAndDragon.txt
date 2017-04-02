@@ -1,14 +1,17 @@
 ﻿ C:happy:Hello, Dragon!
  C:normal: Hm? You want to know whay I am addressing you like this? Or how I know what you are thinking?
  C:happy:My dear Dragon, of course the glorious Chrysanthemum has a third sense for things like this!
- C:sad:Such a shame, really. I am a prince of a great many talents with glorious purpose! How revolting to think my beauty and grace is being kept separate! Apart from my glorious fans' everlastig adoration!
+ C:sad:Such a shame, really. I am a prince of a great many talents with glorious purpose! 
+ C:sad:How revolting to think my beauty and grace is being kept separate! Apart from my glorious fans' everlastig adoration!
  C:normal:But, of course, I do not blame you, dear Dragon.
- C:angry:I've had a long time to think - the majority of this game, in fact. And I've realised... WHO WOULDN'T WANT TO KIDNAP A PRINCE AS WONDEROUS AS I?!
+ C:angry:I've had a long time to think - the majority of this game, in fact. And I've realised... 
+ C:happy:WHO WOULDN'T WANT TO KIDNAP A PRINCE AS WONDEROUS AS I?!
  C:happy:You have, great taste, my dragon friend. I see you've allowed the other princes to go but have kept me in your tower.
  C:normal:Hm? Yes, I know of the others you've kept here. I see you've been collecting many a handsome princes.
  C:happy:But, of course, I alone am your most valuable, am I correct?
  C:sad:Hm... that does make me sound like some sort of trophy...
- C:normal:What's that in your eyes, Dragon? Are you trying to convey your apology? Your swear that you will never look upon another prince again?
+ C:normal:What's that in your eyes, Dragon? Are you trying to convey your apology? 
+ C:normal:Your swear that you will never look upon another prince again?
  C:happy:I am not at all concerned, dear Dragon! What other prince can even dare to hope they could compare to me?!
  /
  C:normal:Are you wondering why I am so chipper? 
@@ -21,19 +24,23 @@
  C:normal:Oh, um, not that you're ugly or anything... you are rather rude though...
  C:happy:But one musn't expect too much from beasts!
  /
- C:normal:Well Dragon, do you feel rehabilitated yet? Is my everlasting kindness and graciousness prompting you to reconsider your brutish ways? 
- C:happy:Perhaps you'd like to send me away with your everlasting gratitude and move away from this land so that the villagers will shower me with wonder and thanks?
+ C:normal:Well Dragon, do you feel rehabilitated yet? Is my everlasting kindness and graciousness 
+ C:normal:prompting you to reconsider your brutish ways? 
+ C:happy:Perhaps you'd like to send me away with your everlasting gratitude and move away from this 
+ C:happy:land so that the villagers will shower me with wonder and thanks?
  C:excited:I am ready for your everlasting gratitude, Dragon!
  C:excited:...
  C:normal:My dear dragon... What's wrong? You seem upset somehow?
- C:sad:I suppose that is a negative, then. The glorious Chrysanthemum's beauty and kindness has not rehabilitated you yet. And you aren't going to let me leave yet...
+ C:sad:I suppose that is a negative, then. The glorious Chrysanthemum's beauty and kindness has not rehabilitated you yet. 
+ C:sad:And you aren't going to let me leave yet...
  C:normal:Not to worry, Dragon! I can't return home without fulfilling my glorious purpose, anyway!
  C:normal:What's that, Dragon?
  C:normal:...
  C:sad:The reason you've been kidnapping princes... is it because you are lonely?
  C:sad:...
  C:normal:I see! Well that certainly is a dilema!
- C:normal:Not only are your a ghastly sight for the eyes, but you also have a wonderously brash personality! I suppose it would be quite a show to see you trying to make friends!
+ C:normal:Not only are your a ghastly sight for the eyes, but you also have a wonderously brash personality! 
+ C:normal:I suppose it would be quite a show to see you trying to make friends!
  C:normal:Oh! Forgive me, dear Dragon. I do tend to let my mouth run, sometimes!
  C:happy:Not to worry, Dragon!
  C:normal:A glorious adn wonderous Prince like myself has the dignity and kindness to look past these flaws!
@@ -48,13 +55,10 @@
  C:normal:I suppose you are wondering why I haven't left yet.
  C:normal:Of course, I've told you already that I cannot return home without fulfilling my glorious duty!
  C:happy:And you turned out to be a kinder dragon than I had anticipated! 
- C:normal:Actually... I could have had many chances to get out. There are many brave princesses convincing me to leave.
- C:normal:But... I think I've always liked the thrill of being so close to such a beast as yourself.
+ C:normal:Actually... I could have had many chances to get out. There have been many brave princesses about- convincing me to leave.
+ C:normal:But... I think I've always craved the thrill of being so close to such a beast as yourself.
  C:happy:I am not satisfied with normalcy and mediocrity! 
  C:normal:I, the great Chrysanthemum, have always been destined for greatness! 
- C:blush:and here... with you... I've really felt great, glorious, and special.
- >
-
- >
-
+ C:blush:And here... with you... I've really felt great, glorious, and special.
+>
  

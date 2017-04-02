@@ -20,7 +20,8 @@ C:disappointed:...that the great Prince Chrysanthemum may need some help escapin
 /
 P:normal:…
 C:excited:Why! If it isn’t the ever gorgeous Princess Pepper!
-C:disappointed:I-I suppose I offended you somehow last time? If there is anything this horrid man can do to gain your favor, then please…let it be known.
+C:disappointed:I-I suppose I offended you somehow last time? 
+C:disappointed:If there is anything this horrid man can do to gain your favor, then please…let it be known.
 P:happy:Last time…was my fault.
 C:happy:Huh?
 P:normal:I just got a bit annoyed of you. That’s all. 
@@ -59,7 +60,8 @@ P:happy:I suppose it’s still endearing.
 P:normal:I love that side of you but I also want you to be safe, Chrys. Can we leave this tower now?
 C:normal:…
 C:angry:…Argh…
-C:sad:I…I talked big at the beginning but it has come a time for me to admit I DO need help. This dragon is a cautious one. Even a prince as gallant as I cannot leave without a weapon.
+C:sad:I…I talked big at the beginning but it has come a time for me to admit I DO need help. This dragon is a cautious one. 
+C:sad:Even a prince as gallant as I cannot leave without a weapon.
 C:disappointed:I just didn’t want to tell you at the beginning because well…well…
 P:normal:…Well?
 C:blush:Even at the beginning when I didn’t know you were my dear Peppermint, I wanted to impress you. 

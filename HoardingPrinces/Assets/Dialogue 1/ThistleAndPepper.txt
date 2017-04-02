@@ -30,7 +30,8 @@ P:normal:…
 TL:sad:I know, I’m being very childish. But the dragon isn’t a cruel keeper. And I have my books….
 P:normal:…
 P:normal:You mentioned your brothers before…Don’t you miss them?
-TL:sad:My brothers…yes, they must be worried about me. But I could ask you the same, Princess Pepper. Isn’t your family worried about you as you rescue mysterious men from dragon guarded towers?
+TL:sad:My brothers…yes, they must be worried about me. But I could ask you the same, Princess Pepper. 
+TL:sad:Isn’t your family worried about you as you rescue mysterious men from dragon guarded towers?
 P:sad:…
 TL:disappointed:Excuse me. That was personal.
 P:normal:No, I apologize for talking about your brothers first. 

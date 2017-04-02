@@ -42,20 +42,27 @@ TM:normal:...
 TL:normal...
 TM:sad:They are quite vexed. They are all so worried about you!
 TM:sad: Not only your brothers but all your nursemaids. Your tutors. Your parents. 
-TM:normal:They said you were the ideal prince. Favored among all your citizens. I could hardly believe it when they described such a gallant and fastidious prince.
+TM:normal:They said you were the ideal prince. Favored among all your citizens. 
+TM:normal:I could hardly believe it when they described such a gallant and fastidious prince.
 TM:normal:I suppose you haven't always been this way... a shut in content to live your life laying about reading your texts.
 TL:sad:...
 TL:normal:No.
 TL:normal:The person they've described is not me. I've never wanted to do all that. To have all that... responsibility. 
 TM:sad:Thistle...
-TL:sad:These past few weeks trapped in the tower seemed like a godsend. I finally had all the time the world to just sit down. Take it slow. Do what I'd liek for a change.
-TL:happy:I've read so many books I've been itching to read! And the dragon is not cruel. It brought me new books and trinkets whenver I asked. It's been great!
+TL:sad:These past few weeks trapped in the tower seemed like a godsend. I finally had all the time the world to just sit down. 
+TL:happy:Take it slow. Do what I'd liek for a change.
+TL:happy:I've read so many books I've been itching to read! And the dragon is not cruel. 
+TL:happy:It brought me new books and trinkets whenver I asked. It's been great!
 TL:normal:But I suppose... I've just given up a cage for a more comfortale one.
 TM:normal:Thistle. I understand about wanting to foraske your responsibility.
-TM:sad:I also left my kingdom for the call of adventure and have spent the last months travelling to far off valleys enjoying the danger and adventure it offers.
-TM:angry:But as royals it is our duty to help the kingdom. I will help mine by using the knowledge I've gained in my travels and the royals I;'ve met to help form alliances and treaties for my kingdom.
+TM:sad:I also left my kingdom for the call of adventure and have spent the last months travelling to far off valleys 
+TM:sad:enjoying the danger and adventure it offers.
+TM:angry:But as royals it is our duty to help the kingdom. 
+TM:angry:I will help mine by using the knowledge I've gained in my travels and the royals 
+TM:angry:I've met to help form alliances and treaties for my kingdom.
 TM:angry:If you really tried, I know you can use the things you enjoy to help your kingdom.
-TL:sad:What a hopeful way of viewing the world... I don't have that brand of optimism but hearing your say... I do miss my kingdom. And I do want to help my people.
+TL:sad:What a hopeful way of viewing the world... I don't have that brand of optimism but hearing your say... 
+TL:sad:I do miss my kingdom. And I do want to help my people.
 TL:normal:It's tough not being able to do what I want. But I know I have a larger duty to fulfill.
 TM:blush:Prince Thistle, won't you come back home with me? You're kingdom needs you.
 TL:happy:Thyme... thank you for helping me realize how incorrigible I've been. I hope I can keep some of your optimism.

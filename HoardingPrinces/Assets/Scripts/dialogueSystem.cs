@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 
@@ -378,6 +379,12 @@ public class dialogueSystem : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+		//Skip Convos
+		if (Input.GetKeyDown ("space") && GameManager.GetComponent<TurnController> ().isPlayerTurn == 3) {
+			print ("space key was pressed");
+			numInConvo = 100;
+		}
 
 
 		if (GameManager.GetComponent<TurnController> ().isPlayerTurn == 3) {
@@ -1201,7 +1208,7 @@ public class dialogueSystem : MonoBehaviour {
 		else if (CountingDragonPrinceTime == 15) {
 			//print (numInConvo);
 			if (numInConvo >= DarjeelingAndDragonConvo3.Length)
-				endDialogueTurn ();
+				SceneManager.LoadScene("DarjeelingEnding");
 			else
 				makeConvo (DarjeelingAndDragonConvo3[numInConvo]);
 		}
@@ -1240,7 +1247,7 @@ public class dialogueSystem : MonoBehaviour {
 		else if (CountingDragonPrinceTime == 15) {
 			//print (numInConvo);
 			if (numInConvo >= ChrisAndDragonConvo3.Length)
-				endDialogueTurn ();
+				SceneManager.LoadScene("ChrisEnding");
 			else
 				makeConvo (ChrisAndDragonConvo3[numInConvo]);
 		}
@@ -1277,7 +1284,7 @@ public class dialogueSystem : MonoBehaviour {
 		else if (CountingDragonPrinceTime == 15) {
 			//print (numInConvo);
 			if (numInConvo >= ThistleAndDragonConvo3.Length)
-				endDialogueTurn ();
+				SceneManager.LoadScene("ThistleEnding");
 			else
 				makeConvo (ThistleAndDragonConvo3[numInConvo]);
 		}
@@ -1323,7 +1330,7 @@ public class dialogueSystem : MonoBehaviour {
 
 		Sprite characterSprite = getSprite(fullCharacterName,emotion); //change to canvas
 
-		if (fullCharacterName == "Darjeeling" || fullCharacterName == "Chris" || fullCharacterName == "Thistle") {
+		if (fullCharacterName == "Darjeeling" || fullCharacterName == "Chrys" || fullCharacterName == "Thistle") {
 			//Debug.Log ("Changed PRINCE SPRITE");
 			talkingPrince.GetComponent<Image>().sprite = characterSprite; //change to canvas
 			talkingPrinceToDragon.GetComponent<Image>().sprite = characterSprite; //change to canvas
@@ -1356,7 +1363,7 @@ public class dialogueSystem : MonoBehaviour {
 			return "Darjeeling";
 		}
 		else if (characterSimple == " C" || characterSimple == "C") {
-			return "Chris";
+			return "Chrys";
 		}
 		else if (characterSimple == " TL" || characterSimple == "TL" || characterSimple == " T" || characterSimple == "T") {
 			return "Thistle";
@@ -1393,7 +1400,7 @@ public class dialogueSystem : MonoBehaviour {
 			else 
 				return DarjeelingNormal; 
 		}
-		if (character == "Chris") {
+		if (character == "Chrys" || character == "Chris") {
 			if (emotion == "normal")
 				return ChrisNormal;
 			else if (emotion == "happy")

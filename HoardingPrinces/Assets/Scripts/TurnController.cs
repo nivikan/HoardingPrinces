@@ -525,6 +525,80 @@ public class TurnController : MonoBehaviour {
 		princess3OnMap = GetComponent<PrincessScrpt>().princess3OnMap;
 
 
+		princess1OnMap = false;
+		princess2OnMap = false;
+		princess3OnMap = false;
+
+
+		if (castle1PrincessWarning.activeSelf) {
+			if (castle1PrincessWarning.GetComponent<SpriteRenderer> ().sprite == princess1WarningSprite)
+				princess1OnMap = true;
+			else if (castle1PrincessWarning.GetComponent<SpriteRenderer> ().sprite == princess2WarningSprite)
+				princess2OnMap = true;
+			else if (castle1PrincessWarning.GetComponent<SpriteRenderer> ().sprite == princess3WarningSprite)
+				princess3OnMap = true;
+		}
+		if (castle2PrincessWarning.activeSelf) {
+			if (castle2PrincessWarning.GetComponent<SpriteRenderer> ().sprite == princess1WarningSprite)
+				princess1OnMap = true;
+			else if (castle2PrincessWarning.GetComponent<SpriteRenderer> ().sprite == princess2WarningSprite)
+				princess2OnMap = true;
+			else if (castle2PrincessWarning.GetComponent<SpriteRenderer> ().sprite == princess3WarningSprite)
+				princess3OnMap = true;
+		}
+		if (castle3PrincessWarning.activeSelf) {
+			if (castle3PrincessWarning.GetComponent<SpriteRenderer> ().sprite == princess1WarningSprite)
+				princess1OnMap = true;
+			else if (castle3PrincessWarning.GetComponent<SpriteRenderer> ().sprite == princess2WarningSprite)
+				princess2OnMap = true;
+			else if (castle3PrincessWarning.GetComponent<SpriteRenderer> ().sprite == princess3WarningSprite)
+				princess3OnMap = true;
+		}
+		if (castle4PrincessWarning.activeSelf) {
+			if (castle4PrincessWarning.GetComponent<SpriteRenderer> ().sprite == princess1WarningSprite)
+				princess1OnMap = true;
+			else if (castle4PrincessWarning.GetComponent<SpriteRenderer> ().sprite == princess2WarningSprite)
+				princess2OnMap = true;
+			else if (castle4PrincessWarning.GetComponent<SpriteRenderer> ().sprite == princess3WarningSprite)
+				princess3OnMap = true;
+		}
+
+		if (Castle1princess.activeSelf) {
+			if (Castle1princess.GetComponent<SpriteRenderer> ().sprite == princess1Sprite)
+				princess1OnMap = true;
+			else if (Castle1princess.GetComponent<SpriteRenderer> ().sprite == princess2Sprite)
+				princess2OnMap = true;
+			else if (Castle1princess.GetComponent<SpriteRenderer> ().sprite == princess3Sprite)
+				princess3OnMap = true;
+		}
+		if (Castle2princess.activeSelf) {
+			if (Castle2princess.GetComponent<SpriteRenderer> ().sprite == princess1Sprite)
+				princess1OnMap = true;
+			else if (Castle2princess.GetComponent<SpriteRenderer> ().sprite == princess2Sprite)
+				princess2OnMap = true;
+			else if (Castle2princess.GetComponent<SpriteRenderer> ().sprite == princess3Sprite)
+				princess3OnMap = true;
+		}
+		if (Castle3princess.activeSelf) {
+			if (Castle3princess.GetComponent<SpriteRenderer> ().sprite == princess1Sprite)
+				princess1OnMap = true;
+			else if (Castle3princess.GetComponent<SpriteRenderer> ().sprite == princess2Sprite)
+				princess2OnMap = true;
+			else if (Castle3princess.GetComponent<SpriteRenderer> ().sprite == princess3Sprite)
+				princess3OnMap = true;
+		}
+		if (Castle4princess.activeSelf) {
+			if (Castle4princess.GetComponent<SpriteRenderer> ().sprite == princess1Sprite)
+				princess1OnMap = true;
+			else if (Castle4princess.GetComponent<SpriteRenderer> ().sprite == princess2Sprite)
+				princess2OnMap = true;
+			else if (Castle4princess.GetComponent<SpriteRenderer> ().sprite == princess3Sprite)
+				princess3OnMap = true;
+		}
+
+
+
+
 		princess1InCastle1WithPrince1 = false;
 		princess1InCastle2WithPrince1 = false;
 		princess1InCastle3WithPrince1 = false;
@@ -756,15 +830,15 @@ public class TurnController : MonoBehaviour {
 				endTurnQuestion.SetActive (true);
 				isCutsceneGoingToPlay = true;
 			} else if (princess1InCastle1WithPrince2 || princess1InCastle2WithPrince2 || princess1InCastle3WithPrince2 || princess1InCastle4WithPrince2) {
-				endTurnQuestionText.text = "Princess Thyme has reached Prince Chris!";
+				endTurnQuestionText.text = "Princess Thyme has reached Prince Chrys!";
 				endTurnQuestion.SetActive (true);
 				isCutsceneGoingToPlay = true;
 			} else if (princess2InCastle1WithPrince2 || princess2InCastle2WithPrince2 || princess2InCastle3WithPrince2 || princess2InCastle4WithPrince2) {
-				endTurnQuestionText.text = "Princess Matcha has reached Prince Chris!";
+				endTurnQuestionText.text = "Princess Matcha has reached Prince Chrys!";
 				endTurnQuestion.SetActive (true);
 				isCutsceneGoingToPlay = true;
 			} else if (princess3InCastle1WithPrince2 || princess3InCastle2WithPrince2 || princess3InCastle3WithPrince2 || princess3InCastle4WithPrince2) {
-				endTurnQuestionText.text = "Princess Pepper has reached Prince Chris!";
+				endTurnQuestionText.text = "Princess Pepper has reached Prince Chrys!";
 				endTurnQuestion.SetActive (true);
 				isCutsceneGoingToPlay = true;
 			} else if (princess1InCastle1WithPrince3 || princess1InCastle2WithPrince3 || princess1InCastle3WithPrince3 || princess1InCastle4WithPrince3) {

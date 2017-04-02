@@ -42,9 +42,11 @@ TL:happy:Princess Matcha, It's good to see you've been doing well.
 TL:normal:Princess I've thought a lot about our conversation before.
 TL:blush:I'm pretty embarrassed. You must think I am ungrateful for my position as a prince. 
 M:sad:Of course I don't, Prince. I do think it's understandable.
-M:normal:But I do think your being too hard on yourself. I actually went by your kingdom. Your Brothers and people miss you and your tactical prowess. Prince.
+M:normal:But I do think your being too hard on yourself. I actually went by your kingdom. 
+M:normal:Your Brothers and people miss you and your tactical prowess. Prince.
 TL:normal:...
-TL:blush:How...embarrassing. Now I do feel as if I've been away for far too long...I think it's time for me to return home. If you will assist me, Matcha?
+TL:blush:How...embarrassing. Now I do feel as if I've been away for far too long...
+TL:blush:I think it's time for me to return home. If you will assist me, Matcha?
 M:excited:Of course I will, Prince Thistle!
 M:sad:But wait. If you're going to be miserable in the castle I don't want to save you for that.
 M:disappointed:I want to bring you a happily ever after, Prince Thistle. 

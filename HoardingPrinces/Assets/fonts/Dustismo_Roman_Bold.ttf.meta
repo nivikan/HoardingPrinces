@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 40fc5f59dcb8243cd93536f65c811ee8
+timeCreated: 1491085513
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Dustismo Roman
+  fontNames:
+  - Dustismo Roman
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

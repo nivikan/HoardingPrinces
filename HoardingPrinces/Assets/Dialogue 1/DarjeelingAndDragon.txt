@@ -3,7 +3,8 @@
  D:normal:Ignoring you for this long hasn't necessarily worked in my favor.
  D:angry:...
  D:angry:I'm angry, you know? You've let all the other princes leave except me.
- D:angry:Don't look so surprised! I know you've had other princes! And I know you've allowed them to leave with the princesses always walking about here.
+ D:angry:Don't look so surprised! I know you've had other princes! 
+ D:angry:And I know you've allowed them to leave with the princesses always walking about here.
  D:normal:What I want to know is why am I still here?
  D:angry:...
  D:angry:Ugh! Don't you have anything to say for yourself?! I-
@@ -24,7 +25,8 @@
  D:blush:What's this...?
  D:normal:Are you... giving me my sword back?
  D:angry:You understand that I can stab you as soon as you turn aroun with this, don't you?!
- D:blush:What? Y-Yes. It is very important to me... Did you just figure that out... and you don't want to take it if it is that important to me?
+ D:blush:What? Y-Yes. It is very important to me... Did you just figure that out... 
+ D:blush:and you don't want to take it if it is that important to me?
  D:normal:...
  D:blush:...Thank you.
  /
@@ -33,7 +35,8 @@
  D:normal:But I've come to... reconsider that course of action.
  D:normal:At the start I believed you were a garrish beast. Obsessed with ruining my life and keeping me locked up in a life of moving from tower to tower as part of hour hoard.
  D:happy:But I realize now that you are more complicated than that.
- D:normal:I've grown... curious, shall we say, Of your true intentions. Why you go about kidnapping and hoarding young princes like me in your towers.
+ D:normal:I've grown... curious, shall we say, Of your true intentions. 
+ D:normal:Why you go about kidnapping and hoarding young princes like me in your towers.
  D:normal:A beast such as yourself cannot really feel complex emotions such as loneliness...
  D:sad:...Or so I thought.
  D:normal:I'm starting to see that that may not be the case.
@@ -51,12 +54,13 @@
  D:normal:My kingdom has gone on too long without their princes. I need to leave to attend my duties.
  D:blush:But... there is no need for you to feel lonesome any longer.
  D:blush:I will bring you back to the kingdom with me. We will live out our lives together in the castle.
- D:normal:Perhpas it will be well... the other kingdoms wouldn't dare invade if we had a dragon on our side. But I know my people would probably not want a beast in the midst...
+ D:normal:Perhpas it will be well... the other kingdoms wouldn't dare invade if we had a dragon on our side. 
+ D:normal:But I know my people would probably not want a beast in the midst...
  D:normal:What's that? You want to know what this is all about?
  D:blush:That is...
  D:normal:Perhaps I just cannot let your loneliness go unanswered.
  D:blush:Or maybe... I've grown fond of you...
- D:blush:At the start, I assumed you were a heartless monster. But the more time I spend with you... I see teh care you;ve trated me with...
+ D:blush:At the start, I assumed you were a heartless monster. But the more time I spend with you... I see the care you;ve trated me with...
  D:blush:And I've grown to like you more and more...
  >
 

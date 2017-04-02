@@ -57,9 +57,11 @@ C:happy:Thyme! It's you!
 C:normal:I mean- Of course you would come again to bask in the glow of the great Chrysanthemum!
 TM:happy:Hehe, not quite. I've come with your request.
 C:happy:Oh my sword! How were you able to find the right one?
-TM:normal:I retrieved it from your kingdom. Your mother and father have been extremely worried. They asked me to tell you that they don't care about whether you kill the dragon or not.
+TM:normal:I retrieved it from your kingdom. Your mother and father have been extremely worried. 
+TM:normal:They asked me to tell you that they don't care about whether you kill the dragon or not.
 TM:normal:They just want you home.
-C:angry:My parents have always wanted such a boring and quiet life for me... They do not understand that I am burdened with a glorious purpose! 
+C:angry:My parents have always wanted such a boring and quiet life for me... 
+C:angry:They do not understand that I am burdened with a glorious purpose! 
 C:sad:I suppose it was part of the reason I was so excited to exit the castle when I left.
 TM:normal:Chrys... There are better ways of living out your glorious purpose than by putting yourself in danger.
 C:normal:How else, my dear princess? My blood yearns for the call of adventure and I have no way to quench its thirst.
@@ -85,7 +87,8 @@ C:normal:Well, I understand. For once not blessed with the gift of everlasting e
 TM:normal:Are you sympathetic to this beast?
 C:normal:I assure you I have not gone crazy... It is simply my burden to hold more perceptiveness and kindness towards those less fortunate.
 TM:normal:Right... Well, I suppose I will come back again... when you're in the right head.
-C:normal:I will be fine without your concern, dear princess. But do tell the world of the prince that calmed the rage of the a mighty and dangerous beast 
+C:normal:I will be fine without your concern, dear princess. 
+C:normal:But do tell the world of the prince that calmed the rage of the a mighty and dangerous beast 
 C:happy:simply with his dashing looks and charming personality!
 TM:normal: ...Right...
 /
@@ -101,7 +104,8 @@ C:normal:Well, I understand. For once not blessed with the gift of everlasting e
 TM:angry:Are you sympathetic to this beast?
 C:normal:I assure you I have not gone crazy... It is simply my burden to hold more perceptiveness and kindness towards those less fortunate.
 TM:normal:Right... well, I suppose I will come back again... when you're in the right head.
-C:normal:I will be fine without your concern, dear princess. But do tell the world of the prince that calmed the rage of the a mighty and dangerous beast 
+C:normal:I will be fine without your concern, dear princess. 
+C:normal:But do tell the world of the prince that calmed the rage of the a mighty and dangerous beast 
 C:happy:simply with his dashing looks and charming personality!
 TM:normal:...Right...
 >
