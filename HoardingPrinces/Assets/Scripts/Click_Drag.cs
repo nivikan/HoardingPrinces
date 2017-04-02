@@ -18,6 +18,10 @@ public class Click_Drag : MonoBehaviour {
 	public GameObject prince1StartCastle; 
 	public GameObject prince1EndCastle;
 
+	public GameObject PrinceBackLight; 
+
+	Ray ray;
+	RaycastHit hit;
 
 	// Use this for initialization
 	void Start () {
@@ -34,7 +38,11 @@ public class Click_Drag : MonoBehaviour {
 	void Update () {
 		//Keep checking if it is player's turn
 		isPlayerTurn = GameManager.GetComponent<TurnController>().isPlayerTurn;
-		
+		ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+		if(Physics.Raycast(ray, out hit))
+		{
+			Debug.Log ("Mouse Over");
+		}
 	}
 
 	void OnMouseDown()
@@ -46,7 +54,7 @@ public class Click_Drag : MonoBehaviour {
 		}
 
 		prince1StartCastle = currentCastle;
-
+		PrinceBackLight.SetActive (true);
 
 	}
 
@@ -71,8 +79,20 @@ public class Click_Drag : MonoBehaviour {
 			}
 			this.GetComponent<AudioSource>().Play();
 		}
-
+		PrinceBackLight.SetActive (false);
 		
+	}
+	public void OnMouseOver()
+	{
+		PrinceBackLight.SetActive (true);
+		Debug.Log ("mouse over block");
+
+	}
+
+	void OnMouseExit()
+	{
+		Debug.Log ("Mouse Exit");
+		PrinceBackLight.SetActive (false);
 	}
 
 	void OnTriggerEnter2D(Collider2D castle) {

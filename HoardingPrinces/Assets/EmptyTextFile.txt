@@ -1,0 +1,29 @@
+﻿if (ThistleThymeEncounter == 1) {
+			ThymeT1.GetComponent<SpriteRenderer> ().color =(Color.red);
+		}
+		if (ThistleThymeEncounter == 2) {
+			ThymeT2.GetComponent<SpriteRenderer> ().color =(Color.red);
+		}
+		if (ThistleThymeEncounter == 3) {
+			ThymeT3.GetComponent<SpriteRenderer> ().color =(Color.red);
+		}
+
+		if (ThistleMatchaEncounter == 1) {
+			MatchaT1.GetComponent<SpriteRenderer> ().color =(Color.green);
+		}
+		if (ThistleMatchaEncounter == 2) {
+			MatchaT2.GetComponent<SpriteRenderer> ().color =(Color.green);
+		}
+		if (ThistleMatchaEncounter == 3) {
+			MatchaT3.GetComponent<SpriteRenderer> ().color =(Color.green);
+		}
+
+		if (ThistlePepperEncounter == 1) {
+			PepperT1.GetComponent<SpriteRenderer> ().color =(Color.purple);
+		}
+		if (ThistlePepperEncounter == 2) {
+			PepperT2.GetComponent<SpriteRenderer> ().color =(Color.purple);
+		}
+		if (ThistlePepperEncounter == 3) {
+			PepperT3.GetComponent<SpriteRenderer> ().color =(Color.purple);
+		}

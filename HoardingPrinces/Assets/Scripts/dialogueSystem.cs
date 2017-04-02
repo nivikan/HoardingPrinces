@@ -390,7 +390,7 @@ public class dialogueSystem : MonoBehaviour {
 			/*
 			Debug.Log (DarjeelingAndThymeMeet);
 			Debug.Log (DarjeelingAndMatchaMeet);
-			Debug.Log (DarjeelingAndPepperMeet);
+			Debug.Log (DarjeelingAndPepperMeetF);
 
 			Debug.Log (ChrisAndThymeMeet);
 			Debug.Log (ChrisAndMatchaMeet);
@@ -1327,11 +1327,15 @@ public class dialogueSystem : MonoBehaviour {
 			//Debug.Log ("Changed PRINCE SPRITE");
 			talkingPrince.GetComponent<Image>().sprite = characterSprite; //change to canvas
 			talkingPrinceToDragon.GetComponent<Image>().sprite = characterSprite; //change to canvas
+			talkingPrince.GetComponent<Image>().color = new Color32(255,255,255,255);
+			talkingPrincess.GetComponent<Image>().color = new Color32(140,140,140,255);
 		}
 
 		if (fullCharacterName == "Thyme" || fullCharacterName == "Matcha" || fullCharacterName == "Pepper") {
 			 //Debug.Log ("Changed PRINCESSSSSSSSSSSS SPRITE");
 			talkingPrincess.GetComponent<Image> ().sprite = characterSprite; //change to canvas
+			talkingPrincess.GetComponent<Image>().color = new Color32(255,255,255,255);
+			talkingPrince.GetComponent<Image>().color = new Color32(140,140,140,255);
 		}
 
 		//Debug.Log (fullCharacterName);
